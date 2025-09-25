@@ -1,7 +1,7 @@
 ---
 title: "DEMO"
 description: "Faculty summary for the Algebra, Geometry, and Number Theory research group at the University of South Carolina"
-draft: false
+draft: true
 katex: true
 type: team
 layout: single
