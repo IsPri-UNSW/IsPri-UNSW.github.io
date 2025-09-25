@@ -10,6 +10,10 @@
 {{ $authors_last = uniq $authors_last | sort }}
 {{ $length := len $years }}
 
+{{ if eq $length 0 }}
+    No publications listed.
+{{ else }}
+
 {{$i := 0}} <!-- Initialize a counter to label items uniquely -->
 {{ range (seq $length) }} <!-- Loop over a sequence the length equal to the number of years -->
 {{ $year := index $years (sub $length .) }} <!-- Reverse the indexing -->
@@ -112,4 +116,5 @@
 </table> 
 
 {{$i = add $i 1}}
+{{ end }}
 {{ end }}

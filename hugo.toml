@@ -1,6 +1,6 @@
 baseURL = 'https://iot-systems-unsw.github.io/'
 languageCode = 'en-us'
-title = 'IoT Systems UNSW'
+title = 'IsPri UNSW'
 theme = 'research_group'
 theme_url = 'https://github.com/mattrobball/hugo_research_group/'
 relativeURLs = true
@@ -15,19 +15,9 @@ relativeURLs = true
     url = "/team/"
     weight = 2
   [[menu.nav]]
-    name = "News"
-    url = "/news/"
-    weight = 3
-  [[menu.nav]]
     name = "Publications"
     url = "/publications/"
-    weight = 4
-  [[menu.nav]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 5
-
-
+    weight = 3
 
 [params]
   author = "IoT Systems UNSW"

@@ -10,7 +10,7 @@
     {{ $pub_total := len $pubs }}
 
     {{ if eq $pub_total 0 }}
-        Weird that I need this. 
+        No publications listed.
     {{ else }}
 
     {{ $seed := div now.YearDay 7 }}
