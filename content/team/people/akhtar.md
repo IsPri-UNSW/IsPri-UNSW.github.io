@@ -10,4 +10,8 @@ name:
   last: Akhtar
 photo: majid_akhtar.jpg
 homepage: https://mohdmajidakhtar.github.io/
+orchid_id: 0000-0002-1234-5678
+google_scholar: s0S12tUAAAAJ
+research_gate: Mohd-Akhtar-4
+github: mohdmajidakhtar
 ---
