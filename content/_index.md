@@ -1,9 +1,9 @@
 ---
-title: "IsPri UNSW"
+title: "Home"
 description: The webpage for IsPri UNSW. 
 # date: 2021-04-12T19:29:17-04:00
 draft: false
-katex: true 
+katex: false 
 nav: Home
 carousel:
   1: 

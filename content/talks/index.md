@@ -1,4 +1,0 @@
----
-title: talks
-headless: true 
----
