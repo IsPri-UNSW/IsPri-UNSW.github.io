@@ -1,6 +1,6 @@
 ---
-title: " - AGNT @ UofSC"
-description: "Alumni of the Algebra, Geometry, and Number Theory research group at the University of South Carolina"
+title: " "
+description: "Alumni"
 draft: false
 katex: true
 class: # options faculty, graduate students, undergraduate students, visitors
@@ -13,7 +13,7 @@ photo:
 position: 
 advisor: 
 thesis:
-scholar_commons_id: # link https://scholarcommons.sc.edu/etd/scholar_commons_id/
+scholar_commons_id: 
 graduation_year: 
 homepage:
 current_position: 

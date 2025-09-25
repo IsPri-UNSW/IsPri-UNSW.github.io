@@ -11,7 +11,7 @@ features = ["bootstrap", "responsive", "academic", "research"]
 min_version = "0.120.0"
 
 [author]
-  name = "IoT Systems UNSW"
+  name = "IsPri UNSW"
   homepage = "https://iot-systems-unsw.github.io"
 
 # If porting an existing theme
