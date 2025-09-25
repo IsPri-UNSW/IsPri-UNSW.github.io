@@ -1,8 +1,7 @@
-baseURL = 'https://iot-systems-unsw.github.io/'
+baseURL = 'https://ispri-unsw.github.io/'
 languageCode = 'en-us'
 title = 'IsPri UNSW'
 theme = 'research_group'
-theme_url = 'https://github.com/mattrobball/hugo_research_group/'
 relativeURLs = true
 
 [menu]
@@ -20,23 +19,17 @@ relativeURLs = true
     weight = 3
 
 [params]
-  author = "IoT Systems UNSW"
-  description = "Website for the IoT Systems research group at UNSW"
-  logo = "/images/logo.png"
-  images = ["/images/site-feature-image.jpg"]
+  author = "IsPri UNSW"
+  description = "Website for the Information Security and Privacy Research Group at UNSW"
   
   # Organization details
-  organization_name = "IoT Systems UNSW"
-  organization_full_name = "IoT Systems Research Group at UNSW"
-  
-  # Address information
-  address_line1 = "School of Computer Science and Engineering"
-  address_line2 = "University of New South Wales"
-  address_line3 = "Sydney NSW 2052, Australia"
-  address_map_link = "https://goo.gl/maps/example"
+  organization_name = "IsPri UNSW"
+  organization_full_name = "Information Security and Privacy Research Group at UNSW"
   
   # Copyright
-  copyright_text = "IoT Systems Research Group at UNSW"
+  copyright_text = "Information Security and Privacy Research Group at UNSW"
+  theme_url = 'https://github.com/mattrobball/hugo_research_group/'
+
 
 [module]
   [[module.mounts]]
