@@ -1,7 +1,6 @@
 baseURL = 'https://ispri-unsw.github.io/'
 languageCode = 'en-us'
 title = 'IsPri UNSW'
-theme = 'research_group'
 relativeURLs = true
 
 [menu]

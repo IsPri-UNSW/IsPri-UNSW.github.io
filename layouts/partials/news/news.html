@@ -12,7 +12,7 @@
         {{ $pages = where $newsPages "File.Dir" "news/items/" }}
     {{ end }}
     {{ $sorted := sort $pages "Date" "desc" }}
-    {{ range first 5 $sorted }}
+    {{ range first 6 $sorted }}
         {{- $headline := .Params.headline -}}
         {{- $link := .Params.link -}}
         <b>{{ .Date.Format "Jan 2006" }} </b>
