@@ -1,4 +1,4 @@
 ---
 headless: true 
-type: "papers" 
+type: "news"
 ---

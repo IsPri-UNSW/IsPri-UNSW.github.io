@@ -17,6 +17,11 @@ relativeURLs = true
     name = "Publications"
     url = "/publications/"
     weight = 3
+  [[menu.nav]]
+    name = "News"
+    url = "/news/"
+    weight = 4
+
 
 [params]
   author = "IsPri UNSW"

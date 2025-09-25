@@ -29,5 +29,4 @@ The Information Security and Privacy Research Group’s mission is to conduct ad
 
 {{<carousel>}} <!-- Carousel of images. To add images, include then in /static/images/carousel and add the location and alt text to the front matter. -->
 
-<!--{{<funding>}} <!-- Funding acknowledgement -->
 
