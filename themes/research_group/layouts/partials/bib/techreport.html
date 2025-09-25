@@ -1,0 +1,34 @@
+{{ $bib := slice }}
+{{ $authors := slice }}
+{{ range .Params.authors }}
+    {{ $authors = $authors | append (printf "<b>%s %s</b>" .first .last) }}
+{{ end }}
+{{ with $authors }}
+    {{ $bib = $bib | append (delimit . ", " " and ") }}
+{{ end }}
+{{ with .Params.title }}
+    {{ $bib = $bib | append (printf "<i>%s</i>" . ) }}
+{{ end }}
+{{ with .Params.number }}
+    {{ $bib = $bib | append (printf "Tech Report %s" . )}}
+{{ end }}
+{{ with .Params.institution }}
+    {{ $bib = $bib | append . }}
+{{ end }}
+{{ with .Params.address }}
+    {{ $bib = $bib | append . }}
+{{ end }}
+{{ $date := "" }}
+{{ with .Params.year }}
+    {{ $date = printf "%d" . }}
+{{ end }}
+{{ with .Params.month }}
+    {{ $date = printf "%s %s" . $date }}
+{{ end }}
+{{ if $date }}
+    {{ $bib = $bib | append $date }}
+{{ end }}
+{{ with .Params.note }}
+    {{ $bib = $bib | append . }}
+{{ end }}
+{{ delimit $bib ", " | safeHTML }}.

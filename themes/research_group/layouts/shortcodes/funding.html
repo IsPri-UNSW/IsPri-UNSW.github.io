@@ -1,0 +1,31 @@
+{{ $agencies := $.Page.Params.funding }}
+{{ $i := 1 }}
+
+We are grateful to acknowledge partial support from the 
+{{ range $agencies }}
+    {{ with eq $i (len $agencies)}}
+        and 
+    {{ end }}
+    the <a href="{{.url}}">{{.alt}}</a>
+    {{- if ne $i (len $agencies) -}},
+    {{- else -}}.
+    {{- end -}}
+    {{ $i = add $i 1 }}
+{{ end }}
+
+{{ $width := div 100.0 (len $agencies) }}
+
+<div class="row">
+    {{ range $agencies -}}
+    <div class="col" 
+    style="width: {{$width}}%;
+    flex: 0 0 {{$width}}%; 
+    max-width: {{$width}}%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;">
+        <img src="{{.src}}" class="img-fluid" alt="{{.alt}}" title="{{.alt}}">
+    </div>
+    {{- end }}
+</div>

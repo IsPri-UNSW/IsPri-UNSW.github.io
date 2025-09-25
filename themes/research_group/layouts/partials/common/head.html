@@ -1,0 +1,41 @@
+<head>
+    <title>{{ .Title }} - {{ site.Params.organization_name }}</title>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1", shrink-to-fit="no">
+
+    <meta name="description" content="{{if .IsHome}}{{ site.Params.description }}{{else}}{{.Description}}{{end}}" />
+
+    <!-- Temporary tag to prevent indexing while developing the site -->
+    <meta name="robots" content="noindex">
+
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome fonts to fix issue of icons not displaying on iOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
+
+    {{ $style := resources.Get "sass/main.scss" | toCSS $options | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
+    
+    {{ template "_internal/opengraph.html" . }}
+    
+    {{ template "_internal/twitter_cards.html" . }}
+
+    {{ template "_internal/google_analytics.html" . }}
+
+    {{ with .Params.katex }}
+        {{partial "common/katex.html"}}
+    {{end}}
+ 
+</head>
+  

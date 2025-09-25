@@ -1,0 +1,37 @@
+<!-- Generate a list of all current members -->
+{{ $slice := (.Site.GetPage "/talks/index.md").Resources.ByType "page" }} <!-- Pull all talk records -->
+{{ $talks := where $slice "Params.agnt_event" true}}
+
+{{ if eq (len $talks) 0 }}
+{{else}}
+
+Below you can find information for the group-associated events coming up within the next month. <br>
+
+<table class="table align-middle"> 
+    <thead>
+      <tr>
+        <th scope="col">Date & Time</th>
+        <th scope="col">Event</th>
+      </tr>
+    </thead>
+    
+    {{ $talk_number := 0 }}
+    {{ range sort $talks "Params.event_date" "asc"}}
+    {{if and (( time .Params.event_date ).After (now.AddDate 0 0 -1)) (( time .Params.event_date).Before (now.AddDate 0 1 0)) }}
+    <tbody>
+        <tr {{ if eq (mod $talk_number 2) 0 }}
+              style="background-color: rgba(211,211,211,.3);"
+            {{ end }}>
+          <td><b>{{ dateFormat "Monday" .Params.event_date }}, {{ dateFormat "January 2" .Params.event_date }}</b> <br> {{.Params.time}}</td> 
+          {{ if .Params.event_url }}
+          <td> <a href="{{.Params.event_url}}"> {{.Params.event_name }} </a> </td>
+          {{ else }}
+          <td> {{.Params.event_name }} </td>
+          {{ end }}
+        </tr>
+    </tbody>
+    {{ $talk_number = add $talk_number 1}}
+    {{ end }}
+    {{ end }}
+</table>
+{{end}}

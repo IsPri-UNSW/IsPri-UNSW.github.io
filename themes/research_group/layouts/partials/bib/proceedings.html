@@ -1,0 +1,47 @@
+{{ $bib := slice }}
+{{ $editors := slice }}
+{{ range .Params.editors }}
+    {{ $editors = $editors | append (printf "%s %s" .first .last) }}
+{{ end }}
+{{ $string = ""}}
+{{ with $editors }}
+    {{ $string = printf "%s (ed.)" (delimit . ", " " and ") }}
+{{ end }}
+{{ if ne $string "" }}
+    {{ $bib = $bib | append $string }}
+{{ end }}
+{{ with .Params.title }}
+    {{ $bib = $bib | append (printf "<i>%s</i>" . ) }}
+{{ end }}
+{{- with .Params.series -}}
+    {{ $bib = $bib | append . }}
+{{ end }}
+{{- with .Params.volume -}}
+    {{ $bib = $bib | append (printf "vol %s" . ) }}
+{{- end -}}
+{{- with .Params.address -}}
+    {{ $string = printf "%s (%s)" $string . }}
+{{ end }}
+{{ with .Params.organization }}
+    {{ $bib = $bib | append . }}
+{{ end }}
+{{- with .Params.publisher -}}
+    {{ $bib = $bib | append . }}
+{{ end }}
+{{ $date := "" }}
+{{ with .Params.year }}
+    {{ $date = printf "%d" . }}
+{{ end }}
+{{ with .Params.month }}
+    {{ $date = printf "%s %s" . $date }}
+{{ end }}
+{{ if $date }}
+    {{ $bib = $bib | append $date }}
+{{ end }}
+{{- with .Params.note -}}
+    {{ $bib = $bib | append . }}
+{{- end -}}
+{{ with .Params.isbn }}
+    {{ $bib = $bib | append (printf "ISBN: %s" .) }}
+{{ end }}
+{{ delimit $bib ", " | safeHTML }}.

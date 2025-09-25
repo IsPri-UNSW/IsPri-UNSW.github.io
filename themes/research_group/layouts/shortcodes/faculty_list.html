@@ -1,0 +1,55 @@
+<div class="container">
+
+{{ $i := 0 }}
+{{ $faculty := ($.Page.GetPage "faculty/index.md").Resources.ByType "page"}}
+{{ range $faculty }}
+
+{{ if eq (mod $i 2) 0 }}
+<div class="row">
+{{ end }}
+
+<div class="col-sm-6 clearfix">
+    <div class="well">
+        <img src="/images/faculty/{{ .Params.photo }}" class="img-responsive shadowed-img" width="30%" style="float: right; margin-bottom: 5px; margin-top: 0px;" />
+        <h4 class="text-center">{{ .Params.name }}</h4>
+        {{ .Params.position }}. <i>Started {{dateFormat "January 2006" .Params.start_date }}</i> <!--<br>email: <{{ .Params.email }}></i> -->
+        <br>
+        <b>Education:</b> <br>
+        {{ range .Params.education }}  
+          {{ .degree }}, {{ .institute }} <br>
+        {{ end }}
+        <b>Postdoctoral training:</b> <br>
+        {{ range .Params.postdoc }}  
+          {{ .position }}, {{ .institute }} <br>
+        {{ end }}
+        <b>Research interests:</b> {{ with .Params.research_interests }} {{delimit . ", "}} {{ end }}<br>
+        <div style="text-align: right; padding-top: 0%;">
+        <a href="{{.Params.homepage}}">Website</a>.
+        {{ with .Params.arxiv_id }}
+        &nbsp; <a href="https://arxiv.org/a/{{.}}"><img src="https://arxiv.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="arXiv icon" title="arXiv"></a>
+        {{ end }}
+        {{with .Params.google_scholar }}
+        &nbsp; <a href="https://scholar.google.com/citations?user={{.}}&hl=en"><img src="https://scholar.google.com/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="Google Scholar icon" title="Google Scholar"></a> 
+        {{ end }}
+        {{ with .Params.mathscinet_id }}
+        &nbsp; <a href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid={{.}}"><img src="https://www.ams.org/images/Logo-Favicon.png" style="width:1.5em;margin-right:.5em;" alt="AMS icon" title="MathSciNet"></a>
+        {{ end }}
+        {{with .Params.orchid_id }}
+        &nbsp; <a href="https://orcid.org/{{.}}" target="orcid.widget" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1.5em;margin-right:.5em;" alt="ORCID iD icon" title="ORCID"></a> 
+        {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ if eq (mod $i 2) 1 }}
+</div>
+{{ end }}
+
+{{ $i = add $i 1 }}
+{{ end }}
+
+{{ if eq (mod $i 2) 0 }}
+</div>
+{{ end }}
+</div>
+</div>

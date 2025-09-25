@@ -1,0 +1,175 @@
+<h3 class="text-center"> Upcoming Talks </h3>
+
+<table class="table align-middle mobile-only"> 
+    <thead>
+      <tr>
+        <th scope="col" class="text-center">Date & Time</th>
+        <th scope="col" class="text-center">Speaker</th>
+        <th scope="col" class="text-center">Title</th>
+        <th scope="col" class="text-center text-kill">Abstract</th>
+      </tr>
+    </thead>
+    
+    {{ $counter := 0 }}
+    {{ $slice := (.GetPage "/talks/index.md").Resources.ByType "page" }}
+    {{ $slice := where $slice "Params."}}
+    {{ range sort $slice ".Params.event_date" "asc"}}
+    {{if ( time .Params.event_date ).After (now) }}
+    <tbody class="accordion-header" id="flush-heading{{ $counter }}">
+        <tr {{ if eq (mod $counter 2) 0 }}
+              style="background-color: rgba(211,211,211,.3);"
+            {{ end }} class="accordion-toggle collapsed text-center" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{ $counter }}" aria-expanded="false" aria-controls="flush-collapse{{ $counter }}">
+          <td><b>{{ dateFormat "January 2" .Params.event_date }}</b> <br />{{.Params.time}}</td>
+          <td>{{ with .Params.speaker }} {{.first}} {{.last}} {{ end }}<br />{{.Params.speaker_affiliation_abbr}}</td>
+          <td>{{.Params.title}}</td>
+          <td></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="padding: 0 !important;">
+                <div id="flush-collapse{{ $counter }}" class="accordion-collapse collapse" aria-labelledby="flush-heading{{ $counter }}" >
+                    <div class="card card-body">
+                      <p>{{ .Params.abstract }}</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+    {{ $counter = add $counter 1}}
+    {{ end }}
+    {{ end }}
+    
+</table>
+
+<!-- <table class="table align-middle non-mobile">  -->
+<table class="table align-middle non-mobile">
+  <thead>
+    <tr>
+      <th scope="col">Date & Time</th>
+      <th scope="col">Speaker</th>
+      <th scope="col">Title</th>
+      <th scope="col" class="text-center text-kill">Abstract</th>
+    </tr>
+  </thead>
+  
+  {{ $counter := 0 }}
+  {{ $slice := (.GetPage "talks/index.md").Resources.ByType "page" }}
+  {{ range sort $slice ".Params.event_date" "asc"}}
+  {{if ( time .Params.event_date ).After (now) }}
+  <tbody>
+      <tr {{ if eq (mod $counter 2) 0 }}
+            style="background-color: rgba(211,211,211,.3);"
+          {{ end }} >
+        <td><b>{{ dateFormat "January 2" .Params.event_date }}</b> <br />{{ .Params.time }}</td>
+        {{if .Params.speaker_url }}
+        <td><a href="{{.Params.speaker_url}}">{{ with .Params.speaker }} {{.first}} {{.last}} {{ end }}</a><br />{{.Params.speaker_affiliation}}</td>
+        {{ else }}
+        <td>{{ with .Params.speaker }} {{.first}} {{.last}} {{ end }}<br />{{.Params.speaker_affiliation}}</td>
+        {{ end }}
+        <td>{{.Params.title}}</td>
+        <td class="accordion-header" id="flush-heading{{ $counter }}"><div class="accordion-toggle collapsed text-center" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{ $counter }}" aria-expanded="false" aria-controls="flush-collapse{{ $counter }}"></div></td>
+      </tr>
+      <tr>
+          <td colspan="4" style="padding: 0 !important;">
+              <div id="flush-collapse{{ $counter }}" class="accordion-collapse collapse" aria-labelledby="flush-heading{{ $counter }}" >
+                  <div class="card card-body">
+                    <p>{{ .Params.abstract }}</p>
+                  </div>
+              </div>
+          </td>
+      </tr>
+  </tbody>
+  {{ $counter = add $counter 1}}
+  {{ end }}
+  {{ end }}
+  
+</table>
+
+<h3 class="text-center"> Past Talks </h3>
+
+<table class="table align-middle mobile-only"> 
+    <thead>
+      <tr>
+        <th scope="col" class="text-center">Date & Time</th>
+        <th scope="col" class="text-center">Speaker</th>
+        <th scope="col" class="text-center">Title</th>
+        <th scope="col" class="text-center text-kill">Abstract</th>
+      </tr>
+    </thead>
+    
+    {{ $counter := 0 }}
+    {{ $slice := (.GetPage "talks/index.md").Resources.ByType "page" }}
+    {{ range sort $slice ".Params.event_date" "asc"}}
+    {{if ( time .Params.event_date ).After (now) }}
+
+    {{ else }}
+    <tbody class="accordion-header" id="flush-heading{{ $counter }}old">
+        <tr {{ if eq (mod $counter 2) 0 }}
+              style="background-color: rgba(211,211,211,.3);"
+            {{ end }} class="accordion-toggle collapsed text-center" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{ $counter }}old" aria-expanded="false" aria-controls="flush-collapse{{ $counter }}old">
+          <td><b>{{ dateFormat "January 2" .Params.event_date }}</b> <br />{{.Params.time}}</td>
+          <td>{{ with .Params.speaker }} {{.first}} {{.last}} {{ end }}<br />{{.Params.speaker_affiliation_abbr}}</td>
+          <td>{{.Params.title}}</td>
+          <td></td>
+        </tr>
+        <tr>
+            <td colspan="4" style="padding: 0 !important;">
+                <div id="flush-collapse{{ $counter }}old" class="accordion-collapse collapse" aria-labelledby="flush-heading{{ $counter }}old">
+                    <div class="card card-body">
+                      <p>{{ .Params.abstract }}</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+    {{ $counter = add $counter 1}}
+    {{ end }}
+    {{ end }}
+    
+</table>
+
+
+<!-- <table class="table align-middle non-mobile">  -->
+<table class="table align-middle non-mobile"> 
+  <thead>
+    <tr>
+      <th scope="col">Date & Time</th>
+      <th scope="col">Speaker</th>
+      <th scope="col">Title</th>
+      <th scope="col" class="text-center text-kill">Abstract</th>
+    </tr>
+  </thead>
+  
+  {{ $counter := 0 }}
+  {{ $slice := (.GetPage "talks/index.md").Resources.ByType "page" }}
+  {{ range sort $slice ".Params.event_date" "asc"}}
+  {{if ( time .Params.event_date ).After (now) }}
+
+  {{ else }}
+  <tbody class="accordion-header" id="flush-heading{{ $counter }}old">
+      <tr {{ if eq (mod $counter 2) 0 }}
+            style="background-color: rgba(211,211,211,.3);"
+          {{ end }} >
+        <td><b>{{ dateFormat "January 2" .Params.event_date }}</b> <br />{{.Params.time}}</td>
+        {{if .Params.speaker_url }}
+        <td><a href="{{.Params.speaker_url}}">{{ with .Params.speaker }} {{.first}} {{.last}} {{ end }}</a><br />{{.Params.speaker_affiliation}}</td>
+        {{ else }}
+        <td>{{ with .Params.speaker }} {{.first}} {{.last}} {{ end }}<br />{{.Params.speaker_affiliation}}</td>
+        {{ end }}
+        <td>{{.Params.title}}</td>
+        <td class="accordion-header" id="flush-heading{{ $counter }}old"><div class="accordion-toggle collapsed text-center" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{ $counter }}old" aria-expanded="false" aria-controls="flush-collapse{{ $counter }}old"></div> </td>
+      </tr>
+      <tr>
+          <td colspan="4" style="padding: 0 !important;">
+              <div id="flush-collapse{{ $counter }}old" class="accordion-collapse collapse" aria-labelledby="flush-heading{{ $counter }}old">
+                  <div class="card card-body">
+                    <p>{{ .Params.abstract }}</p>
+                  </div>
+              </div>
+          </td>
+      </tr>
+  </tbody>
+  {{ $counter = add $counter 1}}
+  {{ end }}
+  {{ end }}
+  
+</table>

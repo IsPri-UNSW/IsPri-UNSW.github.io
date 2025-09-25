@@ -1,0 +1,23 @@
+<!-- Get the publications and extract those for the person we are building the page -->
+{{ $papers := slice }}
+{{ $slice := (.GetPage "/publications/papers/index.md").Resources.ByType "page" }}
+{{ $person := printf "%s%s" .Params.name.first .Params.name.last  }}
+{{ $last_name := printf "%s" .Params.name.last }}
+{{ range $slice }}
+    {{ $authors := "" }}
+    {{ range .Params.authors }}
+        {{ $authors = print $authors (printf "%s%s" .first .last) }}
+    {{ end }}
+    {{ if in $authors $last_name }}
+        {{ $papers = $papers | append . }}
+    {{ end }}
+{{ end }}
+
+{{ if gt (len $papers) 0}}
+<h3> Publications </h3>
+<ul>
+    {{ range (($papers.ByParam "authors").Reverse.ByParam "year").Reverse }}
+    <li> {{- partial "publications/gen_bib.html" . -}} </li>
+    {{ end }}
+</ul>
+{{ end }}

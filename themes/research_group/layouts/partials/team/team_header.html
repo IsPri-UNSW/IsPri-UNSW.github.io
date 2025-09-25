@@ -1,0 +1,109 @@
+{{ if in .RelPermalink "/people/" }}
+<div class="row align-items-center">
+<div class="col fixed-image">
+<img src="/images/team/{{ .Params.photo }}" width="150px" class="img-responsive" />
+</div>
+<div class="col">
+{{ with .Params.name }}
+<h2>{{ .first }} {{ .last }}</h2> 
+{{ end }}
+<h5>{{ .Params.position }}</h5>
+{{ with .Params.advisor }}
+<b>Advisor:</b> {{ . }} <br>
+{{ end }}
+{{ with .Params.advisors }}
+<b>Advisors:</b> {{ delimit . ", "}} <br>
+{{ end }}
+{{ if .Params.start_date }} 
+Joined in {{ (time .Params.start_date).Year }} <br>
+{{ end }}
+{{ if and .Params.homepage .Params.email }}
+<a href="{{.Params.homepage}}">Homepage</a> &middot; <a href="mailto:{{.Params.emails}}"?>Email</a><br> 
+{{ else if .Params.email }} 
+<a href="mailto:{{.Params.email}}"?>Email</a><br>
+{{ else if .Params.homepage }}
+<a href="{{.Params.homepage}}">Homepage</a><br>
+{{ end }}
+</div>
+</div>
+<div class="row">
+<div class="col">
+    {{ with .Params.arxiv_id }}
+    &nbsp; <a href="https://arxiv.org/a/{{.}}"><img src="https://arxiv.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="arXiv icon" title="arXiv"></a>
+    {{ end }}
+    {{with .Params.google_scholar }}
+    &nbsp; <a href="https://scholar.google.com/citations?user={{.}}&hl=en"><img src="https://scholar.google.com/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="Google Scholar icon" title="Google Scholar"></a> 
+    {{ end }}
+    {{ with .Params.math_genealogy }}
+    &nbsp; <a href="https://www.mathgenealogy.org/id.php?id={{.}}"><img src="https://www.mathgenealogy.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="Math Genealogy icon" title="Math Genealogy"></a>
+    {{ end }}
+    {{ with .Params.mathscinet_id }}
+    &nbsp; <a href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid={{.}}"><img src="https://www.ams.org/images/Logo-Favicon.png" style="width:1.5em;margin-right:.5em;" alt="AMS icon" title="MathSciNet"></a>
+    {{ end }}
+    {{with .Params.orchid_id }}
+    &nbsp; <a href="https://orcid.org/{{.}}" target="orcid.widget" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1.5em;margin-right:.5em;" alt="ORCID iD icon" title="ORCID"></a> 
+    {{ end }}
+    {{ with .Params.zentralblatt_id }}
+    &nbsp; <a href="https://www.zbmath.org/authors/?q=ai%3A{{.}}"><img src="https://www.zbmath.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="Zentralblatt icon" title="Zentralblatt"></a>
+    {{ end }}
+</div>
+</div>
+{{end}}
+
+{{ if in .RelPermalink "/alumni/" }}
+<div class="row align-items-center">
+<div class="col fixed-image">
+<img src="/images/alumni/{{ .Params.photo }}" width="150px" class="img-responsive" />
+</div>
+<div class="col">
+{{ with .Params.name }}
+<h2>{{ .first }} {{ .last }}</h2> 
+{{ end }}
+<b>Former {{ .Params.position }}</b> <br>
+{{ if eq .Params.class "graduate students" }}
+Graduated in {{ (time .Params.end_date).Year }} <br>
+{{ else }}
+Member {{ (time .Params.start_date).Year }} - {{ (time .Params.end_date).Year }} <br>
+{{ end }}
+{{ with .Params.advisor }}
+<b>Advisor:</b> {{ . }} <br>
+{{ end }}
+{{ with .Params.advisors }}
+<b>Advisors:</b> {{ delimit . ", "}} <br>
+{{ end }}
+{{ if and .Params.thesis .Params.scholar_commons_id }}
+<b>Thesis:</b> <a href="https://scholarcommons.sc.edu/etd/{{.Params.scholar_commons_id}}/">{{.Params.thesis}}</a><br>
+{{ else if .Params.thesis }}
+<b>Thesis:</b> <a href="https://scholarcommons.sc.edu/etd/{{.Params.scholar_commons_id}}/">{{.Params.thesis}}</a><br>
+{{ end }}
+{{ with .Params.current_position }}
+Currently {{.name}} at {{.institution}} <br>
+{{ end }}
+{{ if and .Params.homepage .Params.email }}
+<a href="{{.Params.homepage}}">Homepage</a> &middot; <a href="mailto:{{.Params.emails}}"?>Email</a><br> 
+{{ else if .Params.email }} 
+<a href="mailto:{{.Params.email}}"?>Email</a><br>
+{{ else if .Params.homepage }}
+<a href="{{.Params.homepage}}">Homepage</a><br>
+{{ end }}
+{{ with .Params.arxiv_id }}
+&nbsp; <a href="https://arxiv.org/a/{{.}}"><img src="https://arxiv.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="arXiv icon" title="arXiv"></a>
+{{ end }}
+{{with .Params.google_scholar }}
+&nbsp; <a href="https://scholar.google.com/citations?user={{.}}&hl=en"><img src="https://scholar.google.com/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="Google Scholar icon" title="Google Scholar"></a> 
+{{ end }}
+{{ with .Params.math_genealogy }}
+&nbsp; <a href="https://www.mathgenealogy.org/id.php?id={{.}}"><img src="https://www.mathgenealogy.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="Math Genealogy icon" title="Math Genealogy"></a>
+{{ end }}
+{{ with .Params.mathscinet_id }}
+&nbsp; <a href="https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid={{.}}"><img src="https://www.ams.org/images/Logo-Favicon.png" style="width:1.5em;margin-right:.5em;" alt="AMS icon" title="MathSciNet"></a>
+{{ end }}
+{{with .Params.orchid_id }}
+&nbsp; <a href="https://orcid.org/{{.}}" target="orcid.widget" rel="noopener noreferrer"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1.5em;margin-right:.5em;" alt="ORCID iD icon" title="ORCID"></a> 
+{{ end }}
+{{ with .Params.zentralblatt_id }}
+&nbsp; <a href="https://www.zbmath.org/authors/?q=ai%3A{{.}}"><img src="https://www.zbmath.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="Zentralblatt icon" title="Zentralblatt"></a>
+{{ end }}
+</div>
+</div>
+{{ end }}

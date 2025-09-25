@@ -1,0 +1,30 @@
+{{ $images := $.Page.Params.carousel }}
+{{ $i := 0 }}
+
+<div id="slideshow" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="5000" data-pause="hover">
+    <div class="carousel-indicators">
+        {{ range $images -}}
+        <button type="button" data-bs-target="#slideshow" data-bs-slide-to="{{$i}}" {{ with eq $i 0 }} class="active" aria-current="true" {{ end }} aria-label="Slide {{add $i 1}}"></button>
+        {{- $i = add $i 1 -}}
+        {{- end }}
+    </div>
+    <div class="carousel-inner">
+        {{ $i = 0 }}
+        {{ range $images }}
+      <div class="carousel-item{{ with eq $i 0 }} active{{end}}">
+          <div class="image-container">
+              <img src="./{{.src}}" class="fit" alt="{{.alt}}" title="{{.alt}}">
+          </div>
+      </div>
+        {{ $i = add $i 1 }}
+        {{ end }}
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>

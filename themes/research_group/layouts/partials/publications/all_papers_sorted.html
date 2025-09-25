@@ -1,0 +1,115 @@
+<!-- Get the unique years of publications and sort them in ascending order -->
+{{ $years := slice }}
+{{ $authors_last := slice }}
+{{ $slice := (.GetPage "papers/index.md").Resources.ByType "page" }}
+{{ range $slice }}
+	{{ $years = $years | append .Params.year }}
+  {{/* $authors_last = $authors_last | append .Params.all_authors_last */}}
+{{ end }}
+{{ $years = uniq $years | sort }}
+{{ $authors_last = uniq $authors_last | sort }}
+{{ $length := len $years }}
+
+{{$i := 0}} <!-- Initialize a counter to label items uniquely -->
+{{ range (seq $length) }} <!-- Loop over a sequence the length equal to the number of years -->
+{{ $year := index $years (sub $length .) }} <!-- Reverse the indexing -->
+    
+<h3>{{ $year }}</h3>
+<table class="table align-middle mobile-only"> 
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead> 
+  
+  {{ $j := 0 }}
+  {{/* range $authors_last */}}
+  {{/* range where (where $slice ".Params.all_authors_last" . ) ".Params.year" $year */}}
+  {{ range where $slice ".Params.year" $year }} <!-- Loop over all the publications with the matching year -->
+  <tbody class="accordion-header" id="flush-heading{{ $i }}">
+      <tr {{ if eq (mod $j 2) 0 }}
+            style="background-color: rgba(211,211,211,.3);"
+          {{ end }} class="accordion-toggle collapsed text-center" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{ $i }}" aria-expanded="false" aria-controls="flush-collapse{{ $i }}">
+        <td> {{- partial "publications/gen_bib.html" . -}} </td>
+        <td></td>
+      </tr>
+      <tr>
+          <td colspan="2" style="padding: 0 !important;">
+              <div id="flush-collapse{{ $i }}" class="accordion-collapse collapse" aria-labelledby="flush-heading{{ $i }}" >
+                  <div class="card card-body">
+                    <p> {{with .Params.abstract}}
+                        {{.}} <br>
+                        {{ end }}
+                        {{ with .Params.arxiv_id }}
+                            <a href="https://arxiv.org/abs/{{- . -}}"><img src="https://arxiv.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="arXiv icon" title="arXiv"></a>
+                        {{end}}
+                        {{ with .Params.doi }}
+                            <a href="https://doi.org/{{- . -}}"><img src="https://www.doi.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="DOI icon" title="DOI"></a>
+                        {{end}}
+                        {{ with .Params.zentralblatt_id }}
+                            <a href="https://www.zbmath.org/?q=an%3A{{- . -}}"><img src="https://www.zbmath.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="Zentralblatt icon" title="Zentralblatt"></a>
+                        {{end}}
+                    </p>
+                  </div>
+              </div>
+          </td>
+      </tr>
+  </tbody>
+  {{$j = add $j 1}}
+  {{$i = add $i 1}}
+  {{ end }}
+</table> 
+
+<!-- <table class="table align-middle non-mobile">  -->
+<table class="table align-middle non-mobile">
+  <thead>
+    <tr>
+      <tr>
+        <th scope="col">Publication</th>
+        <th scope="col">More</th>
+      </tr>
+    </tr>
+  </thead>
+
+  {{ $l := 0 }}
+  {{ range where $slice ".Params.year" $year }} <!-- Loop over all the publications from publications.yml with the matching year -->
+  <tbody>
+        <tr {{ if eq (mod $l 2) 0 }}
+            style="background-color: rgba(211,211,211,.3);"
+            {{ end }} >
+        <td> {{ .Params.firstauthorlast }} {{- partial "publications/gen_bib.html" . -}} </td>
+        <td class="accordion-header" id="flush-heading{{ $i }}"><div class="accordion-toggle collapsed text-center" data-bs-toggle="collapse" data-bs-target="#flush-collapse{{ $i }}" aria-expanded="false" aria-controls="flush-collapse{{ $i }}"></div></td>
+      </tr>
+      <tr>
+          <td colspan="2" style="padding: 0 !important;">
+              <div id="flush-collapse{{ $i }}" class="accordion-collapse collapse" aria-labelledby="flush-heading{{ $i }}" >
+                  <div class="card card-body">
+                    <p> {{with .Params.abstract}}
+                        {{.}} <br>
+                        {{ end }}
+                        {{ with .Params.arxiv_id }}
+                            <a href="https://arxiv.org/abs/{{- . -}}"><img src="https://arxiv.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="arXiv icon" title="arXiv"></a>
+                        {{end}}
+                        {{ with .Params.doi }}
+                            <a href="https://doi.org/{{- . -}}"><img src="https://www.doi.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="DOI icon" title="DOI"></a>
+                        {{end}}
+                        {{ with .Params.mrnumber }}
+                            <a href="https://mathscinet.ams.org/mathscinet-getitem?mr={{- . -}}"><img src="https://www.ams.org/images/Logo-Favicon.png" style="width:1.5em;margin-right:.5em;" alt="AMS icon" title="MathSciNet"></a>
+                        {{end}}
+                        {{ with .Params.zentralblatt_id }}
+                            <a href="https://www.zbmath.org/?q=an%3A{{- . -}}"><img src="https://www.zbmath.org/favicon.ico" style="width:1.5em;margin-right:.5em;" alt="Zentralblatt icon" title="Zentralblatt"></a>
+                        {{end}}
+                    </p>
+                  </div>
+              </div>
+          </td>
+      </tr>
+  </tbody>
+  {{$l = add $l 1}}
+  {{$i = add $i 1}}
+  {{ end }}
+</table> 
+
+{{$i = add $i 1}}
+{{ end }}

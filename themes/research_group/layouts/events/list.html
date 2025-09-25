@@ -1,0 +1,17 @@
+{{define "main"}}
+
+<div class="container">
+
+{{ .Content }}
+
+{{/*  {{ partial "events/sc_upcoming_talks.html" . }}  */}}
+
+<p>Below you can find more information on some events we run regularly. </p>
+
+{{ partial "events/agnt_seminar.html" . }}
+
+{{/*  {{ partial "pants.html" . }}  */}}
+
+</div>
+
+{{end}}

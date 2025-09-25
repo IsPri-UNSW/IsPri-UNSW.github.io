@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "common/head.html" . -}}
+    <body>
+        {{- partial "common/header.html" . -}}
+        <div id="content" class="container">
+            <div class="row">
+                {{- block "main" . }}{{- end }}
+            </div>
+        </div>
+        {{- partial "common/footer.html" . -}}
+    </body>
+</html>

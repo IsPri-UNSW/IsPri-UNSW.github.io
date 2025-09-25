@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<div class="container">
+
+{{ partial "team/team_header.html" . }}
+
+{{.Content}}
+
+<hr>
+
+{{ partial "publications/papers_per_person.html" . }}
+
+<!-- {{ partial "grants/grants_per_person.html" . }} -->
+
+{{ partial "team/students_per_person.html" . }}
+
+</div>
+
+<!-- EOF -->
+{{ end }}

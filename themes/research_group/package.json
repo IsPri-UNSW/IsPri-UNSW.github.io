@@ -1,0 +1,17 @@
+{
+  "name": "research-group-theme",
+  "version": "1.0.0",
+  "description": "A Hugo theme for research group websites",
+  "main": "index.js",
+  "scripts": {
+    "build": "hugo",
+    "dev": "hugo server"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  },
+  "devDependencies": {},
+  "keywords": ["hugo", "theme", "research", "academic"],
+  "author": "IoT Systems UNSW",
+  "license": "MIT"
+}

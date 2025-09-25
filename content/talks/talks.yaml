@@ -1,0 +1,324 @@
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-01-15
+  time:  2:30-3:30pm
+  speaker: 
+    first: Frank
+    middle: 
+    last: Thorne
+  speaker_url: http://people.math.sc.edu/thornef/
+  speaker_affiliation: University of South Carolina
+  speaker_affiliation_abbr: UofSC
+  title: An Overview of Counting Number Fields
+  abstract: How many number fields are there? Infinitely many -- but if you fix the degree and Galois group, and bound the discriminant, then the answer is known to be finite, and a conjecture of Malle predicts how fast this number grows with the discriminant. 
+  vid_conf_url: https://us02web.zoom.us/j/8447301415?pwd=b3hoNVpoSjBNdWd0eVNpclF1U2paQT09
+  vid_conf_pw: 12345 # I've got the same combination on my luggage
+  recording_url: ""
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Research # research, learning, ... 
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-01-22
+  time: 2:30-3:30pm
+  speaker: 
+    first: Alexander 
+    middle: 
+    last: Duncan
+  speaker_url: http://people.math.sc.edu/duncan/
+  speaker_affiliation: University of South Carolina
+  speaker_affiliation_abbr: UofSC
+  title: Cremona groups and representation dimension
+  abstract: The Cremona group of rank n is the group of birational automorphisms of n-dimensional projective space. Alternatively, the Cremona group is the group of automorphisms of a purely transcendental extension. The Cremona group is famously huge and cannot be embedded in any matrix group when n is greater than one. However, their finite subgroups are much more manageable.  I discuss upper and lower bounds on the complexity of finite subgroups of Cremona groups via representation theory. This is joint work with Christian Urech.
+  vid_conf_url: https://us02web.zoom.us/j/89152240695?pwd=SytlL1RpUlQ4T1JUck92d0FPV1d0QT09
+  vid_conf_pw: 379495
+  recording_url: ""
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Research # research, learning, ... 
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-01-29
+  time: 2:30-3:30pm
+  speaker: 
+    first: Michael 
+    middle: 
+    last: Filaseta
+  speaker_url: https://people.math.sc.edu/filaseta/
+  speaker_affiliation: University of South Carolina
+  speaker_affiliation_abbr: UofSC
+  title: Old and new information on digitally delicate primes
+  abstract: The very oldest information is that Murray Klamkin posed the problem in a 1978 issue of Mathematics Magazine - "Does there exist any prime number such that if any digit (in base 10) is changed to any other digit, the resulting number is always composite?" So people typed code into their punch cards and fed them through a computer card reader to find some examples.  Such primes exist (the smallest one is 294001) and are called digitally delicate primes.  We will discuss results by Paul Erdos, by Terence Tao, and by Jackson Hopper and Paul Pollack. Then we will go into more recent work of the speaker with Jacob Juillerat and Jeremiah Southwick.  The most recent work, just completed, is with Jacob.
+  vid_conf_url: https://us02web.zoom.us/j/89152240695?pwd=SytlL1RpUlQ4T1JUck92d0FPV1d0QT09
+  vid_conf_pw: 379495
+  recording_url: ""
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Research # research, learning, ... 
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-02-05
+  time: 2:30-3:30pm
+  speaker: 
+    first: Matthew
+    middle: Robert
+    last: Ballard
+  speaker_url: https://www.matthewrobertballard.com
+  speaker_affiliation: University of South Carolina
+  speaker_affiliation_abbr: UofSC 
+  title: An equivariant Betti table I'd like to compute without Macaulay2
+  abstract: I'll tell you what the resolution is and hopefully convince you why it matters. Maybe you'll tell me it's an easy consequence of Kempf's geometric method.
+  vid_conf_url: https://us02web.zoom.us/j/89152240695?pwd=SytlL1RpUlQ4T1JUck92d0FPV1d0QT09
+  vid_conf_pw: 379495
+  recording_url: 
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Research # research, learning, ... 
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-02-12
+  time: 2:30-3:30pm
+  speaker: 
+    first: Keller 
+    middle: 
+    last: VandeBogert
+  speaker_url: https://sites.google.com/view/kellervandebogert/
+  speaker_affiliation: University of South Carolina
+  speaker_affiliation_abbr: UofSC 
+  title: Cellular Resolutions for Monomial Ideals
+  abstract: Minimal free resolutions of monomial ideals have been an active area of study for many decades now. In the 90's, Bayer and Sturmfels considered monomial ideals whose minimal free resolutions are supported on so-called cellular complexes. It turns out that this property is quite special - in general, there exist monomial ideals whose minimal free resolution cannot be supported even on a CW-complex. In this talk, we will discuss some recent results on the cellularity of certain classes of "rainbow" monomial ideals, including a characterization of when such ideals have linear minimal free resolutions. This yields applications to polarizations of graded Artinian ideals and, after specialization, a large class of equigenerated squarefree monomial ideals admitting cellular resolutions. Much of this work is joint with Ayah Almousa.
+  vid_conf_url: https://us02web.zoom.us/j/89152240695?pwd=SytlL1RpUlQ4T1JUck92d0FPV1d0QT09
+  vid_conf_pw: 379495
+  recording_url: ""
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Research # research, learning, ... 
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-02-19
+  time: 3:30-4:30pm
+  speaker: 
+    first: Michael
+    middle: 
+    last: Filaseta
+  speaker_url: https://people.math.sc.edu/filaseta/
+  speaker_affiliation: University of South Carolina
+  speaker_affiliation_abbr: UofSC 
+  title: On a dense universal Hilbert set
+  abstract: A universal Hilbert set is an infinite set $S$ of integers having the property that for every $F(x,y)$ in $\mathbb{Z}[x,y]$, which is irreducible in $\mathbb{Q}[x,y]$ and of degree $\geq 0$ in $x$, we have that for all but finitely many $y_0$ in $S$, the polynomial $F(x,y_0)$ is irreducible in $\mathbb{Q}[x]$.  The existence of universal Hilbert sets is due to P. C. Gilmore and A. Robinson in 1955, and since then a number of explicit examples have been given.  In this talk, we discuss a connection between universal Hilbert sets and Siegel's Lemma on the finiteness of integral points on a curve of genus at least 1, and explain how a result of K. Ford (2008) implies the existence of a universal Hilbert set S that includes almost all integers and then some.  This is joint work with Robert Wilcox.
+  vid_conf_url: https://us02web.zoom.us/j/89152240695?pwd=SytlL1RpUlQ4T1JUck92d0FPV1d0QT09
+  vid_conf_pw: 379495
+  recording_url: ""
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Research # research, learning, ...
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-03-05
+  time: 2:30-3:30pm
+  speaker: 
+    first: Patrick
+    middle: 
+    last: Lank
+  speaker_affiliation: University of South Carolina
+  speaker_affiliation_abbr: UofSC
+  speaker_url: 
+  title: Line Bundle-Valued Quadratic Forms
+  abstract: Within this talk, we will introduce what are called line bundle-valued quadratic forms over schemes and cover a few examples. It will be shown that many familiar constructions from the theory of quadratic forms over rings and linear algebra generalize to the category of schemes. Many of these ideas are applicable to vector bundles over such an object, and this is where much of the talk will take place.
+  vid_conf_url: https://us02web.zoom.us/j/89152240695?pwd=SytlL1RpUlQ4T1JUck92d0FPV1d0QT09
+  vid_conf_pw: 379495
+  recording_url: ""
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Learning # research, learning, ... 
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-03-19
+  time: 3:30-4:00pm
+  speaker: 
+    first: Joshua 
+    middle: 
+    last: Cooper
+  speaker_url: https://people.math.sc.edu/cooper/
+  speaker_affiliation: University of South Carolina
+  speaker_affiliation_abbr: UofSC 
+  title: Number theoretic problems arising from a graph theoretic investigation
+  abstract: The two speakers will take turns addressing results related to graphs which can be drawn on a plane (not necessarily planar graphs - the edges of ours can cross) in such a way that all the edges have the same length.  We discuss how some natural Diophantine questions arise in connection with the venerable Hadwiger-Nelson Problem, aka the "chromatic number of the plane" -- questions which can be resolved by elementary applications of Galois theory.  The background for Galois theory is easy enough to be explained during the talk.  As an example, we will find all solutions to the equation $\cos( \pi x ) + \cos( \pi y ) = 1/2$ where $x$ and $y$ are rational numbers.  This is joint work with Sarah (Kaylee) Weatherspoon.
+  vid_conf_url: https://us02web.zoom.us/j/89152240695?pwd=SytlL1RpUlQ4T1JUck92d0FPV1d0QT09
+  vid_conf_pw: 379495
+  recording_url: ""
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Research # research, learning, ... 
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-03-19
+  time: 4:00-4:30pm
+  speaker: 
+    first: Michael
+    middle: 
+    last: Filaseta
+  speaker_url: https://people.math.sc.edu/filaseta/
+  speaker_affiliation: University of South Carolina
+  speaker_affiliation_abbr: UofSC 
+  title: Number theoretic problems arising from a graph theoretic investigation (part 2)
+  abstract: The two speakers will take turns addressing results related to graphs which can be drawn on a plane (not necessarily planar graphs - the edges of ours can cross) in such a way that all the edges have the same length.  We discuss how some natural Diophantine questions arise in connection with the venerable Hadwiger-Nelson Problem, aka the "chromatic number of the plane" -- questions which can be resolved by elementary applications of Galois theory.  The background for Galois theory is easy enough to be explained during the talk.  As an example, we will find all solutions to the equation $\cos( \pi x ) + \cos( \pi y ) = 1/2$ where $x$ and $y$ are rational numbers.  This is joint work with Sarah (Kaylee) Weatherspoon.
+  vid_conf_url: https://us02web.zoom.us/j/89152240695?pwd=SytlL1RpUlQ4T1JUck92d0FPV1d0QT09
+  vid_conf_pw: 379495
+  recording_url: ""
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Learning # research, learning, ... 
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-04-09
+  time: 3:30-4:30pm 
+  speaker: 
+    first: Bailey 
+    middle: 
+    last: Heath
+  speaker_url:
+  speaker_affiliation: University of South Carolina
+  speaker_affiliation_abbr: UofSC
+  title: Affine group schemes
+  abstract: There are many ways to construct a group from a ring $R$, such as the additive group $(R,+)$, the multiplicative group $R^\times$, and matrix groups such as the general and special linear groups. In this talk, we generalize these constructions by discussing a special class of group functors known as affine group schemes. We then explore representations of affine group schemes via algebras, discuss a special case of Yoneda's Lemma, and use this lemma and a fresh perspective on groups to illustrate the relationship between affine group schemes and Hopf algebras. This talk only assumes elementary group and ring theory, so we hope for it to be accessible and informative for all!
+  vid_conf_url: https://us02web.zoom.us/j/89152240695?pwd=SytlL1RpUlQ4T1JUck92d0FPV1d0QT09
+  vid_conf_pw: 379495
+  recording_url: ""
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Learning # research, learning, ... 
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-04-16
+  time: 3:30-4:30pm
+  speaker: 
+    first: Jonathan
+    middle: 
+    last: Smith
+  speaker_url:
+  speaker_affiliation: University of South Carolina
+  speaker_affiliation_abbr: UofSC
+  title: An introduction to Weil divisors
+  abstract: Given a variety , we can associate to it a group of Weil divisors, namely, the free abelian group generated by the irreducible closed subvarieties of codimension one. The divisor class group is then constructed as the quotient of this group by the subgroup of principal divisors, and this class group is an interesting and subtle invariant of a variety. Though the majority of the talk will deal with Weil divisors on curves, I intend to briefly elucidate the connection between the divisor class group on schemes and the familiar ideal class group of a number field within the field of algebraic number theory. If time permits, I will end the talk with an example in which a subgroup of the divisor class group closely corresponds to the group structure on the closed points of a particular elliptic curve. The majority of the information contained in the talk is taken directly from section 2.6 of Hartshorne’s “Algebraic Geometry.”
+  vid_conf_url: https://us02web.zoom.us/j/89152240695?pwd=SytlL1RpUlQ4T1JUck92d0FPV1d0QT09
+  vid_conf_pw: 379495
+  recording_url: ""
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Learning # research, learning, ... 
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar 
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-04-23
+  time: 3:30-4:30pm
+  speaker: 
+    first: Ning
+    middle: 
+    last: Ma
+  speaker_url:
+  speaker_affiliation: SUNY Buffalo
+  speaker_affiliation_abbr: UB
+  title: Generalizations of Alladi's formula for arithmetical semigroups
+  abstract: In this talk, we will discuss a general version of Alladi’s formula with Dirichlet convolution holds for arithmetical semigroups satisfying Axiom $A$ or Axiom $A^\sharp$. As applications, we apply our main results to certain semigroups coming from algebraic number theory, arithmetical geometry and graph theory. This is a joint work with Lian Duan and Shaoyun Yi. 
+  vid_conf_url: https://us02web.zoom.us/j/89152240695?pwd=SytlL1RpUlQ4T1JUck92d0FPV1d0QT09
+  vid_conf_pw: 379495
+  recording_url: ""
+  draft: false # needs to be set false to have the information published on the seminar page
+  categories:
+  - Seminar 
+  tags:
+  - Research # research, learning, ... 
+
+-
+  agnt_event: true
+  event_name: Algebra, Geometry, and Number Theory Seminar
+  event_organization: University of South Carolina 
+  event_url: https://www.scagnt.org/seminar/2021/
+  event_date: 2021-04-30
+  time: 3:30-4:30pm
+  speaker: 
+    first: Demmas
+    middle:
+    last: Salim
+  speaker_url: ""
+  speaker_affiliation: ""
+  speaker_affiliation_abbr: "" # abbreviation used for mobile display
+  title: TBA 
+  abstract: TBA
+  vid_conf_url: ""
+  vid_conf_password: "" 
+  recording_url: ""
+  draft: true # needs to be set false to have the information published on the seminar page
+  categories:
+  - Lectures 
+  tags:
+  - Research # research, learning, ... 

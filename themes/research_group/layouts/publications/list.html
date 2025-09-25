@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<div class="container">
+
+<h1> Publications </h1>
+
+<hr>
+
+<h2> Selected highlights </h2> 
+
+<p> For a full list of publications, <a href="#full-list">see below</a>.</p> <!-- It would be nice to have a link to external repos of published papers for all group members, eg arxiv or mathscinet  -->
+
+{{- partial "publications/publication_highlights.html" . -}}
+
+<h2 id="full-list"> Publications by year </h2> 
+<br>
+
+{{- partial "publications/all_papers_sorted.html" . -}}
+
+</div>
+
+<!-- End of file -->
+{{ end }} 

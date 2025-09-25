@@ -1,0 +1,109 @@
+<!-- Generate a list of all current members -->
+{{ $group_members := slice }}
+{{ $slice := (.Site.GetPage "/team/_index.md").RegularPages }}
+{{ range $slice }}
+  {{ if in .RelPermalink "/people/"}}
+    {{ $name := printf "%s%s" .Params.name.first .Params.name.last }}
+    {{ $group_members = $group_members | append $name }}
+  {{ end }}
+{{ end }}
+
+{{ $slice := (.Site.GetPage "/grants/index.md").Resources.ByType "page" }} <!-- Pull all grant records -->
+{{ $grants := slice }}
+{{ range $slice }}
+    {{ $start_year := (time .Params.start_date).Year }}
+    {{ $end_year := (time .Params.end_date).Year }}
+    {{ if and (le $start_year now.Year) (ge $end_year now.Year) }}
+        {{ $grants = $grants | append . }}
+    {{ end }}
+{{ end }}
+
+{{ if ne (len $grants) 0 }}
+<h3>Current funding </h3>
+
+<table class="table"> 
+    <thead>
+      <tr>
+        <th scope="col">Sponsor</th>
+        <th scope="col">Grant Title</th>
+        <th scope="col">Investigators</th>
+        <th scope="col">Duration</th>
+      </tr>
+    </thead>
+    
+    {{ $counter := 0 }}
+    {{ range sort $grants "Params.agency" "asc"}}
+    <tbody>
+        <tr {{ if eq (mod $counter 2) 0 }}
+              style="background-color: rgba(211,211,211,.3);"
+            {{ end }}>
+            <td> {{.Params.agency }} </td>
+            {{ if .Params.proposal_url }}
+            <td> <a href="{{.Params.proposal_url}}"> {{.Params.proposal_title }} </a> </td>
+            {{ else }}
+            <td> {{.Params.proposal_title }}</td>
+            {{ end }}
+            <td>
+            <!-- Figures out the number of nonempty pis and copis and uses that to assign commas. Bolds the names of group members. -->
+            {{ $size := 0}}
+            {{ if isset .Params "pis" }}
+                {{ range .Params.pis }}
+                    {{ if .last }}
+                        {{ $size = add $size 1}}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+            {{ if isset .Params "copis" }}
+                {{ range .Params.copis }}
+                    {{ if .last }}
+                        {{ $size = add $size 1}}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+            {{ $i := 0 }}
+            {{ range .Params.pis }} 
+                {{ if .last }}
+                    {{ $name := printf "%s%s" .first .last }}
+                    {{ if lt $i (sub $size 1) }}
+                        {{ if in $group_members $name}}
+                            <b>{{.first}} {{.last}} </b> (PI),&nbsp;
+                        {{ else }}
+                            {{.first}} {{.last}} (PI),&nbsp;
+                        {{ end }}
+                    {{ else }}
+                        {{ if in $group_members $name}}
+                            <b>{{.first}} {{.last}} </b> (PI)
+                        {{ else }}
+                            {{.first}} {{.last}} (PI)
+                        {{ end }}
+                    {{ end }}
+                    {{ $i = add $i 1 }}
+                {{ end }}
+            {{ end }}
+            {{ range .Params.copis }} 
+                {{ if .last }}
+                    {{ $name := printf "%s%s" .first .last }}
+                    {{ if lt $i (sub $size 1) }}
+                        {{ if in $group_members $name}}
+                            <b>{{.first}} {{.last}} </b> (co-PI),&nbsp;
+                        {{ else }}
+                            {{.first}} {{.last}} (co-PI),&nbsp;
+                        {{ end }}
+                    {{ else }}
+                        {{ if in $group_members $name}}
+                            <b>{{.first}} {{.last}} </b> (co-PI)
+                        {{ else }}
+                            {{.first}} {{.last}} (co-PI)
+                        {{ end }}
+                    {{ end }}
+                    {{ $i = add $i 1 }}
+                {{ end }}
+            {{ end }}
+            </td>
+            <td>{{string (time .Params.start_date).Year}}-{{string (time .Params.end_date).Year}}</td>
+        </tr>
+    </tbody>
+    {{ $counter = add $counter 1}}
+    {{ end }}
+</table>
+{{ end }}

@@ -1,0 +1,11 @@
+<!-- Allowed options for a bibtex entry: "arxiv" "article" "book" "booklet" "inbook" "incollection" "inproceedings" "manual" "mastersthesis" "misc" "phdthesis" "proceedings" "techreport" "unpublished" -->
+
+{{ $name := string $.Params.entry }} 
+
+{{ $sofar := slice "article" "book" "booklet" "inbook" "incollection" "inproceedings" "manual" "mastersthesis" "misc" "phdthesis" "techreport" "unpublished"}}
+
+{{ if in $sofar $name }} <!-- Temporary fix -->
+
+{{- partial (printf "bib/%s" $name) . -}}
+
+{{ end }}

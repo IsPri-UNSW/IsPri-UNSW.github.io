@@ -1,0 +1,190 @@
+{{ $everyone := (site.GetPage "/team/_index.md").RegularPages }}
+{{ $people := slice }}
+{{ $alumni := slice }}
+
+{{ range $everyone }}
+{{ if in .RelPermalink "/people/"}}
+    {{ $people = $people | append . }}
+{{ else if in .RelPermalink "/alumni/"}}
+    {{ $alumni = $alumni | append . }}
+{{end}}
+{{end}}
+
+{{ if ne .Params.group "all"}}
+    {{$people = where $people "Params.class" "=" .Params.group}}
+{{ end }}
+
+{{ if ne .Params.group "all"}}
+    {{$alumni = where $alumni "Params.class" "=" .Params.group}}
+{{ end }}
+
+{{ if ne (len $people) 0 }}
+<div class="container big-screen">
+    <div class="row">
+    {{ range sort $people "Params.name.last"  }}
+        
+        <div class="col-4">
+            <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
+            <div class="row">
+            <div class="my-auto" style="width: 120px; text-align: center;">
+                <img src="/images/team/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+            </div>
+            <div class="col my-auto" style="line-height: 80%;">
+                <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
+                <p>{{.Params.position}}</p>
+                {{ if .Params.advisors }}
+                    <p style="line-height: normal; "><b>Advisors:</b> {{ with .Params.advisors }} {{ delimit . ", "}}{{end}}</p> 
+                {{else if .Params.advisor}} 
+                    <p style="line-height: normal; "><b>Advisor: </b>{{.Params.advisor }} </p>
+                {{ else }}
+                {{end}}
+            </div>
+            </div>
+            </a>
+        </div>
+    {{ end }}
+    </div>
+</div>
+
+<div class="container med-screen-upper med-screen-lower">
+    <div class="row">
+    {{ range sort $people "Params.name.last" }}
+        <div class="col-6">
+            <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
+            <div class="row">
+            <div class="my-auto"style="width: 120px; text-align: center;">
+                <img src="/images/team/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+            </div>
+            <div class="col my-auto" style="line-height: 80%;">
+                <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
+                <p>{{.Params.position}}</p>
+                {{ if .Params.advisors }}
+                    <p style="line-height: normal; "><b>Advisors:</b> {{with .Params.advisors}} {{ delimit . ", "}}{{end}}</p> 
+                {{else if .Params.advisor}} 
+                    <p style="line-height: normal; "><b>Advisor: </b>{{.Params.advisor }} </p>
+                {{ else }}
+                {{end}}
+            </div>
+            </div>
+            </a>
+        </div>
+    {{end}}
+    </div>
+</div>
+
+<div class="container small-screen">
+    <div class="row">
+    {{ range sort $people "Params.name.last" }}
+        <div class="col-12">
+            <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
+            <div class="row">
+                <div class="my-auto" style="width: 120px;">
+                    <img src="/images/team/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+                </div>
+                <div class="col my-auto" style="line-height: 80%;">
+                    <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
+                    <p>{{.Params.position}}</p>
+                    {{ if .Params.advisors }}
+                        <p style="line-height: normal; "><b>Advisors:</b> {{with .Params.advisors}} {{ delimit . ", "}}{{end}}</p> 
+                    {{else if .Params.advisor}} 
+                        <p style="line-height: normal; "><b>Advisor: </b>{{.Params.advisor }} </p>
+                    {{ else }}
+                    {{end}}
+                </div>
+            </div>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ else }}
+<div class="container" style="">
+  There are currently no {{.Params.group}} in the group.
+</div>
+{{ end }}
+
+
+{{ if ne (len $alumni) 0 }}
+<h2>Alumni</h2>
+<div class="container big-screen">
+    <div class="row">
+    {{ range sort $alumni "Params.name.last" }}
+        <div class="col-4">
+            <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
+            <div class="row">
+            <div class="my-auto" style="width: 120px; text-align: center;">
+                <img src="/images/alumni/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+            </div>
+            <div class="col my-auto" style="line-height: 80%;">
+                <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
+                <p>Former {{.Params.position}}</p>
+                {{ if .Params.advisors }}
+                        <p style="line-height: normal; "><b>Advisors:</b> {{with .Params.advisors}} {{ delimit . ", "}}{{end}}</p>
+                    {{else if .Params.advisor}} 
+                        <p style="line-height: normal; "><b>Advisor: </b>{{.Params.advisor }} </p>
+                    {{ else }}
+                {{end}}
+            </div>
+            </div>
+            </a>
+        </div>
+    {{end}}
+    </div>
+</div>
+<div class="container med-screen-upper med-screen-lower">
+    <div class="row">
+    {{ range sort $alumni "Params.name.last" }}
+        <div class="col-6">
+            <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
+            <div class="row">
+            <div class="my-auto"style="width: 120px; text-align: center;">
+                <img src="/images/alumni/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+            </div>
+            <div class="col my-auto" style="line-height: 80%;">
+                <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
+                <p>Former {{.Params.position}}</p>
+                {{ if .Params.advisors }}
+                        <p style="line-height: normal; "><b>Advisors:</b> {{with .Params.advisors}} {{ delimit . ", "}}{{end}}</p>
+                    {{else if .Params.advisor}} 
+                        <p style="line-height: normal; "><b>Advisor: </b>{{.Params.advisor }} </p>
+                    {{ else }}
+                {{end}}
+            </div>
+            </div>
+            </a>
+        </div>
+    {{ end }}
+    </div>
+</div>
+<div class="container small-screen">
+    <div class="row">
+    {{ range sort $alumni "Params.name.last" }}
+        <div class="col-12">
+            <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
+            <div class="row">
+                <div class="my-auto" style="width: 120px;">
+                    <img src="/images/alumni/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+                </div>
+                <div class="col my-auto" style="line-height: 80%;">
+                    <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
+                    <p>Former {{.Params.position}}</p>
+                        {{ if .Params.advisors }}
+                            <p style="line-height: normal; "><b>Advisors:</b> {{with .Params.advisors}} {{ delimit . ", "}}{{end}}</p>
+                        {{else if .Params.advisor}} 
+                            <p style="line-height: normal; "><b>Advisor: </b>{{.Params.advisor }} </p>
+                        {{ else }}
+                        {{end}}
+                </div>
+            </div>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ else }}
+
+<!-- <h2>Alumni </h2>
+<div class="container">
+  There are currently no {{.Params.group}} alumni. 
+</div> -->
+{{ end }}

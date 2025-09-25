@@ -1,0 +1,35 @@
+{{ $bib := slice }}
+{{ $authors := slice }}
+{{ range .Params.authors }}
+    {{ $authors = $authors | append (printf "<b>%s %s</b>" .first .last) }}
+{{ end }}
+{{ with $authors }}
+    {{ $bib = $bib | append (delimit . ", " " and ") }}
+{{ end }}
+{{ with .Params.title }}
+    {{ $emtitle := printf "<i>%s</i>" . }}
+    {{ $bib = $bib | append $emtitle }}
+{{ end }}
+{{ $string := "" }}
+{{- with .Params.journal -}}
+    {{ $string = printf "%s %s" $string . }}
+{{ end }}
+{{- with .Params.volume -}}
+    {{ $string = printf "%s <b>%s</b>" $string . }}
+{{- end -}} 
+{{- with .Params.year -}}
+    {{ $string = printf "%s (%s)" $string . }}
+{{- end -}}
+{{ if ne $string "" }}
+    {{ $bib = $bib | append $string }}
+{{ end }}
+{{- with .Params.number -}}
+    {{ $bib = $bib | append (printf "no. %s" .)}}
+{{- end -}}
+{{- with .Params.pages -}}
+    {{ $bib = $bib | append (printf "pp. %s" . )}}
+{{- end -}}
+{{- with .Params.note -}}
+    {{ $bib = $bib | append . }}
+{{- end -}}
+{{ delimit $bib ", " | safeHTML }}.

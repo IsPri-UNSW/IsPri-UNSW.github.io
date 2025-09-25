@@ -1,0 +1,31 @@
+{{ define "main" }}
+
+<div class="container">
+
+{{.Content}}
+
+<div class="row">
+  <div class="col">
+    <h2 id="all"><p>Current members</p></h2>
+  </div>
+  <div class="col" style="text-align: right;">
+    <div class="dropstart">
+      <button type="button" class="btn well dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" style="padding-top: 1%; margin-top: 0%; margin-bottom: 1%;">
+        Filter
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="/team/#all">All</a></li>
+          <li><a class="dropdown-item" href="/team/faculty/#all">Faculty</a></li>
+          <li><a class="dropdown-item" href="/team/grad/#all">Graduate student</a></li>
+          <li><a class="dropdown-item" href="/team/ugrad/#all">Undergraduate student</a></li>
+          <li><a class="dropdown-item" href="/team/visitors/#all">Visitor</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+{{ partial "team/grid_team.html" . }}
+
+</div>
+
+{{ end }}

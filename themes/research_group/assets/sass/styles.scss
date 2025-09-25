@@ -1,0 +1,276 @@
+img { margin-bottom: 24px; 
+    margin-top: 17px; 
+   border-radius:2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.shadowed-img {
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(5px 5px 5px #222222);
+}
+
+/* Setting maximum widths on big screens */
+.container {
+    max-width: 1300px;
+}
+
+.container-fluid {
+    max-width: 1400px; 
+}
+
+/* borders and margins for the navbar header and footer */
+.navbar {
+    border-bottom: 5px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+.footer {
+    border-top: 5px solid lightgray;
+    margin-top: 10px;
+    flex-shrink: 0;
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.30);
+}
+
+/* changes the colors for the navbar */
+.navbar-custom {
+    background-color: #ffdc00;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+}
+
+
+
+/* change the colors for the footer */@at-root
+.footer-custom {
+    background-color: #ffdc00;
+    color: black;
+}
+
+/* change the link color and getting rid of the underline in the footer */
+.footer-custom a,
+.footer-custom a:link,
+.footer-custom a:visited,
+.footer-custom a:focus {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-custom a:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#content {
+    flex: 1 0 auto;
+}
+
+
+
+/* centering the header in main hompage container */
+#homeid h1 {
+	text-align: center;
+}
+
+/* Carousel margins and image placement */
+.carousel {
+    border-radius: 3px 3px 3px 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.image-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+  	height: 400px;
+}
+
+// forces aspect ratio to remain fixed when fitting into a container
+.image-container .fit {
+	object-fit: contain; 
+}
+
+// shrink the image in the container for a phone-sized screen
+@media (max-width: 750px) {
+	.image-container {
+		max-height: 250px;
+		width: auto;
+	}
+}
+
+// newsfeed container background color and border
+.well {
+    background-color: rgba(211,211,211,.3);
+    margin: 3%;
+    padding: 3%;
+    border-radius: 10px;
+    border: 2px solid lightgrey;
+    padding-bottom: 1%;
+}
+
+// publication titles 
+pubtit {
+	font-weight: bold;
+}
+
+// changes the background of accordion buttons to not stand out so much 
+.accordion-item .accordion-button {
+    background-color: white;
+}
+
+// // toggle icon for accordions in tables using fonts downloaded from bootstrap
+// .accordion-toggle td:last-child:after {
+//     font-family: "Glyphicons Halflings";  /* essential for enabling glyphicon */
+//     content: "\e260";    /* adjust as needed, taken from bootstrap.css */
+//     // font-size: 125%;
+//     color: black;
+// }
+// .accordion-toggle.collapsed td:last-child:after {
+//     content: "\e259";    /* adjust as needed, taken from bootstrap.css */
+// }
+
+// toggle icon for accordions in tables using fontawesome 4 fonts from their server
+.accordion-toggle td:last-child:after {
+    font-family: "FontAwesome";  /* essential for enabling glyphicon */
+    content: "\f068";    /* adjust as needed, taken from bootstrap.css */
+    font-weight: 900;
+    color: black;
+}
+.accordion-toggle.collapsed td:last-child:after {
+    content: "\f067";    /* adjust as needed, taken from bootstrap.css */
+}
+
+// toggle icon for accordion itself using fontawesome 4 fonts from their server
+@media (min-width: 750px) {
+.accordion-toggle:after {
+    font-family: "FontAwesome";  /* essential for enabling glyphicon */
+    content: "\f068";    /* adjust as needed, taken from bootstrap.css */
+    font-weight: 900;
+    font-size: 150%;
+    color: black;
+}
+.accordion-toggle.collapsed:after {
+    content: "\f067";    /* adjust as needed, taken from bootstrap.css */
+}
+}
+
+// removes text on a phone-sized screen
+@media (max-width: 750px) {
+	.text-kill {
+		font-size: 0px;
+	}
+}
+
+// effectively a toggle between mobile and non-mobile 
+@media (max-width: 750px) {
+    .non-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 750px) {
+    .mobile-only {
+        display: none;
+    }
+}
+
+// another toggle
+@media (max-width: 1100px) {
+    .big-screen {
+        display: none;
+    }
+}
+@media (min-width: 1101px) {
+    .med-screen-upper {
+        display: none;
+    }
+}
+@media (max-width: 750px) {
+    .med-screen-lower {
+        display: none;
+    }
+}
+@media (min-width: 751px) {
+    .small-screen {
+        display: none;
+    }
+}
+
+// toggles for the brand 
+@media (max-width: 1020px) {
+    .big-brand {
+        display: none;
+    }
+}
+@media (min-width: 1020px) {
+    .med-brand {
+        display: none;
+    }
+}
+
+// removing some extra space in the collapsible drop downs
+.card {
+    padding-bottom: 0px;
+}
+
+.clearfix {
+    padding-bottom: 0px;
+}
+
+// For responsive videos
+video {
+    /* override other styles to make responsive */
+    width: 100%    !important;
+    height: auto   !important;
+}
+
+
+.container-vid {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Fixing the image sizes for team members pages */
+.fixed-image {
+    -ms-flex: 0 0 175px;
+    flex: 0 0 175px;
+} 
+
+// /* De-bugging overflowing elements */
+// * {
+//     background: #000 !important;
+//     color: #0f0 !important;
+//     outline: solid #f00 1px !important;
+// }

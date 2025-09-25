@@ -1,0 +1,29 @@
+<!-- Give the context a name to use in ranges -->
+{{ $advisor := . }}
+
+<!-- Build the students list from an empty slice appending one at a time -->
+{{ $students := slice }}
+{{ $everyone := (.Site.GetPage "/team/_index.md").RegularPages }}
+{{ range $everyone }}
+    {{ $student := . }}
+    {{ if eq .Params.class "graduate students"}}
+        {{ range .Params.advisors }}
+            {{ if in . $advisor.Params.name.last }}
+                {{ $students = $students | append $student }}
+            {{ end }}
+        {{ end }}
+        {{ if in .Params.advisor $advisor.Params.name.last }}
+            {{ $students = $students | append . }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+{{ if gt (len $students) 0}}
+<h3> Students </h3>
+<ul>
+    {{ range $students.ByParam "name.last" }}
+        <li> <a href="{{ .RelPermalink }}">{{ with .Params.name }} {{ .first }} {{ .last }}. {{ end }}</a> {{ if in .RelPermalink "alumni"}} Graduated in {{ (time .Params.end_date).Year }}. {{ end }}  </li>
+    {{ end }}
+</ul>
+{{ end }}
+
