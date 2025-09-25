@@ -9,4 +9,5 @@ name:
   first: Mohammad Majid
   last: Akhtar
 photo: majid_akhtar.jpg
+homepage: https://mohdmajidakhtar.github.io/
 ---
