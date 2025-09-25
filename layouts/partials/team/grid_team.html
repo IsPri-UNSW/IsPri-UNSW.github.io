@@ -27,7 +27,9 @@
             <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
             <div class="row">
             <div class="my-auto" style="width: 120px; text-align: center;">
-                <img src="/images/team/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+                {{ $photo := .Params.photo }}
+                {{ $candidate := printf "static/images/team/%s" $photo }}
+                <img src="{{ if and $photo (fileExists $candidate) }}/images/team/{{ $photo }}{{ else }}/images/team/profile_male.png{{ end }}" width="100" height="100" style="align-items: center; display: block;" />
             </div>
             <div class="col my-auto" style="line-height: 80%;">
                 <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
@@ -53,7 +55,9 @@
             <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
             <div class="row">
             <div class="my-auto"style="width: 120px; text-align: center;">
-                <img src="/images/team/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+                {{ $photo := .Params.photo }}
+                {{ $candidate := printf "static/images/team/%s" $photo }}
+                <img src="{{ if and $photo (fileExists $candidate) }}/images/team/{{ $photo }}{{ else }}/images/team/profile_male.png{{ end }}" width="100" height="100" style="align-items: center; display: block;" />
             </div>
             <div class="col my-auto" style="line-height: 80%;">
                 <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
@@ -79,7 +83,9 @@
             <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
             <div class="row">
                 <div class="my-auto" style="width: 120px;">
-                    <img src="/images/team/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+                    {{ $photo := .Params.photo }}
+                    {{ $candidate := printf "static/images/team/%s" $photo }}
+                    <img src="{{ if and $photo (fileExists $candidate) }}/images/team/{{ $photo }}{{ else }}/images/team/profile_male.png{{ end }}" width="100" height="100" style="align-items: center; display: block;" />
                 </div>
                 <div class="col my-auto" style="line-height: 80%;">
                     <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
@@ -98,7 +104,7 @@
     </div>
 </div>
 {{ else }}
-<div class="container" style="">
+<div class="container">
   There are currently no {{.Params.group}} in the group.
 </div>
 {{ end }}
@@ -113,7 +119,9 @@
             <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
             <div class="row">
             <div class="my-auto" style="width: 120px; text-align: center;">
-                <img src="/images/alumni/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+                {{ $photo := .Params.photo }}
+                {{ $candidate := printf "static/images/alumni/%s" $photo }}
+                <img src="{{ if and $photo (fileExists $candidate) }}/images/alumni/{{ $photo }}{{ else }}/images/team/profile_male.png{{ end }}" width="100" height="100" style="align-items: center; display: block;" />
             </div>
             <div class="col my-auto" style="line-height: 80%;">
                 <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
@@ -138,7 +146,9 @@
             <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
             <div class="row">
             <div class="my-auto"style="width: 120px; text-align: center;">
-                <img src="/images/alumni/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+                {{ $photo := .Params.photo }}
+                {{ $candidate := printf "static/images/alumni/%s" $photo }}
+                <img src="{{ if and $photo (fileExists $candidate) }}/images/alumni/{{ $photo }}{{ else }}/images/team/profile_male.png{{ end }}" width="100" height="100" style="align-items: center; display: block;" />
             </div>
             <div class="col my-auto" style="line-height: 80%;">
                 <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
@@ -163,7 +173,9 @@
             <a href="{{.RelPermalink}}" style="text-decoration: none;  color: inherit;">
             <div class="row">
                 <div class="my-auto" style="width: 120px;">
-                    <img src="/images/alumni/{{ .Params.photo }}" width="100px" style="align-items: center;" />
+                    {{ $photo := .Params.photo }}
+                    {{ $candidate := printf "static/images/alumni/%s" $photo }}
+                    <img src="{{ if and $photo (fileExists $candidate) }}/images/alumni/{{ $photo }}{{ else }}/images/team/profile_male.png{{ end }}" width="100" height="100" style="align-items: center; display: block;" />
                 </div>
                 <div class="col my-auto" style="line-height: 80%;">
                     <p><b style="font-size: large; line-height: 100%;">{{ with .Params.name }}{{.first}} {{.last}}{{end}}</b></p>
