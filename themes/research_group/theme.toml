@@ -12,7 +12,7 @@ min_version = "0.120.0"
 
 [author]
   name = "IsPri UNSW"
-  homepage = "https://iot-systems-unsw.github.io"
+  homepage = "https://ispri-unsw.github.io/"
 
 # If porting an existing theme
 [original]

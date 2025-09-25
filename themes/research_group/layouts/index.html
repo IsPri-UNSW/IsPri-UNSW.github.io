@@ -1,10 +1,9 @@
 {{ define "main" }}
-
 <div class="col-sm-8">
 	{{ .Content }}
 </div>
 <div id="newsid" class="col-sm-4" >
-    {{- partial "common/news.html" . -}}
+    {{- partial "news/news.html" . -}}
 </div>
 
 {{ end }}

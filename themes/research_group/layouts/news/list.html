@@ -1,10 +1,9 @@
 {{ define "main" }}
+<h1> News </h1>
 
-<div class="container">
+<hr>
 
-{{.Content}}
 
-Hello
-
+{{- partial "news/all_news_sorted.html" . -}}
 <!-- End of file -->
 {{ end }} 

@@ -1,0 +1,57 @@
+{{/* Collect news items under content/news/items and sort by date desc. 
+   Support both: (a) leaf bundle at content/news/items/index.md with child MD resources,
+   and (b) a proper section at content/news/items/_index.md with regular pages. */}}
+
+{{ $pages := slice }}
+{{ $itemsPage := site.GetPage "news/items" }}
+{{ if $itemsPage }}
+  {{/* Leaf bundle: pull page resources of type page (markdown children) */}}
+  {{ $pages = $itemsPage.Resources.ByType "page" }}
+{{ else }}
+  {{/* Section fallback: filter regular pages under news/items */}}
+  {{ $newsPages := where .Site.RegularPages "Section" "news" }}
+  {{ $pages = where $newsPages "File.Dir" "news/items/" }}
+{{ end }}
+
+{{ $sorted := sort $pages "Date" "desc" }}
+
+{{/* Build a unique, sorted list of years from the news items */}}
+{{ $years := slice }}
+{{ range $sorted }}
+  {{ $years = $years | append (.Date.Format "2006") }}
+{{ end }}
+{{ $years = uniq $years | sort }}
+{{ $yearsLen := len $years }}
+
+{{ if eq $yearsLen 0 }}
+  <p>No news items.</p>
+{{ else }}
+  {{ range (seq $yearsLen) }}
+    {{ $year := index $years (sub $yearsLen .) }}
+    <h3>{{ $year }}</h3>
+    <div class="news-list">
+    {{ range $sorted }}
+      {{ if eq (.Date.Format "2006") $year }}
+        {{- $headline := .Params.headline -}}
+        {{- $desc := .Params.description -}}
+        {{- $link := .Params.link -}}
+        <div class="card mb-3">
+          <div class="card-body">
+            <div class="text-muted mb-2">
+              <span class="me-2">{{ .Date.Format "Jan 2006" }}</span>
+              {{- with $link -}}
+                <a href="{{ . }}" class="card-link" target="_blank">More Info</a>
+              {{- end -}}
+            </div>
+            {{- with $desc -}}
+              <p class="card-text">{{ . }}</p>
+            {{- end -}}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
+
+
