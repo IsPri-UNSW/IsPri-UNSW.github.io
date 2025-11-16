@@ -35,7 +35,7 @@ organizations:
 #       year: 2008
 
 # ORCID ID for automated publication fetching (if enabled in Config)
-orcid: 0000-0002-1015-6848
+orcid: 0000-0003-2200-9703
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -53,7 +53,7 @@ social:
     link: https://scholar.google.com/citations?hl=en&user=SbYRrvgAAAAJ
   - icon: orcid
     icon_pack: fab
-    link: https://orcid.org/0000-0002-1015-6848
+    link: https://orcid.org/0000-0003-2200-9703
   # - icon: github
   #   icon_pack: fab
   #   link: 
