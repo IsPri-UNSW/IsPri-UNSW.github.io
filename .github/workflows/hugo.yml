@@ -80,6 +80,8 @@ jobs:
           restore-keys:
             hugo-
       - name: Build the site
+        env:
+          HUGO_ENV: production
         run: |
           hugo \
             --gc \
