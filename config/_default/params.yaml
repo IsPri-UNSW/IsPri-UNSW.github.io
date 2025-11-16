@@ -18,7 +18,7 @@ marketing:
     site_type: 'Organization'
     local_business_type: 'ResearchOrganization'
     org_name: 'Information Security and Privacy Research Group'
-    description: 'Website for the Information Security and Privacy Research Group at UNSW'
+    description: "The Information Security and Privacy Research Group at UNSW's mission is to conduct advanced applied security research and devise practical solutions to address real-world information security and privacy challenges."
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
