@@ -33,6 +33,9 @@ social:
   - icon: home
     icon_pack: fa
     link: https://vineetrajani.github.io/
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:v.rajani@unsw.edu.au' 
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=55WIQUYAAAAJ

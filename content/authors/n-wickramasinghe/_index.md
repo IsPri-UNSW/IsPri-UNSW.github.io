@@ -31,6 +31,9 @@ social:
   - icon: home
     icon_pack: fa
     link: https://nime-sha256.info/
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:n.wickramasinghe@unsw.edu.au'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

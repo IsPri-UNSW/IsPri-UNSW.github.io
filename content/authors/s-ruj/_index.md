@@ -34,6 +34,9 @@ social:
   - icon: home
     icon_pack: fa
     link: https://research.unsw.edu.au/people/sushmita-ruj
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:sushmita.ruj@unsw.edu.au' 
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=_u0snzYAAAAJ

@@ -31,6 +31,9 @@ orcid: 0000-0001-6841-3109
 
 # Social/Academic Networking
 social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:s.chaisawat@unsw.edu.au' 
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=OmMMMnMAAAAJ

@@ -31,6 +31,9 @@ social:
   - icon: home
     icon_pack: fa
     link: https://yunruizhang.github.io/
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:yunrui.zhang@student.unsw.edu.au' 
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

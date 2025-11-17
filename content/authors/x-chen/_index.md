@@ -28,6 +28,9 @@ organizations:
 
 # Social/Academic Networking
 social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:xinzhang.chen@student.unsw.edu.au' 
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=E36bU4wAAAAJ&hl=en&oi=ao

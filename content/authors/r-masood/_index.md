@@ -34,6 +34,9 @@ social:
   - icon: home
     icon_pack: fa
     link: https://research.unsw.edu.au/people/dr-rahat-masood
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:rahat.masood@unsw.edu.au'
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=4E0WoloAAAAJ

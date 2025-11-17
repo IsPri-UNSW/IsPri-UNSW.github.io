@@ -34,6 +34,9 @@ social:
   - icon: home
     icon_pack: fa
     link: https://ndsilva.net/
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:n.dsilva@unsw.edu.au' 
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0009-0008-6195-7662
