@@ -1,0 +1,10 @@
+/* Improve footer link contrast for accessibility */
+/* Adjust link colors to have sufficient contrast with gray footer text */
+
+.site-footer a {
+  color: #0d47a1; /* Darker blue for light mode - better contrast with gray */
+}
+
+.dark .site-footer a {
+  color: #ff5c8d; /* Brighter pink for dark mode - better contrast with gray */
+}
