@@ -42,12 +42,12 @@ orcid: 0000-0003-2200-9703
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:aditya.joshi@unsw.edu.au'
   - icon: home
     icon_pack: fa
     link: https://www.unsw.edu.au/staff/aditya-joshi
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:aditya.joshi@unsw.edu.au'
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?hl=en&user=SbYRrvgAAAAJ

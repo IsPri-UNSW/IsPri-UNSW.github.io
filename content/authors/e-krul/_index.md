@@ -34,6 +34,9 @@ social:
   - icon: home
     icon_pack: fa
     link: https://krul.ca/
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:e.krul@unsw.edu.au'
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=6Pln4ZwAAAAJ

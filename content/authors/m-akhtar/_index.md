@@ -33,18 +33,21 @@ social:
   - icon: home
     icon_pack: fa
     link: https://mohdmajidakhtar.github.io/
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:majid.akhtar@unsw.edu.au'
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=s0S12tUAAAAJ
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0000-0002-6480-0555
-  - icon: researchgate
-    icon_pack: fab
-    link: https://www.researchgate.net/profile/Mohd-Akhtar-4
   - icon: github
     icon_pack: fab
     link: https://github.com/mohdmajidakhtar
+  - icon: researchgate
+    icon_pack: fab
+    link: https://www.researchgate.net/profile/Mohd-Akhtar-4
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

@@ -37,12 +37,12 @@ social:
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0009-0008-6195-7662
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/nicholas-dsilva
   - icon: github
     icon_pack: fab
     link: https://github.com/ndsi6382
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/nicholas-dsilva
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

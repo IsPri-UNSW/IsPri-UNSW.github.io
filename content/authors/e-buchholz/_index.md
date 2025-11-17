@@ -48,12 +48,12 @@ orcid: 0000-0001-9962-5665
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:e.buchholz@unsw.edu.au'
   - icon: home
     icon_pack: fa
     link: https://erikbuchholz.de/
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:e.buchholz@unsw.edu.au'
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=Qnigo9gAAAAJ

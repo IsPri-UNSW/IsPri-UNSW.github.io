@@ -31,18 +31,21 @@ orcid: 0009-0002-0140-4085
 
 # Social/Academic Networking
 social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:lihua.wang@unsw.edu.au'
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=t-6t_XYAAAAJ
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0009-0002-0140-4085
-  - icon: researchgate
-    icon_pack: fab
-    link: https://www.researchgate.net/profile/Lihua-Wang-43
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/lihua-wang-a3a50718b
+  - icon: researchgate
+    icon_pack: fab
+    link: https://www.researchgate.net/profile/Lihua-Wang-43
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

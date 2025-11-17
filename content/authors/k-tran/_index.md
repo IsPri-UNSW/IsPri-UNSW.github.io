@@ -31,6 +31,9 @@ orcid: 0000-0002-9385-6101
 
 # Social/Academic Networking
 social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:dang.k.tran@unsw.edu.au' 
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=Gd09QTIAAAAJ

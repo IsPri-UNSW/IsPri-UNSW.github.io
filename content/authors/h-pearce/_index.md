@@ -34,6 +34,9 @@ social:
   - icon: home
     icon_pack: fa
     link: https://www.cyberhammond.com/
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:hammond.pearce@unsw.edu.au'
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=pRILQ5MAAAAJ&hl=en

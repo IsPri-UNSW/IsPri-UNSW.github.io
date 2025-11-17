@@ -48,12 +48,12 @@ orcid: 0000-0001-6630-9519
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'mailto:a.shaghaghi@unsw.edu.au'
   - icon: home
     icon_pack: fa
     link: https://www.unsw.edu.au/staff/arash-shaghaghi
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:a.shaghaghi@unsw.edu.au'
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=7mFpZn4AAAAJ&hl=en&oi=ao

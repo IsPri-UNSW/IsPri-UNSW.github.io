@@ -28,6 +28,9 @@ organizations:
 
 # Social/Academic Networking
 social:
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:m.nandi@unsw.edu.au'
   - icon: google-scholar
     icon_pack: fab
     link: https://scholar.google.com/citations?user=Kgz38sEAAAAJ&hl=en&oi=ao
