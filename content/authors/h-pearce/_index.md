@@ -1,18 +1,18 @@
 ---
 # Display name
-title: Salil S. Kanhere
+title: Hammond Pearce
 
-slug: s-kanhere
+slug: h-pearce
 
 # Full Name (for SEO)
-first_name: Salil S.
-last_name: Kanhere
+first_name: Hammond
+last_name: Pearce
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor
+role: Senior Lecturer
 
 # Organizations/Affiliations
 organizations:
@@ -27,25 +27,25 @@ organizations:
 #   - Interest 2
 
 # ORCID ID for automated publication fetching (if enabled in Config)
-orcid: 0000-0002-1835-3475
+orcid: 0000-0002-3488-7004
 
 # Social/Academic Networking
 social:
   - icon: home
     icon_pack: fa
-    link: https://research.unsw.edu.au/people/professor-salil-kanhere
+    link: https://www.cyberhammond.com/
   - icon: google-scholar
     icon_pack: fab
-    link: https://scholar.google.com/citations?user=sgqmaPMAAAAJ
+    link: https://scholar.google.com/citations?user=pRILQ5MAAAAJ&hl=en
   - icon: orcid
     icon_pack: fab
-    link: https://orcid.org/0000-0002-1835-3475
+    link: https://orcid.org/0000-0002-3488-7004
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/kiwih
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/salilkanhere
-  - icon: researchgate
-    icon_pack: fab
-    link: https://www.researchgate.net/profile/Salil-Kanhere
+    link: https://www.linkedin.com/in/hammond-pearce/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
