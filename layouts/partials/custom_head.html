@@ -1,0 +1,5 @@
+{{/* Preload search index to break dependency chain */}}
+{{ $search_provider := lower (site.Params.features.search.provider | default "") }}
+{{ if eq $search_provider "wowchemy" }}
+  <link rel="preload" href="{{ "index.json" | relLangURL }}" as="fetch" crossorigin="anonymous">
+{{ end }}
