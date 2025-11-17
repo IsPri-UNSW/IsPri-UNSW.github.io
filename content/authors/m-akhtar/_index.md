@@ -54,5 +54,5 @@ highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-  - Graduate Students
+  - Alumni
 ---
