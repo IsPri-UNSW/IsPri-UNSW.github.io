@@ -50,7 +50,7 @@ orcid: 0009-0001-3195-1381
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:e.buchholz@unsw.edu.au'
+    link: 'mailto:frank.tran@unsw.edu.au'
   - icon: orcid
     icon_pack: fab
     link: https://orcid.org/0009-0001-3195-1381
@@ -73,7 +73,6 @@ email: ''
 highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Graduate Student
+  - Graduate Students
 ---
