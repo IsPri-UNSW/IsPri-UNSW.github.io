@@ -1,19 +1,19 @@
 ---
 # Display name
-title: Erik Buchholz
+title: Navodika Karunasingha
 
 # Slug: Manually set to fix issues with publication page
-slug: e-buchholz
+slug: n-karunasingha
 
 # Full Name (for SEO)
-first_name: Erik
-last_name: Buchholz
+first_name: Navodika Madushan Karunasingha
+last_name: Karunasingha Gedara
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Research Associate
+role: PhD Candidate
 
 # Organizations/Affiliations
 organizations:
@@ -23,10 +23,10 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 # bio:
 
-interests:
-  - Privacy Enhancing Technologies
-  - Differential Privacy
-  - Cryptography
+# interests:
+#   - Privacy Enhancing Technologies
+#   - Differential Privacy
+#   - Cryptography
 
 # education:
 #   courses:
@@ -41,7 +41,7 @@ interests:
 #       year: 2008
 
 # ORCID ID for automated publication fetching (if enabled in Config)
-orcid: 0000-0001-9962-5665
+orcid: 0009-0000-9224-1909
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -50,25 +50,25 @@ orcid: 0000-0001-9962-5665
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:e.buchholz@unsw.edu.au'
-  - icon: home
-    icon_pack: fa
-    link: https://erikbuchholz.de/
+    link: 'mailto:n.karunasingha@unsw.edu.au'
+#   - icon: home
+#     icon_pack: fa
+#     link: https://erikbuchholz.de/
   - icon: google-scholar
     icon_pack: fab
-    link: https://scholar.google.com/citations?user=Qnigo9gAAAAJ
+    link: https://scholar.google.com/citations?user=Rw8ZDJsAAAAJ&hl
   - icon: orcid
     icon_pack: fab
-    link: https://orcid.org/0000-0001-9962-5665
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/erik-buchholz
+    link: https://orcid.org/0009-0000-9224-1909
+#   - icon: github
+#     icon_pack: fab
+#     link: https://github.com/erik-buchholz
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/erik-buchholz/
-  - icon: researchgate
-    icon_pack: fab
-    link: https://www.researchgate.net/profile/Erik-Buchholz
+    link: https://www.linkedin.com/in/navodika-karunasingha-0113b4146
+#   - icon: researchgate
+#     icon_pack: fab
+#     link: https://www.researchgate.net/profile/Erik-Buchholz
 #   - icon: twitter
 #     icon_pack: fab
 #     link: https://twitter.com/x20ckx
@@ -87,5 +87,5 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Postdoctoral Researchers
+  - Graduate Students
 ---
