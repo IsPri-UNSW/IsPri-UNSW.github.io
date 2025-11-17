@@ -1,6 +1,7 @@
 ---
 title: Team
 date: 2022-10-24
+summary: Meet the members of the Information Security and Privacy Research Group at UNSW, including academics, graduate students, and alumni.
 
 type: landing
 
