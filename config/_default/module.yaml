@@ -5,7 +5,9 @@
 ############################
 
 imports:
-  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
+  - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-seo
+  # - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms
+  #   disable: true
   # Remove netlify plugin 
   # - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   # Using local theme instead of remote module

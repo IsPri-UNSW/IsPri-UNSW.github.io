@@ -198,10 +198,10 @@
   {{ partial "blox_seo" . }}
 
   {{/* Netlify Identity integration. */}}
-  {{ $use_cms := templates.Exists "decap_cms/single.decap_cms_config.yml" | default (site.Params.extensions.decap_cms.enable | default false) }}
+  {{/*  {{ $use_cms := templates.Exists "decap_cms/single.decap_cms_config.yml" | default (site.Params.extensions.decap_cms.enable | default false) }}
   {{ if .IsHome | and $use_cms }}
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  {{ end }}
+  {{ end }}  */}}
 
   {{/* RSS Feed */}}
   {{ with .OutputFormats.Get "RSS" }}

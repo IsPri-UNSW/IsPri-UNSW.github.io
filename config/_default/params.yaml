@@ -105,11 +105,11 @@ features:
 # Extensions
 
 extensions:
-  decap_cms:
-    branch: main
-    local_backend: false
   academicons:
     enable: true
+  # decap_cms:
+  #   branch: main
+  #   local_backend: false
 
 # Citation style
 
