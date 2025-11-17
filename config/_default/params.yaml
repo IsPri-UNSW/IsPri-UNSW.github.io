@@ -97,10 +97,11 @@ features:
       api_key: ''
       index_name: ''
       show_logo: false
-  map:
-    provider: 'mapnik'
-    api_key: ''
-    zoom: 15
+  # We don't need maps for IsPri UNSW website at the moment. Disable to not include unnecessary JS.
+  # map:
+  #   provider: 'mapnik'
+  #   api_key: ''
+  #   zoom: 15
 
 # Extensions
 
