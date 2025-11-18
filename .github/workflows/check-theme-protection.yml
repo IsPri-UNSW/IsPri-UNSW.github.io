@@ -1,0 +1,53 @@
+name: Protect Theme Directory
+
+on:
+  pull_request:
+    paths:
+      - 'themes/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'themes/**'
+  workflow_dispatch:
+
+jobs:
+  check-theme-unchanged:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for theme modifications
+        run: |
+          echo "Checking if themes/ directory has been modified..."
+          
+          # Get the base commit to compare against
+          if [ "${{ github.event_name }}" == "pull_request" ]; then
+            BASE_REF="${{ github.event.pull_request.base.sha }}"
+          else
+            # For push events, compare with previous commit
+            BASE_REF="HEAD~1"
+          fi
+          
+          # Check if any files in themes/ were modified
+          if git diff --name-only "$BASE_REF" HEAD | grep -q "^themes/"; then
+            echo "❌ ERROR: Direct modifications to themes/ directory are not allowed!"
+            echo ""
+            echo "Modified files:"
+            git diff --name-only "$BASE_REF" HEAD | grep "^themes/"
+            echo ""
+            echo "ℹ️  To customize themes, please:"
+            echo "   1. Copy the file you want to override to the corresponding path in /layouts/"
+            echo "   2. Make your changes there"
+            echo ""
+            echo "   Example: To override themes/blox-bootstrap/layouts/partials/site_head.html"
+            echo "            Create /layouts/partials/site_head.html with your changes"
+            echo ""
+            echo "   Hugo will automatically use your version instead of the theme's version."
+            exit 1
+          else
+            echo "✅ No modifications to themes/ directory detected"
+          fi
