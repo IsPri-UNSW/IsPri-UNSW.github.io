@@ -12,5 +12,6 @@ imports:
   # Remove netlify plugin 
   # - path: github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify
   # Using local theme instead of remote module (local version corresponds to v5.9.7 / commit 118e351)
+  # If you want to switch back to the remote module, uncomment the following lines and comment out the local theme line in hugo.yaml
   # - path: github.co m/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5
   #   version: v5.9.7
