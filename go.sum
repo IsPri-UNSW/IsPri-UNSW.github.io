@@ -1,0 +1,5 @@
+github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.3.1/go.mod h1:So8+V2U+TNxlXmcpZfdDX0muLh3PdJ7z92h30sv3bZg=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.4.1 h1:LAIEtt5FVZVJoKVmZ+rB/M5exoek52ksCEK12HWssIo=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.4.1/go.mod h1:So8+V2U+TNxlXmcpZfdDX0muLh3PdJ7z92h30sv3bZg=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.3.1 h1:sjJqjf5RAGdNsg5iGf7RJvlvLS8dZkcSDRQ+YMML2Bc=
+github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.3.1/go.mod h1:NsESu6cEms1DgH84icCyylElg2Zu8A0f7Fma5JR0LZE=

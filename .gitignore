@@ -8,7 +8,7 @@ assets/jsconfig.json
 .hugo_build.lock
 
 # Go
-go.sum
+# go.sum
 
 # If you publish GitHub Pages from /docs, DO NOT ignore it.
 # Otherwise, ignore /docs (uncomment next line):
