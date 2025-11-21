@@ -26,6 +26,8 @@ organizations:
 #   - Interest 1
 #   - Interest 2
 
+orcid: 0009-0005-5502-7125
+
 # Social/Academic Networking
 social:
   - icon: home
@@ -37,6 +39,9 @@ social:
   - icon: scholar
     icon_pack: fab
     link: https://scholar.google.com.au/citations?user=iVCumv4AAAAJ
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/0009-0005-5502-7125
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
