@@ -28,17 +28,17 @@ interests:
   - Differential Privacy
   - Cryptography
 
-# education:
-#   courses:
-#     - course: PhD in Artificial Intelligence
-#       institution: Stanford University
-#       year: 2012
-#     - course: MEng in Artificial Intelligence
-#       institution: Massachusetts Institute of Technology
-#       year: 2009
-#     - course: BSc in Artificial Intelligence
-#       institution: Massachusetts Institute of Technology
-#       year: 2008
+education:
+  courses:
+    - course: PhD in Cyber Security / Computer Science
+      institution: University of New South Wales, Sydney, Australia
+      year: 2025
+    - course: Msc in Computer Science
+      institution: RWTH Aachen University, Germany
+      year: 2020
+    - course: BSc in Computer Science
+      institution: RWTH Aachen University, Germany
+      year: 2017
 
 # ORCID ID for automated publication fetching (if enabled in Config)
 orcid: 0000-0001-9962-5665
