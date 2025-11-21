@@ -26,6 +26,8 @@ organizations:
 #   - Interest 1
 #   - Interest 2
 
+orcid: 0000-0003-4068-2299
+
 # Social/Academic Networking
 social:
   - icon: home
@@ -34,6 +36,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:n.wickramasinghe@unsw.edu.au'
+  - icon: orcid
+    icon_pack: fab
+    link: https://orcid.org/0000-0003-4068-2299
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''

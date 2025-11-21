@@ -34,6 +34,9 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:yunrui.zhang@student.unsw.edu.au' 
+  - icon: scholar
+    icon_pack: fab
+    link: https://scholar.google.com.au/citations?user=iVCumv4AAAAJ
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
