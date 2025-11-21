@@ -6,8 +6,8 @@ title: Navodika Karunasingha
 slug: n-karunasingha
 
 # Full Name (for SEO)
-first_name: Navodika Madushan Karunasingha
-last_name: Karunasingha Gedara
+first_name: Navodika
+last_name: Karunasingha
 
 # Is this the primary user of the site?
 superuser: false
