@@ -3,3 +3,6 @@
 {{ if eq $search_provider "wowchemy" }}
   <link rel="preload" href="{{ "index.json" | relLangURL }}" as="fetch" crossorigin="anonymous">
 {{ end }}
+
+<!-- Add the favicon explicitly to fix Google Search issue -->
+<!-- <link rel="icon" href="/favicon.ico" sizes="32x32"> -->
