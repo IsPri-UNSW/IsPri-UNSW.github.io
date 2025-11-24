@@ -6,6 +6,14 @@
 
 A Hugo site for The Information Security and Privacy Research Group at UNSW.
 
+## Table of Contents 📑
+
+- [Table of Contents 📑](#table-of-contents-)
+- [Adding News 📰](#adding-news-)
+- [Adding Team Members 👥](#adding-team-members-)
+- [Administrator \& Developer Information 🛠️](#administrator--developer-information-️)
+
+
 ## Adding News 📰
 
 To add a new news article to the website, follow these steps:
