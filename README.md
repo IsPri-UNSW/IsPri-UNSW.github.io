@@ -46,3 +46,46 @@ To add a new news article to the website, follow these steps:
    ```
 
 The website will automatically rebuild and deploy via GitHub Actions.
+
+## Adding Team Members 👥
+
+To add a new team member to the website, follow these steps:
+
+1. **Copy the template directory:**
+   ```bash
+   cp -r templates/authors/sample content/authors/f-lastname
+   ```
+   Replace `f-lastname` with the first letter of the first name and the full last name (e.g., `j-doe` for John Doe).
+   
+   Note, that due to limitations of the theme, we do not support more than one last name. Please use the last name shown in publications as your last name and everything else as first name(s).
+   For example, if your name is "Anna Smith Johnson" (and you publish under this name), with your last name being "Smith Johnson", please use "a-johnson" as the directory name and "Anna Smith" as the first name in the `_index.md` file, i.e., use your first lastname as your middle name. 
+   Currently, this is the only way to ensure that publications are correctly linked to the author profile.
+
+2. **Edit the `_index.md` file** in your new directory (`content/authors/f-lastname/_index.md`):
+   - Update all personal information (name, title, role, interests, education, etc.)
+   - Set the `slug` field to match the directory name (e.g., `j-doe`)
+   - Choose the appropriate `user_groups`:
+     - `Academics` (faculty members)
+     - `Postdoctoral Researchers`
+     - `Graduate Students` (PhD and MPhil students)
+     - `Administration`
+     - `Visitors`
+     - `Alumni` (former members)
+   - Add social media links and ORCID if available
+
+3. **Add a profile photo:**
+   - Name the file `avatar.jpg`
+   - Use a **1:1 aspect ratio** (square format)
+   - Place it in the same directory as `_index.md`
+
+4. **Commit and push your changes:**
+   ```bash
+   git add content/authors/f-lastname/
+   git commit -m "Add team member: [Full Name]"
+   git push
+   ```
+
+**Important naming convention:**
+- Directory name format: `firstletter-lastname` (e.g., `j-doe`, `e-buchholz`)
+- The `slug` field in `_index.md` must match the directory name
+- Profile photo must be named `avatar.jpg` with 1:1 aspect ratio
