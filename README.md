@@ -6,16 +6,6 @@
 
 A Hugo site for The Information Security and Privacy Research Group at UNSW.
 
-Built on the [Hugo Research Group Template](https://github.com/HugoBlox/theme-research-group)
-
-Theme location: `themes/blox-bootstrap/` (local copy)
-
-Original remote theme location: `~/Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/!hugo!blox/hugo-blox-builder/modules/blox-bootstrap/v5@v5.9.8-0.20241012174104-661cadc17327/`
-
-**Never make any changes to the files in the `themes/blox-bootstrap/` folder directly!**
-We should probably go back to using the remote module at some point.
-However, for now, it is easier to have the local copy as a point of reference for customisation.
-
 ## Adding News 📰
 
 To add a new news article to the website, follow these steps:
@@ -89,3 +79,15 @@ To add a new team member to the website, follow these steps:
 - Directory name format: `firstletter-lastname` (e.g., `j-doe`, `e-buchholz`)
 - The `slug` field in `_index.md` must match the directory name
 - Profile photo must be named `avatar.jpg` with 1:1 aspect ratio
+
+## Administrator & Developer Information 🛠️
+
+Built on the [Hugo Research Group Template](https://github.com/HugoBlox/theme-research-group)
+
+Theme location: `themes/blox-bootstrap/` (local copy)
+
+Original remote theme location: `~/Library/Caches/hugo_cache/modules/filecache/modules/pkg/mod/github.com/!hugo!blox/hugo-blox-builder/modules/blox-bootstrap/v5@v5.9.8-0.20241012174104-661cadc17327/`
+
+**Never make any changes to the files in the `themes/blox-bootstrap/` folder directly!**
+We should probably go back to using the remote module at some point.
+However, for now, it is easier to have the local copy as a point of reference for customisation.
