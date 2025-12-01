@@ -28,6 +28,7 @@ jobs:
           python3 -m pip install --upgrade pip
           python3 -m pip install -r scripts/requirements.txt
           python3 scripts/fetch_orcid.py
+          python3 scripts/filter_publications.py
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
