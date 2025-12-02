@@ -42,20 +42,39 @@ def normalize_name(name):
     return re.sub(r"\s+"," ", name.strip()).lower()
 
 
-def last_name(name):
-    """Return the last token of a normalized name (or empty string)."""
+def name_to_slug(name):
+    """Convert a full name to a slug (first-initial + last-name).
+    Example: 'Salil S. Kanhere' -> 's-kanhere'
+    Example: "Nicholas D'Silva" -> 'n-dsilva'
+    """
     if not name:
         return ''
+    name = name.strip()
     parts = name.split()
-    return parts[-1] if parts else ''
+    if len(parts) < 1:
+        return ''
+    
+    # Get first initial
+    first_initial = parts[0][0].lower() if parts[0] else ''
+    
+    # Get last name and clean it
+    last_name = parts[-1].lower()
+    # Remove apostrophes and special characters
+    last_name = last_name.replace("'", "").replace("'", "").replace("`", "")
+    
+    if first_initial and last_name:
+        return f"{first_initial}-{last_name}"
+    return ''
 
 
 def parse_authors_field(value):
-    """Return a list of author names from common field types."""
+    """Return a list of author slugs from common field types.
+    Converts full names like 'Erik Buchholz' to slugs like 'e-buchholz'.
+    """
     if not value:
         return []
     if isinstance(value, list):
-        return [normalize_name(v) for v in value if v]
+        return [name_to_slug(v) for v in value if v and name_to_slug(v)]
     if isinstance(value, str):
         # common separators: ' and ', ',', ';'
         if ' and ' in value:
@@ -64,7 +83,7 @@ def parse_authors_field(value):
             parts = [p.strip() for p in value.split(',') if p.strip()]
         else:
             parts = [value.strip()]
-        return [normalize_name(p) for p in parts]
+        return [name_to_slug(p) for p in parts if name_to_slug(p)]
     return []
 
 
@@ -138,26 +157,23 @@ def collect_author_sets():
                 # fallback to title, name, or the folder name
                 display_name = data.get('title') or data.get('name') or os.path.basename(root)
 
-            # normalize both full name and slug (folder name) for matching
-            norm_name = normalize_name(display_name)
-            slug = normalize_name(os.path.basename(root))
-            lname = last_name(norm_name)
+            # Generate slug from full name and also use folder slug as fallback
+            slug_from_name = name_to_slug(display_name)
+            folder_slug = normalize_name(os.path.basename(root))
 
             role = data.get('role') or data.get('position') or ''
             user_groups = data.get('user_groups') or data.get('groups') or []
             if is_supervisor(role, user_groups):
-                supervisors.add(norm_name)
-                if slug:
-                    supervisors.add(slug)
-                if lname:
-                    supervisors.add(lname)
+                if slug_from_name:
+                    supervisors.add(slug_from_name)
+                if folder_slug:
+                    supervisors.add(folder_slug)
             else:
                 # Default to student
-                students_alumni.add(norm_name)
-                if slug:
-                    students_alumni.add(slug)
-                if lname:
-                    students_alumni.add(lname)
+                if slug_from_name:
+                    students_alumni.add(slug_from_name)
+                if folder_slug:
+                    students_alumni.add(folder_slug)
 
     return supervisors, students_alumni
 
@@ -189,11 +205,11 @@ def filter_publications(supervisors, students_alumni, mode='loose'):
                     continue
 
             authors_field = data.get('authors') or data.get('author') or data.get('creator')
-            authors = set(parse_authors_field(authors_field))
+            author_slugs = set(parse_authors_field(authors_field))
 
-            # match by normalized exact name membership
-            has_supervisor = bool(authors & supervisors)
-            has_student = bool(authors & students_alumni)
+            # match by slug membership
+            has_supervisor = bool(author_slugs & supervisors)
+            has_student = bool(author_slugs & students_alumni)
 
             # Include publication based on selected mode.
             if mode == 'strict':
@@ -211,7 +227,7 @@ def filter_publications(supervisors, students_alumni, mode='loose'):
                 results.append({
                     'file': relpath,
                     'title': data.get('title'),
-                    'authors': list(authors),
+                    'authors': list(author_slugs),
                     'date': data.get('date')
                 })
 
