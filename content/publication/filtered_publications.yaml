@@ -1,153 +1,145 @@
-- file: filtered_publications.yaml
-  title: 'SoK: Decoding the Enigma of Encrypted Network Traffic Classifiers'
-  authors:
-  - n-wickramasinghe
-  - g-tsudik
-  - a-shaghaghi
-  - s-jha
-  date: '2025-05-01'
 - file: doi-arxiv-2209-01291/index.md
   title: 'Don''t CWEAT It: Toward CWE Analysis Techniques in Early Stages of Hardware
     Design'
   authors:
-  - m-bidmeshki
-  - k-chakrabarty
-  - l-collini
   - s-brown
-  - r-karri
-  - b-tan
-  - b-ahmad
-  - p-sapiecha
-  - h-pearce
   - w-liu
-  - j-fung
+  - b-ahmad
+  - l-collini
   - j-valamehr
+  - p-sapiecha
+  - j-fung
+  - k-chakrabarty
+  - r-karri
+  - m-bidmeshki
+  - h-pearce
+  - b-tan
   date: '2022-01-01'
 - file: doi-dsn-s-65789-2025-00020/index.md
   title: 'TOSense: We Read, You Click'
   authors:
+  - x-chen
+  - h-ali
   - a-shaghaghi
   - s-kanhere
-  - h-ali
   - s-jha
-  - x-chen
   date: '2025-06-01'
 - file: doi-amc-2012-6-165/index.md
   title: 'Combinatorial batch codes: A lower bound and optimal constructions'
   authors:
   - s-bhattacharya
-  - s-ruj
   - b-roy
+  - s-ruj
   date: '2012-01-01'
 - file: when-numbers-matter-2021/index.md
   title: '“When numbers matter!”: Detecting sarcasm in numerical portions of text'
   authors:
+  - l-kumar
   - a-somani
   - p-bhattacharyya
   - a-dubey
-  - l-kumar
   - a-joshi
   date: '2021-01-01'
 - file: doi-jiot-2020-3044900/index.md
   title: Monetizing Parking IoT Data via Demand Prediction and Optimal Space Sharing
   authors:
+  - s-kanhere
   - v-sivaraman
   - t-sutjarittham
-  - s-kanhere
   - h-gharakheili
   date: '2022-01-01'
 - file: doi-infcomw-2014-6849290/index.md
   title: Characterising User Targeting For In-App Mobile Ads
   authors:
+  - s-kanhere
   - r-boreli
   - m-kaafar
-  - s-kanhere
   - i-ullah
   date: '2014-01-01'
 - file: doi-blockchain-55522-2022-00030/index.md
   title: 'PrivChain: Provenance and Privacy Preservation in Blockchain enabled Supply
     Chains'
   authors:
-  - r-jurdak
   - s-malik
   - s-kanhere
   - v-dedeoglu
+  - r-jurdak
   date: '2022-01-01'
 - file: doi-3634737-3657019/index.md
   title: 'VLIA: Navigating Shadows with Proximity for Highly Accurate Visited Location
     Inference Attack against Federated Recommendation Models'
   authors:
-  - h-paik
-  - t-ariyarathna
-  - m-mohammady
   - s-kanhere
+  - t-ariyarathna
+  - h-paik
+  - m-mohammady
   date: '2024-07-01'
 - file: doi-mcom-2010-5439078/index.md
   title: 'Safety Assurance and Rescue Communication Systems in High-Stress Environments:
     A Mining Case Study'
   authors:
-  - d-ostry
-  - s-jha
   - s-kanhere
+  - s-jha
   - p-misra
+  - d-ostry
   date: '2010-01-01'
 - file: doi-2637113-2637116/index.md
   title: Generalizing Permissive-Upgrade in Dynamic Information Flow Analysis
   authors:
   - d-garg
+  - a-russo
   - c-hammer
   - o-tripp
-  - a-russo
-  - v-rajani
   - a-bichhawat
+  - v-rajani
   date: '2015-01-01'
 - file: doi-978-3-031-70903-6-18/index.md
   title: Exploiting Layerwise Feature Representation Similarity For Backdoor Defence
     in Federated Learning
   authors:
-  - k-walter
   - s-nepal
   - s-kanhere
+  - k-walter
   date: '2024-01-01'
 - file: doi-journal-pone-0230322/index.md
   title: Automated monitoring of tweets for early detection of the 2014 Ebola epidemic
   authors:
-  - c-paris
-  - a-joshi
   - a-chughtai
-  - c-macintyre
+  - c-paris
   - s-karimi
-  - e-forgoston
   - s-yan
+  - c-macintyre
   - r-macintyre
   - r-sparks
+  - a-joshi
+  - e-forgoston
   date: '2020-01-01'
 - file: doi-date-48585-2020-9116371/index.md
   title: A compositional approach using Keras for neural networks in real-time systems
   authors:
-  - p-roop
-  - h-pearce
-  - x-yang
   - j-ro
+  - x-yang
+  - h-pearce
+  - p-roop
   date: '2020-01-01'
 - file: overview-of-the-2024/index.md
   title: Overview of the 2023 ICON Shared Task on Gendered Abuse Detection in Indic
     Languages
   authors:
-  - a-vaidya
-  - a-joshi
   - a-arora
+  - a-joshi
   - t-prabhakar
+  - a-vaidya
   date: '2024-01-01'
 - file: doi-aina-2015-191/index.md
   title: Achieving data survivability and confidentiality in unattended wireless sensor
     networks
   authors:
-  - s-ruj
   - a-sen
   - h-puria
-  - a-basak
   - s-ghosh
+  - a-basak
+  - s-ruj
   date: '2015-01-01'
 - file: doi-iolts-59296-2023-10224878/index.md
   title: An Integrated Testbed for Trojans in Printed Circuit Boards with Fuzzing
@@ -155,139 +147,139 @@
   authors:
   - p-krishnamurthy
   - j-trujillo
-  - r-karri
-  - f-khorrami
-  - h-pearce
   - v-surabhi
+  - f-khorrami
+  - r-karri
+  - h-pearce
   date: '2023-01-01'
 - file: doi-3397323/index.md
   title: Adversarial Multi-view Networks for Activity Recognition
   authors:
-  - l-bai
-  - s-kanhere
-  - x-wang
-  - l-yao
-  - z-yu
   - b-guo
+  - z-yu
+  - x-wang
+  - s-kanhere
+  - l-yao
+  - l-bai
   date: '2020-01-01'
 - file: blockchain-enabled-privacy-2019/index.md
   title: Blockchain enabled privacy preserving data audit
   authors:
+  - p-banerjee
   - n-nikam
   - s-ruj
-  - p-banerjee
   date: '2019-01-01'
 - file: doi-dcoss-2016-30/index.md
   title: 'WiFi-ID: Human Identification using WiFi signal'
   authors:
   - w-hu
   - b-wei
-  - j-zhang
   - s-kanhere
+  - j-zhang
   date: '2016-01-01'
 - file: doi-3634737-3644998/index.md
   title: 'SoK: False Information, Bots and Malicious Campaigns: Demystifying Elements
     of Social Media Manipulations'
   authors:
-  - m-akhtar
-  - s-kanhere
   - m-ikram
+  - m-akhtar
   - r-masood
+  - s-kanhere
   date: '2024-07-01'
 - file: doi-tpds-2013-38/index.md
   title: Decentralized access control with anonymous authentication of data stored
     in clouds
   authors:
   - m-stojmenovic
-  - s-ruj
   - a-nayak
+  - s-ruj
   date: '2014-01-01'
 - file: a-blockchain-based-2018/index.md
   title: A Blockchain Based Liability Attribution Framework for Autonomous Vehicles
   authors:
-  - c-oham
-  - s-jha
   - s-kanhere
+  - s-jha
   - r-jurdak
+  - c-oham
   date: '2018-01-01'
 - file: doi-mass-56207-2022-00086/index.md
   title: 'A Novel Emergency Light Based Smart Building Solution: Design, Implementation,
     and Use Cases'
   authors:
-  - j-kim
-  - s-kanhere
-  - w-xu
   - w-hu
-  - j-zhang
+  - w-xu
   - p-misra
+  - s-kanhere
   - w-huang
   - s-jha
+  - j-zhang
+  - j-kim
   date: '2022-01-01'
 - file: doi-k-16-1015/index.md
   title: Harnessing sequence labeling for sarcasm detection in dialogue from TV series
     ‘Friends’
   authors:
   - a-joshi
-  - v-tripathi
   - p-bhattacharyya
+  - v-tripathi
   - m-carman
   date: '2016-01-01'
 - file: doi-access-2020-3009445/index.md
   title: A Survey on Trust Prediction in Online Social Networks
   authors:
+  - m-orgun
   - c-paris
   - s-yakhchi
-  - m-orgun
-  - a-joshi
-  - a-beheshti
-  - s-ghafari
   - a-mahmood
+  - s-ghafari
+  - a-beheshti
+  - a-joshi
   date: '2020-01-01'
 - file: doi-jiot-2020-3029248/index.md
   title: 'DaaS: Dew Computing as a Service for Intelligent Intrusion Detection in
     Edge-of-Things Ecosystem'
   authors:
+  - g-aujla
   - s-kanhere
+  - a-kaur
   - r-batth
   - p-singh
-  - g-aujla
-  - a-kaur
   date: '2021-01-01'
 - file: doi-3689725/index.md
   title: A Modal Type Theory of Expected Cost in Higher-Order Probabilistic Programs
   authors:
   - g-barthe
-  - v-rajani
   - d-garg
+  - v-rajani
   date: '2024-01-01'
 - file: doi-jcs-191382/index.md
   title: On the expressiveness and semantics of information flow types
   authors:
-  - v-rajani
   - d-garg
+  - v-rajani
   date: '2020-01-01'
 - file: doi-s-10623-018-0570-6/index.md
   title: Maximal contrast color visual secret sharing schemes
   authors:
+  - a-adhikari
   - s-dutta
   - s-ruj
-  - a-adhikari
   date: '2019-01-01'
 - file: doi-lcn-2012-6423595/index.md
   title: Reliable Communications in Aerial Sensor Networks by Using A Hybrid Antenna
   authors:
-  - n-ahmed
-  - k-li
-  - s-jha
   - s-kanhere
+  - s-jha
+  - k-li
+  - n-ahmed
   date: '2012-01-01'
 - file: doi-jsac-2023-3310068/index.md
   title: Reinforcing Industry 4.0 With Digital Twins and Blockchain-Assisted Federated
     Learning
   authors:
+  - s-kanhere
   - m-aloqaily
   - i-ridhawi
-  - s-kanhere
   date: '2023-11-01'
 - file: doi-1653760-1653764/index.md
   title: Key predistribution using combinatorial designs for grid-group deployment
@@ -300,39 +292,39 @@
   title: 'Lost at C: A User Study on the Security Implications of Large Language Model
     Code Assistants'
   authors:
-  - t-nys
   - s-garg
-  - b-dolan-gavitt
+  - t-nys
   - r-karri
   - h-pearce
   - g-sandoval
+  - b-dolan-gavitt
   date: '2023-01-01'
 - file: doi-ipsn-48710-2020-00-23/index.md
   title: A Novel Modeling Involved Security Approach for LoRa Key Generation
   authors:
-  - s-kanhere
-  - w-xu
   - w-hu
-  - s-jha
+  - w-xu
   - j-gao
+  - s-kanhere
+  - s-jha
   date: '2020-01-01'
 - file: doi-2910017-2910618/index.md
   title: Comprehensive Mobile Bandwidth Traces from Vehicular Networks
   authors:
   - g-zhong
   - s-kanhere
-  - a-bokani
-  - m-hassan
   - j-yao
+  - m-hassan
+  - a-bokani
   date: '2016-01-01'
 - file: doi-wowmom-2019-8793018/index.md
   title: 'How mobility patterns drive disease spread: A case study using public transit
     passenger card travel data'
   authors:
-  - s-kanhere
   - a-shoghri
-  - l-gardner
   - j-liebig
+  - l-gardner
+  - s-kanhere
   - r-jurdak
   date: '2019-01-01'
 - file: doi-jiot-2018-2877786/index.md
@@ -342,73 +334,73 @@
   - s-zhang
   - s-kanhere
   - q-sheng
-  - l-yao
-  - m-sheng
   - x-zhang
+  - m-sheng
   - y-liu
+  - l-yao
   date: '2019-01-01'
 - file: doi-vetecf-2011-6092874/index.md
   title: Mobile Broadband Performance Measured from High-Speed Regional Trains
   authors:
+  - j-yao
   - m-hassan
   - s-kanhere
-  - j-yao
   date: '2011-01-01'
 - file: poster-abstract-earphone-2009/index.md
   title: 'Poster Abstract: Ear-Phone Assessment of Noise Pollution with Mobile Phones'
   authors:
-  - r-rana
-  - s-kanhere
   - w-hu
   - n-bulusu
   - c-chou
+  - s-kanhere
+  - r-rana
   date: '2009-01-01'
 - file: doi-tmc-2015-2467381/index.md
   title: Energy-Efficient Cooperative Relaying for Unmanned Aerial Vehicles
   authors:
-  - w-ni
-  - s-kanhere
   - x-wang
-  - r-liu
   - k-li
+  - s-kanhere
+  - r-liu
+  - w-ni
   - s-jha
   date: '2016-01-01'
 - file: empowering-sustainable-energy-2021/index.md
   title: EMPOWERING SUSTAINABLE ENERGY INFRASTRUCTURES VIA AI-ASSISTED WIRELESS COMMUNICATIONS
   authors:
-  - i-ridhawi
   - s-kanhere
   - y-xiao
-  - w-guibene
+  - i-ridhawi
   - m-aloqaily
+  - w-guibene
   date: '2021-01-01'
 - file: doi-wcnc-2017-7925558/index.md
   title: Reliable and Secure End-to-End Data Aggregation Using Secret Sharing in WSNs
   authors:
+  - s-kanhere
   - w-alghamdi
   - h-wu
-  - s-kanhere
   date: '2017-01-01'
 - file: submission-to-the-2024/index.md
   title: 'Submission to the Australian Human Rights Commission: Current and emerging
     threats to trans and gender diverse human rights'
   authors:
-  - a-kaladelfos
   - y-burton-clark
+  - b-haire
+  - a-smith
+  - a-kaladelfos
+  - k-drysdale
   - b-brady
   - a-joshi
   - c-newman
-  - k-drysdale
-  - b-haire
-  - a-smith
   date: '2024-05-01'
 - file: doi-vetecf-2011-6093279/index.md
   title: Multipath Fading Effect on Spatial Packet Loss Correlation in Wireless Networks
   authors:
-  - h-tafvizi
-  - m-hassan
-  - z-wang
   - s-kanhere
+  - m-hassan
+  - h-tafvizi
+  - z-wang
   date: '2011-01-01'
 - file: doi-978-981-10-8396-9-4/index.md
   title: Sarcasm detection using contextual incongruity
@@ -420,43 +412,43 @@
 - file: doi-bloc-2019-8751336/index.md
   title: Blockchain based Proxy Re-Encryption Scheme for Secure IoT Data Sharing
   authors:
-  - s-kanhere
-  - a-manzoor
-  - m-liyanage
   - a-braeken
   - m-ylianttila
+  - a-manzoor
+  - s-kanhere
+  - m-liyanage
   date: '2019-01-01'
 - file: doi-3359986-3361200/index.md
   title: Securing implantable medical devices with runtime enforcement hardware
   authors:
-  - p-roop
+  - m-kuo
   - h-pearce
   - s-pinisetty
-  - m-kuo
+  - p-roop
   date: '2019-01-01'
 - file: doi-lcn-2016-048/index.md
   title: Energy Harvesting Wearables Can Tell Which Train Route You Have Taken
   authors:
+  - s-kanhere
   - m-hassan
   - s-khalifa
-  - s-kanhere
   - m-abadi
   date: '2016-01-01'
 - file: lsb-a-lightweight-2017/index.md
   title: 'LSB: A Lightweight Scalable BlockChain for IoT Security and Privacy'
   authors:
+  - s-kanhere
   - p-gauravaram
   - a-dorri
-  - s-kanhere
   - r-jurdak
   date: '2017-01-01'
 - file: is-hate-lost-2024/index.md
   title: '\"Is Hate Lost in Translation?\": Evaluation of Multilingual LGBTQIA+ Hate
     Speech Detection'
   authors:
-  - d-nguyen
   - a-joshi
   - f-chan
+  - d-nguyen
   date: '2024-10-01'
 - file: a-technical-look-2020/index.md
   title: A Technical Look At The Indian Personal Data Protection Bill
@@ -470,15 +462,15 @@
   authors:
   - s-wan
   - w-tay
-  - a-joshi
-  - x-zhang
   - s-karimi
+  - x-zhang
+  - a-joshi
   date: '2019-01-01'
 - file: doi-j-ipm-2020-102426/index.md
   title: 'B-FERL: Blockchain based framework for securing smart vehicles'
   authors:
-  - s-kanhere
   - r-michelin
+  - s-kanhere
   - c-oham
   - s-jha
   - r-jurdak
@@ -487,177 +479,177 @@
   title: 'LowSHeP: Low-overhead forwarding and update Solution in ndn with Hexadecimal
     Patricia trie'
   authors:
-  - s-ruj
-  - t-chatterjee
   - s-dasbit
+  - t-chatterjee
+  - s-ruj
   date: '2019-01-01'
 - file: doi-sp-61157-2025-00165/index.md
   title: 'SoK: Decoding the Enigma of Encrypted Network Traffic Classifiers'
   authors:
-  - s-jha
   - g-tsudik
-  - a-shaghaghi
+  - s-jha
   - n-wickramasinghe
+  - a-shaghaghi
   date: '2025-05-01'
 - file: doi-techrxiv-12952073/index.md
   title: 'Privacy in targeted advertising: A survey'
   authors:
-  - r-boreli
   - s-kanhere
+  - r-boreli
   - i-ullah
   date: '2020-01-01'
 - file: doi-issnip-2015-7106976/index.md
   title: A Socially-Aware Incentive Scheme for Social Participatory Sensing
   authors:
-  - m-torshiz
-  - s-kanhere
   - h-amintoosi
+  - s-kanhere
+  - m-torshiz
   date: '2015-01-01'
 - file: doi-ipccc-2001-918651/index.md
   title: Fair, efficient and scalable scheduling without per-flow state
   authors:
-  - h-sethu
   - s-kanhere
+  - h-sethu
   date: '2001-01-01'
 - file: doi-percomworkshops-51409-2021-9431001/index.md
   title: Towards Automated Data Sharing in Personal Data Stores
   authors:
-  - l-zhu
+  - s-kanhere
   - h-paik
   - y-shanmugarasa
-  - s-kanhere
+  - l-zhu
   date: '2021-01-01'
 - file: doi-lcn-2012-6423585/index.md
   title: A Privacy-Preserving Reputation System for Participatory Sensing
   authors:
-  - w-hu
   - s-kanhere
   - k-huang
+  - w-hu
   date: '2012-01-01'
 - file: doi-bcca-55292-2022-9921963/index.md
   title: Blockchain-Based Decentralized Federated Learning
   authors:
+  - d-svetinovic
   - i-yaqoob
   - s-kanhere
-  - a-dirir
   - k-salah
   - r-jayaraman
-  - d-svetinovic
+  - a-dirir
   date: '2022-01-01'
 - file: doi-techrxiv-19766023/index.md
   title: 'FLAP: Federated Learning with Attack and Privacy Awareness'
   authors:
-  - n-ahmed
   - w-hu
+  - w-xue
+  - n-ahmed
   - a-seneviratne
   - s-jha
-  - w-xue
   - r-masood
   date: '2022-01-01'
 - file: your-sentiment-precedes-2015/index.md
   title: 'Your sentiment precedes you: Using an author''s historical tweets to predict
     sarcasm'
   authors:
-  - a-khattri
   - a-joshi
   - p-bhattacharyya
+  - a-khattri
   - m-carman
   date: '2015-01-01'
 - file: doi-3634737-3637682/index.md
   title: Mitigating Distributed Backdoor Attack in Federated Learning Through Mode
     Connectivity
   authors:
-  - k-walter
   - s-nepal
-  - m-mohammady
   - s-kanhere
+  - m-mohammady
+  - k-walter
   date: '2024-07-01'
 - file: doi-mahss-2008-4660057/index.md
   title: Performance Evaluation of a Wireless Sensor Network Based Tracking System
   authors:
-  - y-dong
   - n-ahmed
-  - s-kanhere
   - m-rutten
-  - s-jha
   - n-gordon
+  - s-kanhere
   - t-bessell
+  - s-jha
+  - y-dong
   date: '2008-01-01'
 - file: providing-trustworthy-contributions-2013/index.md
   title: Providing Trustworthy Contributions via a Reputation Framework in Social
     Participatory Sensing Systems
   authors:
-  - s-kanhere
   - h-amintoosi
+  - s-kanhere
   date: '2013-01-01'
 - file: doi-j-micpro-2021-104392/index.md
   title: A review on Virtual Reality and Augmented Reality use-cases of Brain Computer
     Interface based applications for smart cities
   authors:
-  - s-kanhere
   - v-kohli
   - v-chamola
-  - u-tripathi
   - b-rout
+  - s-kanhere
+  - u-tripathi
   date: '2022-01-01'
 - file: doi-icbc-51069-2021-9461075/index.md
   title: 'MB-EHR: A Multilayer Blockchain-based EHR'
   authors:
-  - h-paik
-  - l-li
-  - h-wu
   - s-kanhere
+  - h-paik
+  - h-wu
+  - l-li
   date: '2021-01-01'
 - file: doi-infocom-2015-7218641/index.md
   title: 'Crowdsourcing with Tullock Contests: A New Perspective'
   authors:
+  - h-tan
+  - h-wu
   - f-wu
   - s-kanhere
   - t-luo
-  - h-tan
-  - h-wu
   date: '2015-01-01'
 - file: doi-978-3-319-46298-1-24/index.md
   title: Expressive rating scheme by signatures with predications on ratees
   authors:
+  - k-sakurai
   - h-anada
   - s-ruj
-  - k-sakurai
   date: '2016-01-01'
 - file: doi-ants-2018-8710136/index.md
   title: 'Data forwarding and update propagation in grid network for NDN: A low-overhead
     approach'
   authors:
-  - s-ruj
-  - t-chatterjee
   - s-dasbit
+  - t-chatterjee
+  - s-ruj
   date: '2018-01-01'
 - file: doi-icoci-2006-5276573/index.md
   title: 'INDICT: INtruder Detection, Identification, Containment and Termination'
   authors:
-  - s-kanhere
   - r-iqbal
   - m-mufti
   - m-ilyas
   - m-hussain
+  - s-kanhere
   date: '2006-01-01'
 - file: hubcode-message-forwarding-2009/index.md
   title: 'HUBCODE: Message Forwarding using Hub-based Network Coding in Delay Tolerant
     Networks'
   authors:
-  - s-ahmed
   - s-kanhere
+  - s-ahmed
   date: '2009-01-01'
 - file: senseflow-an-experimental-2016/index.md
   title: 'SenseFlow: An Experimental Study for Tracking People'
   authors:
-  - w-zhang
-  - s-kanhere
-  - f-jiang
-  - x-liu
-  - c-yuen
-  - k-li
   - k-hu
+  - f-jiang
+  - c-yuen
+  - x-liu
+  - k-li
+  - s-kanhere
+  - w-zhang
   date: '2016-01-01'
 - file: hate-speech-detection-2018/index.md
   title: Hate Speech Detection from Code-mixed Hindi-English Tweets Using Deep Learning
@@ -671,106 +663,106 @@
     Dominating Set and Patricia Trie
   authors:
   - s-bit
-  - s-ruj
   - t-chatterjee
+  - s-ruj
   date: '2021-01-01'
 - file: doi-978-981-97-0006-6-1/index.md
   title: One-Phase Batch Update on Sparse Merkle Trees for Rollups
   authors:
-  - l-liu
   - b-ma
-  - s-ruj
   - v-pathak
+  - l-liu
+  - s-ruj
   date: '2024-01-01'
 - file: doi-3672202-3673731/index.md
   title: 'Demo: P4Xtnd: P4 Programmability on Resource Constrained Environments with
     Extended Network Functionalities'
   authors:
   - s-seneviratne
-  - t-dahanayaka
-  - s-kanhere
-  - a-seneviratne
-  - y-lee
-  - p-ridley
   - c-madarasingha
+  - s-kanhere
+  - p-ridley
+  - y-lee
   - k-thilakarathna
+  - a-seneviratne
+  - t-dahanayaka
   date: '2024-08-01'
 - file: doi-s-40294-014-0005-9/index.md
   title: 'Cloud identity management security issues &amp; solutions: a taxonomy'
   authors:
   - m-niazi
-  - m-shibli
   - u-habiba
   - r-masood
+  - m-shibli
   date: '2014-01-01'
 - file: doi-3366423-3380198/index.md
   title: Leveraging Sentiment Distributions to Distinguish Figurative from Literal
     Health Reports on Twitter
   authors:
-  - s-liu
-  - c-paris
   - g-xu
-  - a-joshi
+  - c-paris
   - r-biddle
+  - s-liu
+  - a-joshi
   date: '2020-04-01'
 - file: doi-mc-2020-3005112/index.md
   title: Blockchain and Cyberphysical Systems
   authors:
-  - m-liyanage
+  - s-kanhere
   - s-dixit
   - a-braeken
-  - s-kanhere
+  - m-liyanage
   date: '2020-01-01'
 - file: cfeelit-a-sentiment-2011/index.md
   title: 'C-Feel-It: A sentiment analyzer for micro-blogs'
   authors:
-  - a-joshi
-  - a-balamurali
-  - p-bhattacharyya
   - r-mohanty
+  - a-joshi
+  - p-bhattacharyya
+  - a-balamurali
   date: '2011-12-01'
 - file: doi-arxiv-2209-03162/index.md
   title: Machine Learning-based Automatic Annotation and Detection of COVID-19 Fake
     News
   authors:
   - b-sharma
+  - m-ikram
+  - m-akhtar
   - s-kanhere
   - i-karunanayake
-  - m-akhtar
-  - m-ikram
   - r-masood
   date: '2022-01-01'
 - file: doi-bme-2-12009/index.md
   title: 'VID: Human identification through vein patterns captured from commodity
     depth cameras'
   authors:
-  - l-yao
-  - s-shah
-  - j-zhang
   - s-kanhere
+  - l-yao
+  - j-zhang
+  - s-shah
   date: '2021-01-01'
 - file: doi-scc-2013-50/index.md
   title: 'Psi-CAL: Foundations of a Programming Language for Services Computing'
   authors:
-  - d-janakiram
   - v-rajani
+  - d-janakiram
   - a-kumar
   date: '2013-01-01'
 - file: doi-arxiv-2009-01026/index.md
   title: 'DAVE: Deriving automatically verilog from English'
   authors:
-  - b-tan
-  - h-pearce
   - r-karri
+  - h-pearce
+  - b-tan
   date: '2020-01-01'
 - file: doi-s-22239118/index.md
   title: A Decentralized Architecture for Trusted Dataset Sharing Using Smart Contracts
     and Distributed Storage
   authors:
-  - m-pincheira
-  - e-donini
   - m-vecchio
+  - e-donini
   - s-kanhere
+  - m-pincheira
   date: '2022-01-01'
 - file: doi-w-17-5201/index.md
   title: Detecting sarcasm using different forms of incongruity
@@ -781,44 +773,44 @@
   title: '<i>CredTrust</i>: Credential Based Issuer Management for Trust in Self-Sovereign
     Identity'
   authors:
-  - h-paik
   - s-kanhere
-  - r-mukta
+  - h-paik
   - q-lu
+  - r-mukta
   date: '2022-01-01'
 - file: doi-greencom-ithings-cpscom-2013-61/index.md
   title: Assessment criteria for trust models in cloud computing
   authors:
-  - m-shibli
-  - a-abbasi
   - u-ghazia
+  - a-abbasi
   - a-kanwal
   - r-masood
+  - m-shibli
   date: '2013-01-01'
 - file: doi-3357384-3358097/index.md
   title: Spatio-Temporal Graph Convolutional and Recurrent Networks for Citywide Passenger
     Demand Prediction
   authors:
-  - l-bai
+  - w-liu
+  - z-yang
   - x-wang
   - s-kanhere
-  - z-yang
   - l-yao
-  - w-liu
+  - l-bai
   date: '2019-01-01'
 - file: doi-csf-2016-18/index.md
   title: On Access Control, Capabilities, Their Equivalence, and Confused Deputy Attacks
   authors:
-  - v-rajani
   - t-rezk
   - d-garg
+  - v-rajani
   date: '2016-01-01'
 - file: doi-s-20061656/index.md
   title: A Decentralized Peer-to-Peer Remote Health Monitoring System
   authors:
+  - m-ali
   - m-vecchio
   - s-kanhere
-  - m-ali
   - g-putra
   - f-antonelli
   date: '2020-01-01'
@@ -831,26 +823,26 @@
 - file: doi-tvt-2019-2890999/index.md
   title: Energy Efficient Legitimate Wireless Surveillance of UAV Communications
   authors:
-  - w-ni
-  - s-kanhere
-  - r-voicu
   - e-tovar
   - k-li
+  - s-kanhere
+  - w-ni
+  - r-voicu
   date: '2019-01-01'
 - file: doi-j-jpdc-2003-08-002/index.md
   title: 'Anchored opportunity queueing: a low-latency scheduler for fair arbitration
     among virtual channels'
   authors:
-  - h-sethu
   - s-kanhere
+  - h-sethu
   date: '2003-01-01'
 - file: doi-issnip-2014-6827614/index.md
   title: 'TrustMeter: A Trust Assessment Scheme for Collaborative Privacy Mechanisms
     in Participatory Sensing Applications'
   authors:
-  - m-hollick
   - s-kanhere
   - d-christin
+  - m-hollick
   - d-pons-sorolla
   date: '2014-01-01'
 - file: doi-3626252-3630822/index.md
@@ -866,64 +858,64 @@
   title: 'Demo Abstract: A Tool to Access and Visualize Classroom Attendance Data
     from a Smart Campus'
   authors:
+  - s-kanhere
   - v-sivaraman
   - t-sutjarittham
-  - s-kanhere
   - h-gharakheili
   date: '2018-01-01'
 - file: doi-3293537/index.md
   title: Routing-Aware and Malicious Node Detection in a Concealed Data Aggregation
     for WSNs
   authors:
+  - s-kanhere
   - m-rezvani
   - w-alghamdi
   - h-wu
-  - s-kanhere
   date: '2019-01-01'
 - file: doi-fi-13120305/index.md
   title: Context-Induced Activity Monitoring for On-Demand Things-of-Interest Recommendation
     in an Ambient Intelligent Environment
   authors:
-  - s-kanhere
-  - x-wang
-  - l-yao
   - m-altulyan
+  - x-wang
+  - s-kanhere
   - c-huang
+  - l-yao
   date: '2021-01-01'
 - file: doi-3434308/index.md
   title: A unifying type-theory for higher-order (amortized) cost analysis
   authors:
-  - j-hoffmann
-  - v-rajani
   - m-gaboardi
   - d-garg
+  - j-hoffmann
+  - v-rajani
   date: '2021-01-01'
 - file: doi-icbc-51069-2021-9461105/index.md
   title: 'BlockTorrent: A privacy-preserving data availability protocol for multiple
     stakeholder scenarios'
   authors:
-  - s-kanhere
-  - v-dedeoglu
-  - a-dorri
   - s-mishra
   - a-hill
+  - v-dedeoglu
+  - s-kanhere
+  - a-dorri
   - r-jurdak
   date: '2021-01-01'
 - file: doi-wcm-1188/index.md
   title: Performance analysis of geography-limited broadcasting in multihop wireless
     networks
   authors:
-  - q-chen
-  - m-hassan
   - s-kanhere
+  - m-hassan
+  - q-chen
   date: '2013-01-01'
 - file: doi-ijcse-2018-089574/index.md
   title: Applying transmission-coverage algorithms for secure geocasting in VANETs
   authors:
   - m-stojmenovic
+  - a-nayak
   - a-prado
   - s-ruj
-  - a-nayak
   date: '2018-01-01'
 - file: doi-3144457-3144504/index.md
   title: 'EGAIM: Enhanced Genetic Algorithm based Incentive Mechanism for Mobile Crowdsensing'
@@ -935,17 +927,17 @@
   title: 'Security of sharded NoSQL databases: A comparative analysis'
   authors:
   - a-zahid
-  - m-shibli
   - r-masood
+  - m-shibli
   date: '2014-01-01'
 - file: doi-automation-2030013/index.md
   title: The Road to Accountable and Dependable Manufacturing
   authors:
-  - j-hiller
-  - s-kanhere
-  - r-matzutt
-  - j-pennekamp
   - k-wehrle
+  - r-matzutt
+  - s-kanhere
+  - j-hiller
+  - j-pennekamp
   date: '2021-09-01'
 - file: doi-3701716-3715585/index.md
   title: Security Considerations for Post-Quantum Signatures in DNSSEC via Request-Based
@@ -959,252 +951,252 @@
   title: 'STG2Seq: Spatial-Temporal Graph to Sequence Model for Multi-step Passenger
     Demand Forecasting'
   authors:
-  - l-bai
   - x-wang
   - s-kanhere
   - q-sheng
   - l-yao
+  - l-bai
   date: '2019-01-01'
 - file: smart-healthcare-system-2021/index.md
   title: Smart HealthCare System
   authors:
+  - d-das
   - a-muthaiah
   - s-ruj
-  - d-das
   date: '2021-01-01'
 - file: doi-tdsc-2023-3320694/index.md
   title: Optimally Mitigating Backdoor Attacks in Federated Learning
   authors:
-  - k-walter
   - s-nepal
-  - m-mohammady
   - s-kanhere
+  - m-mohammady
+  - k-walter
   date: '2024-01-01'
 - file: doi-mobhoc-2007-4428629/index.md
   title: Topology control and channel assignment in multi-radio multi-channel wireless
     mesh networks
   authors:
-  - a-naveed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - a-naveed
   date: '2007-01-01'
 - file: doi-3701716-3715492/index.md
   title: 'Less is More: Simplifying Network Traffic Classification Leveraging RFCs'
   authors:
-  - s-jha
   - e-ferrari
-  - a-shaghaghi
+  - s-jha
   - n-wickramasinghe
+  - a-shaghaghi
   date: '2025-05-01'
 - file: automatic-identification-of-2016/index.md
   title: 'Automatic Identification of Sarcasm Target: An Introductory Approach'
   authors:
-  - m-carman
   - a-joshi
   - p-bhattacharyya
   - p-goel
+  - m-carman
   date: '2016-10-01'
 - file: doi-tsc-2020-2997737/index.md
   title: 'AQA: An Adaptive Quality Assessment Framework for Online Review Systems'
   authors:
-  - b-behkamal
-  - s-kanhere
   - h-amintoosi
-  - m-allahbakhsh
+  - b-behkamal
   - e-bertino
+  - m-allahbakhsh
+  - s-kanhere
   date: '2022-01-01'
 - file: doi-arxiv-2311-01472/index.md
   title: 'Relation Extraction from News Articles (RENA): A Tool for Epidemic Surveillance'
   authors:
-  - j-hong
+  - d-hutchinson
+  - r-dawson
   - s-lim
-  - d-dung
+  - c-macintyre
   - r-chen
+  - d-dung
+  - z-akhtar
+  - j-hong
   - a-joshi
   - d-gurdasani
-  - c-macintyre
-  - d-hutchinson
-  - z-akhtar
-  - r-dawson
   date: '2023-10-01'
 - file: doi-arxiv-2203-03077/index.md
   title: A Study of Third-party Resources Loading on Web
   authors:
-  - r-ensafi
   - m-kaafar
   - m-ikram
   - g-tyson
+  - r-ensafi
   - r-masood
   date: '2022-01-01'
 - file: doi-j-addlet-2022-100104/index.md
   title: Application of micro-computed tomography for authentication of 3D printed
     composite parts
   authors:
+  - g-mac
+  - a-rastogi
   - m-mandal
   - n-gupta
-  - g-mac
-  - h-pearce
-  - a-rastogi
   - g-gailani
+  - h-pearce
   date: '2022-01-01'
 - file: doi-sp-46215-2023-10179324/index.md
   title: Examining Zero-Shot Vulnerability Repair with Large Language Models
   authors:
-  - b-dolan-gavitt
-  - b-tan
-  - r-karri
   - b-ahmad
+  - r-karri
   - h-pearce
+  - b-tan
+  - b-dolan-gavitt
   date: '2023-01-01'
 - file: blockchain-in-internet-2016/index.md
   title: 'Blockchain in internet of things: Challenges and Solutions'
   authors:
-  - a-dorri
   - s-kanhere
+  - a-dorri
   - r-jurdak
   date: '2016-01-01'
 - file: doi-2523514-2523576/index.md
   title: Securing the virtual machine images in Cloud computing
   authors:
   - m-shibli
-  - m-kazim
   - r-masood
+  - m-kazim
   date: '2013-01-01'
 - file: doi-j-comcom-2020-08-003/index.md
   title: Special Issue on Data Distribution in Industrial and Pervasive Internet
   authors:
   - g-papadopoulos
-  - t-raptis
   - s-kanhere
   - a-misra
+  - t-raptis
   date: '2020-01-01'
 - file: doi-lcn-2010-5735775/index.md
   title: Characterization of a Large-scale Delay Tolerant Network
   authors:
-  - s-ahmed
   - s-kanhere
+  - s-ahmed
   date: '2010-01-01'
 - file: doi-icon-2012-6506532/index.md
   title: On the Use of Location Window in Geo-Intelligent HTTP Adaptive Video Streaming
   authors:
-  - j-fardous
   - s-kanhere
+  - j-fardous
   date: '2012-01-01'
 - file: doi-08982112-2019-1644522/index.md
   title: Comments on the three-zone approach for social media monitoring
   authors:
-  - c-paris
-  - c-xu
-  - r-sparks
   - a-joshi
+  - c-xu
+  - c-paris
+  - r-sparks
   date: '2020-01-01'
 - file: doi-snpd-2012-33/index.md
   title: Comparative analysis of access control systems on cloud
   authors:
-  - m-shibli
   - u-um-e-ghazia
   - r-masood
+  - m-shibli
   date: '2012-01-01'
 - file: doi-j-pmcj-2014-02-001/index.md
   title: 'Ear-Phone: A context-aware noise mapping using smart phones'
   authors:
-  - r-rana
-  - s-kanhere
   - w-hu
   - n-bulusu
   - c-chou
+  - s-kanhere
+  - r-rana
   date: '2015-01-01'
 - file: doi-jiot-2019-2915952/index.md
   title: The Design, Implementation, and Deployment of a Smart Lighting System for
     Smart Buildings
   authors:
-  - j-kim
-  - s-kanhere
-  - w-xu
   - w-hu
-  - j-zhang
+  - w-xu
+  - s-kanhere
   - w-huang
   - s-jha
+  - j-zhang
+  - j-kim
   date: '2019-01-01'
 - file: doi-icc-2015-7249319/index.md
   title: 'EPLA: Energy-balancing Packets Scheduling for Airborne Relaying Networks'
   authors:
-  - w-ni
-  - s-kanhere
   - x-wang
-  - r-liu
   - k-li
+  - s-kanhere
+  - r-liu
+  - w-ni
   - s-jha
   date: '2015-01-01'
 - file: doi-lcn-2005-109/index.md
   title: Probabilistic coverage in wireless sensor networks
   authors:
-  - n-ahmed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - n-ahmed
   date: '2005-01-01'
 - file: doi-ett-2742/index.md
   title: 'MagicNET: Mobile agents data protection system'
   authors:
+  - r-masood
   - s-muftic
   - y-ghazi
   - m-shibli
-  - r-masood
   date: '2015-01-01'
 - file: doi-s-13635-016-0040-5/index.md
   title: 'DB-SECaaS: a cloud-based protection system for document-oriented NoSQL databases'
   authors:
-  - m-shibli
   - a-rauf
   - y-ghazi
   - o-hassan
   - r-masood
+  - m-shibli
   date: '2016-01-01'
 - file: doi-3523227-3547404/index.md
   title: Imbalanced Data Sparsity as a Source of Unfair Bias in Collaborative Filtering
   authors:
-  - s-ribas
-  - d-oliveira
-  - a-joshi
-  - f-mourao
   - c-wong
-  - s-pandey
   - f-zafari
+  - s-ribas
+  - s-pandey
+  - a-joshi
+  - d-oliveira
+  - f-mourao
   date: '2022-09-01'
 - file: doi-wowmom-49955-2020-00020/index.md
   title: Identifying highly influential travellers for spreading disease on a public
     transport system
   authors:
-  - s-kanhere
   - a-shoghri
-  - l-gardner
   - j-liebig
+  - l-gardner
+  - s-kanhere
   - r-jurdak
   date: '2020-01-01'
 - file: doi-arxiv-2302-01215/index.md
   title: Fixing Hardware Security Bugs with Large Language Models
   authors:
-  - b-tan
-  - r-karri
   - b-ahmad
-  - h-pearce
   - s-thakur
+  - r-karri
+  - h-pearce
+  - b-tan
   date: '2023-01-01'
 - file: evaluation-of-large-2023/index.md
   title: Evaluation of large language models using an Indian language LGBTI+ lexicon
   authors:
-  - s-rawat
   - a-joshi
   - a-dange
+  - s-rawat
   date: '2023-10-01'
 - file: doi-j-comcom-2018-08-004/index.md
   title: Fuzzy keywords enabled ranked searchable encryption scheme for a public Cloud
     environment
   authors:
-  - a-sajjad
-  - s-tahir
-  - s-ruj
   - m-rajarajan
+  - s-tahir
+  - a-sajjad
+  - s-ruj
   date: '2019-01-01'
 - file: doi-978-981-10-8396-9-2/index.md
   title: Understanding the phenomenon of sarcasm
@@ -1218,10 +1210,10 @@
     Tasks
   authors:
   - c-paris
-  - a-joshi
   - s-karimi
   - c-macintyre
   - r-sparks
+  - a-joshi
   date: '2019-01-01'
 - file: doi-aina-2014-32/index.md
   title: Analyzing cascading failures in smart grids under random and targeted attacks
@@ -1232,9 +1224,9 @@
 - file: stacking-the-odds-2023/index.md
   title: 'Stacking the Odds: Transformer-Based Ensemble for AI-Generated Text Detection'
   authors:
-  - d-nguyen
-  - a-joshi
   - k-naing
+  - a-joshi
+  - d-nguyen
   date: '2023-10-01'
 - file: doi-978-3-642-01440-6-22/index.md
   title: Key predistribution schemes using codes in wireless sensor networks
@@ -1246,9 +1238,9 @@
   title: 'WiCare: Towards In-Situ Breath Monitoring'
   authors:
   - w-hu
-  - j-zhang
-  - s-kanhere
   - w-xu
+  - s-kanhere
+  - j-zhang
   date: '2017-01-01'
 - file: doi-tcc-2017-2767584/index.md
   title: Efficient Proofs of Retrievability with Public Verifiability for Dynamic
@@ -1260,129 +1252,129 @@
 - file: doi-atnac-2015-7366802/index.md
   title: Predicting the Region of Interest for Dynamic Foveated Streaming
   authors:
+  - s-kanhere
   - m-hassan
   - a-bokani
-  - s-kanhere
   date: '2015-01-01'
 - file: utilizing-link-characterization-2013/index.md
   title: Utilizing Link Characterization for Improving the Performance of Aerial Wireless
     Sensor Networks (vol 31, pg 1639, 2013)
   authors:
-  - n-ahmed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - n-ahmed
   date: '2013-01-01'
 - file: a-roundrobin-scheduling-2000/index.md
   title: A Round-Robin scheduling strategy for reduced delays in wormhole switches
     with virtual lanes
   authors:
-  - h-sethu
-  - a-parekh
-  - h-shi
   - s-kanhere
+  - h-shi
+  - a-parekh
+  - h-sethu
   date: '2000-01-01'
 - file: doi-978-3-319-76587-7-12/index.md
   title: Trust and Privacy Challenges in Social Participatory Networks
   authors:
-  - m-allahbakhsh
-  - a-ignjatovic
-  - s-kanhere
   - h-amintoosi
+  - s-kanhere
+  - a-ignjatovic
+  - m-allahbakhsh
   date: '2018-01-01'
 - file: doi-infcom-2011-5935175/index.md
   title: Fully secure pairwise and triple key distribution in wireless sensor networks
     using combinatorial designs
   authors:
+  - i-stojmenovic
   - a-nayak
   - s-ruj
-  - i-stojmenovic
   date: '2011-01-01'
 - file: making-headlines-in-2013/index.md
   title: 'Making Headlines in Hindi: Automatic English to Hindi News Headline Translation'
   authors:
-  - a-joshi
-  - s-gautam
-  - p-bhattacharyya
   - k-popat
+  - a-joshi
+  - p-bhattacharyya
+  - s-gautam
   date: '2013-01-01'
 - file: doi-978-3-319-10389-1-2/index.md
   title: Secure identity management system for federated Cloud environment
   authors:
-  - m-shibli
   - u-habiba
   - r-masood
+  - m-shibli
   date: '2015-01-01'
 - file: doi-memcod-2018-8556931/index.md
   title: Synchronous neural networks for cyber-physical systems
   authors:
-  - p-roop
   - h-pearce
   - k-monadjem
+  - p-roop
   date: '2018-01-01'
 - file: doi-les-2020-3009910/index.md
   title: Designing Neural Networks for Real-Time Systems
   authors:
   - x-yang
+  - p-roop
   - t-strøm
   - m-katzef
-  - p-roop
   - h-pearce
   date: '2021-01-01'
 - file: doi-ladc-2018-00010/index.md
   title: Dependable IoT using blockchain-based technology
   authors:
-  - s-kanhere
-  - h-nunes
   - r-michelin
+  - s-kanhere
   - a-zorzo
   - r-lunardi
+  - h-nunes
   date: '2018-01-01'
 - file: doi-arxiv-2110-01974/index.md
   title: Runtime interchange for adaptive re-use of intelligent cyber-physical system
     controllers
   authors:
-  - p-roop
-  - h-pearce
   - x-yang
+  - h-pearce
   - s-pinisetty
+  - p-roop
   date: '2021-01-01'
 - file: doi-access-2021-3130714/index.md
   title: 'Detecting Internet of Things Bots: A Comparative Study'
   authors:
-  - b-stephens
-  - r-doss
-  - a-shaghaghi
   - s-kanhere
+  - r-doss
+  - b-stephens
+  - a-shaghaghi
   date: '2021-01-01'
 - file: doi-3578555/index.md
   title: 'Enabling Efficient Deduplication and Secure Decentralized Public Auditing
     for Cloud Storage: A Redactable Blockchain Approach'
   authors:
+  - s-kanhere
   - d-ramesh
   - d-edla
-  - s-kanhere
   - r-mishra
   date: '2023-09-01'
 - file: doi-3672202-3673716/index.md
   title: 'DEMO : Passive Identification of WiFi Devices in Real-Time'
   authors:
   - s-seneviratne
-  - a-seneviratne
-  - s-kahere
-  - y-karunanayake
   - g-how
+  - y-karunanayake
   - n-bogahawatta
+  - s-kahere
   - k-thilakarathna
+  - a-seneviratne
   - r-masood
   date: '2024-08-01'
 - file: doi-978-1-5225-9478-9-ch-010/index.md
   title: A Technology-driven Overview on Blockchain-based Academic Certificate Handling
   authors:
-  - s-kanhere
-  - e-scheid
-  - m-franco
-  - b-stiller
   - b-rodrigues
+  - m-franco
+  - s-kanhere
+  - b-stiller
+  - e-scheid
   date: '2020-01-01'
 - file: who-would-have-2016/index.md
   title: '`Who would have thought of that!'': A Hierarchical Topic Model for Extraction
@@ -1396,9 +1388,9 @@
 - file: doi-icc-45855-2022-9839269/index.md
   title: 'IoT Traffic Obfuscation: Will it Guarantee the Privacy of Your Smart Home?'
   authors:
+  - w-hu
   - n-ahmed
   - s-kanhere
-  - w-hu
   - y-perera
   - s-jha
   date: '2022-01-01'
@@ -1406,63 +1398,63 @@
   title: 'TrailChain: Traceability of data ownership across blockchain-enabled multiple
     marketplaces'
   authors:
-  - p-gupta
   - v-dedeoglu
+  - p-gupta
   - s-kanhere
   - r-jurdak
   date: '2022-01-01'
 - file: doi-trustcom-50675-2020-00128/index.md
   title: Blockchain-based Verifiable Credential Sharing with Selective Disclosure
   authors:
+  - q-lu
+  - r-mukta
   - s-kanhere
   - h-paik
   - j-martens
-  - r-mukta
-  - q-lu
   date: '2020-01-01'
 - file: doi-j-osnem-2025-100318/index.md
   title: 'BotSSCL: Social Bot Detection with Self-Supervised Contrastive Learning'
   authors:
-  - s-kanhere
-  - n-bhuiyan
-  - m-akhtar
   - m-ikram
+  - m-akhtar
+  - n-bhuiyan
+  - s-kanhere
   - r-masood
   date: '2025-09-01'
 - file: doi-j-iot-2022-100514/index.md
   title: 'AI for Next Generation Computing: Emerging Trends and Future Directions'
   authors:
-  - s-gill
-  - s-kanhere
-  - t-baker
-  - c-ottaviani
-  - r-bahsoon
   - o-rana
-  - a-abraham
-  - h-mehta
-  - m-singh
-  - s-uhlig
-  - m-golec
-  - a-shaghaghi
-  - r-sakellariou
-  - m-xu
-  - s-dustdar
-  - p-patros
-  - s-ghosh
-  - h-lutfiyya
-  - i-brandic
-  - a-parlikad
-  - v-stankovski
   - h-wu
+  - p-patros
+  - h-lutfiyya
+  - s-gill
+  - r-sakellariou
+  - a-abraham
+  - c-ottaviani
+  - s-dustdar
+  - a-shaghaghi
+  - a-parlikad
+  - s-uhlig
+  - h-mehta
+  - m-golec
+  - v-stankovski
+  - m-xu
+  - i-brandic
+  - s-kanhere
+  - s-ghosh
+  - t-baker
+  - m-singh
+  - r-bahsoon
   date: '2022-01-01'
 - file: doi-3727166-3727189/index.md
   title: Predicting IoT Device Vulnerability Fix Times with Survival and Failure Time
     Models
   authors:
+  - g-batista
+  - x-chen
   - a-shaghaghi
   - s-kanhere
-  - x-chen
-  - g-batista
   - c-alvarez
   date: '2025-02-01'
 - file: doi-2820990-2820994/index.md
@@ -1475,9 +1467,9 @@
 - file: doi-fit-2011-34/index.md
   title: 'SWAM: Stuxnet worm analysis in Metasploit'
   authors:
+  - r-masood
   - z-anwar
   - u-ghazia
-  - r-masood
   date: '2011-01-01'
 - file: doi-tii-2020-2998105/index.md
   title: A Secure Fog-Based Architecture for Industrial Internet of Things and Industry
@@ -1491,85 +1483,85 @@
   title: A blockchain-based IoT data marketplace
   authors:
   - s-schulte
+  - s-kanhere
   - g-scaffino
   - m-sober
-  - s-kanhere
   date: '2023-01-01'
 - file: doi-popets-2024-0068/index.md
   title: 'SoK: Can Trajectory Generation Combine Privacy and Utility?'
   authors:
-  - s-nepal
+  - s-wang
   - a-abuadbba
+  - s-nepal
   - s-kanhere
   - e-buchholz
-  - s-wang
   date: '2024-07-01'
 - file: doi-msec-2021-3106056/index.md
   title: Automated Privacy Preferences for Smart Home Data Sharing Using Personal
     Data Stores
   authors:
-  - l-zhu
+  - s-kanhere
   - h-paik
   - y-shanmugarasa
-  - s-kanhere
+  - l-zhu
   date: '2022-01-01'
 - file: doi-tits-2025-3576220/index.md
   title: 'VEH-Attack: Stealthy Tracking of Train Passengers With Side-Channel Attack
     on Vibration Energy Harvesting Wearables'
   authors:
-  - s-kanhere
-  - m-abadi
   - m-kaafar
   - s-khalifa
+  - s-kanhere
   - m-hassan
+  - m-abadi
   date: '2025-01-01'
 - file: doi-tvlsi-2022-3171174/index.md
   title: Detecting Hardware Trojans in PCBs Using Side Channel Loopbacks
   authors:
   - p-krishnamurthy
   - j-trujillo
-  - r-karri
-  - f-khorrami
-  - h-pearce
   - v-surabhi
+  - f-khorrami
+  - r-karri
+  - h-pearce
   date: '2022-01-01'
 - file: doi-ojcoms-2021-3066284/index.md
   title: A Novel Blockchain-as-a-Service (BaaS) Platform for Local 5G Operators
   authors:
-  - s-kanhere
   - n-weerasinghe
-  - m-liyanage
   - m-ylianttila
+  - s-kanhere
   - t-hewa
+  - m-liyanage
   date: '2021-01-01'
 - file: doi-3550306/index.md
   title: 'MetaGanFi: Cross-Domain Unseen Individual Identification Using WiFi Signals'
   authors:
-  - s-kanhere
   - z-chen
-  - c-luo
   - b-wei
-  - j-zhang
+  - s-kanhere
   - j-li
+  - c-luo
+  - j-zhang
   date: '2022-01-01'
 - file: doi-3658644-3691336/index.md
   title: The 19th Workshop on Programming Languages and Analysis for Security (PLAS
     2024)
   authors:
-  - b-luo
   - x-liao
-  - d-lie
-  - j-xu
   - e-kirda
-  - v-rajani
+  - b-luo
+  - j-xu
   - l-daniel
+  - d-lie
+  - v-rajani
   date: '2024-01-01'
 - file: doi-tc-2007-1062/index.md
   title: Design, analysis, and implementation of a novel multiple resource scheduler
   authors:
-  - f-sabrina
-  - s-jha
   - s-kanhere
+  - s-jha
+  - f-sabrina
   date: '2007-01-01'
 - file: doi-978-981-10-8396-9-1/index.md
   title: Introduction
@@ -1581,83 +1573,83 @@
 - file: doi-tifs-2024-3372809/index.md
   title: (Security) Assertions by Large Language Models
   authors:
-  - j-rajendran
   - r-kande
-  - b-dolan-gavitt
-  - b-tan
+  - j-rajendran
+  - s-thakur
   - r-karri
   - h-pearce
-  - s-thakur
+  - b-tan
+  - b-dolan-gavitt
   date: '2024-01-01'
 - file: doi-3300229/index.md
   title: Source-Aware Crisis-Relevant Tweet Identification and Key Information Summarization
   authors:
   - y-zhang
-  - x-ning
-  - s-kanhere
-  - q-sheng
-  - l-yao
   - b-benatallah
+  - q-sheng
+  - s-kanhere
+  - x-ning
+  - l-yao
   date: '2019-01-01'
 - file: doi-j-suscom-2021-100651/index.md
   title: A machine learning and blockchain based secure and cost-effective framework
     for minor medical consultations
   authors:
-  - v-hassija
   - s-agarwal
-  - s-kanhere
-  - v-chamola
-  - r-ratnakumar
   - a-mehra
+  - v-chamola
+  - v-hassija
+  - r-ratnakumar
+  - s-kanhere
   - h-binh
   date: '2022-01-01'
 - file: doi-arxiv-2411-10730/index.md
   title: Comparison of Multilingual and Bilingual Models for Satirical News Detection
     of Arabic and English
   authors:
-  - a-joshi
-  - o-abdalla
   - s-kanhere
+  - a-joshi
   - r-masood
+  - o-abdalla
   date: '2024-11-01'
 - file: doi-978-3-642-33260-9-5/index.md
   title: Usage control model specification in XACML policy language XACML policy engine
     of UCON
   authors:
-  - m-shibli
   - u-um-e-ghazia
-  - m-bilal
   - r-masood
+  - m-bilal
+  - m-shibli
   date: '2012-01-01'
 - file: doi-arxiv-2308-00708/index.md
   title: 'VeriGen: A Large Language Model for Verilog Code Generation<sup>∗</sup>'
   authors:
-  - s-garg
-  - b-dolan-gavitt
-  - b-tan
-  - r-karri
   - b-ahmad
-  - h-pearce
+  - s-garg
   - s-thakur
+  - r-karri
+  - h-pearce
+  - b-tan
+  - b-dolan-gavitt
   date: '2023-01-01'
 - file: doi-978-3-030-69377-0-4/index.md
   title: Contextual Bandit Learning for Activity-Aware Things-of-Interest Recommendation
     in an Assisted Living Environment
   authors:
-  - s-kanhere
-  - x-wang
-  - l-yao
-  - c-huang
   - m-altulayan
+  - x-wang
+  - s-kanhere
+  - c-huang
+  - l-yao
   date: '2021-01-01'
 - file: doi-bloc-2019-8751268/index.md
   title: 'Peer-to-Peer EnergyTrade: A Distributed Private Energy Trading Platform'
   authors:
-  - s-kanhere
   - f-luo
-  - a-dorri
-  - z-dong
   - a-hill
+  - s-kanhere
+  - z-dong
+  - a-dorri
   - r-jurdak
   date: '2019-01-01'
 - file: thatll-do-fine-2016/index.md
@@ -1665,8 +1657,8 @@
     polylingual topic models'
   authors:
   - a-joshi
-  - d-kanojia
   - p-bhattacharyya
+  - d-kanojia
   - m-carman
   date: '2016-01-01'
 - file: doi-978-3-319-76587-7-8/index.md
@@ -1681,15 +1673,15 @@
     players
   authors:
   - a-pal
-  - s-ruj
   - s-de
+  - s-ruj
   date: '2014-01-01'
 - file: doi-tetc-2019-2905089/index.md
   title: 'Guest Editorial: Introduction to the Special Section on Sensor Data Computing
     as a Service in Internet of Things'
   authors:
-  - c-liu
   - s-kanhere
+  - c-liu
   - c-perera
   - a-bouguettaya
   date: '2019-01-01'
@@ -1697,18 +1689,18 @@
   title: 'Poster Abstract: Experimental Evaluation of Multi-Hop Routing Protocols
     for Wireless Sensor Networks'
   authors:
-  - n-ahmed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - n-ahmed
   date: '2010-01-01'
 - file: doi-micc-48337-2019-9037587/index.md
   title: 'AETD: An application-aware, energy-efficient trajectory design for flying
     base stations'
   authors:
-  - a-bokani
-  - j-hassan
   - s-kanhere
   - s-salehi
+  - j-hassan
+  - a-bokani
   date: '2019-01-01'
 - file: political-issue-extraction-2016/index.md
   title: 'Political issue extraction model: A novel hierarchical topic model that
@@ -1723,11 +1715,11 @@
     Enhancement'
   authors:
   - n-dsilva
-  - ø-husveg
   - s-kanhere
   - e-buchholz
-  - a-sanjeeve
   - t-shahi
+  - ø-husveg
+  - a-sanjeeve
   date: '2024-12-01'
 - file: doi-nca-2018-8548322/index.md
   title: 'ProductChain: Scalable Blockchain Framework to Support Provenance in Supply
@@ -1741,42 +1733,42 @@
   title: Interoperability and Synchronization Management of Blockchain-Based Decentralized
     e-Health Systems
   authors:
+  - s-mohanty
   - k-sharif
   - z-latif
   - s-kanhere
-  - s-mohanty
-  - f-li
   - s-biswas
+  - f-li
   date: '2020-01-01'
 - file: doi-3371158-3371211/index.md
   title: Enhancing neural sentiment analysis with aspect weights
   authors:
   - a-dubey
-  - u-saha
-  - p-bhattachharyya
   - a-joshi
+  - p-bhattachharyya
+  - u-saha
   date: '2020-01-01'
 - file: doi-csf-2018-00024/index.md
   title: 'Types for Information Flow Control: Labeling Granularity and Semantic Models'
   authors:
-  - v-rajani
   - d-garg
+  - v-rajani
   date: '2018-01-01'
 - file: doi-comst-2018-2842460/index.md
   title: A survey on security and privacy issues of bitcoin
   authors:
-  - s-ruj
-  - s-e
   - k-sandeep
   - c-lal
+  - s-e
+  - s-ruj
   - m-conti
   date: '2018-01-01'
 - file: doi-14786451-2023-2171417/index.md
   title: 'Barriers to blockchain-based decentralised energy trading: a systematic
     review'
   authors:
-  - s-kanhere
   - s-sethuvenkatraman
+  - s-kanhere
   - v-dedeoglu
   - s-karumba
   - r-jurdak
@@ -1784,34 +1776,34 @@
 - file: sarcasm-target-identification-2018/index.md
   title: 'Sarcasm target identification: Dataset and an introductory approach'
   authors:
-  - m-carman
   - a-joshi
   - p-bhattacharyya
   - p-goel
+  - m-carman
   date: '2018-01-01'
 - file: doi-preprints-202107-0545-v-1/index.md
   title: In-situ MIMO-WPT Recharging of UAVs Using Intelligent Flying Energy Sources
   authors:
-  - s-hoseini
-  - j-hassan
   - s-kanhere
   - a-bokani
+  - s-hoseini
+  - j-hassan
   date: '2021-01-01'
 - file: doi-icbc-54727-2022-9805565/index.md
   title: 'DeTRM: Decentralised Trust and Reputation Management for Blockchain-based
     Supply Chains'
   authors:
-  - g-putra
   - s-kanhere
   - j-hong
+  - g-putra
   - c-kang
   date: '2022-01-01'
 - file: doi-lcn-44214-2019-8990819/index.md
   title: On the Activity Privacy of Blockchain for IoT
   authors:
   - s-kanhere
-  - a-dorri
   - c-roulin
+  - a-dorri
   - r-jurdak
   date: '2019-01-01'
 - file: doi-978-3-319-66402-6-15/index.md
@@ -1820,134 +1812,134 @@
   - e-snekkenes
   - d-garg
   - c-hammer
-  - j-jain
-  - d-gollmann
   - s-foley
-  - v-rajani
+  - d-gollmann
+  - j-jain
   - a-bichhawat
+  - v-rajani
   date: '2017-01-01'
 - file: doi-tifs-2016-2623588/index.md
   title: 'Bitcoin Block Withholding Attack: Analysis and Mitigation'
   authors:
+  - k-sakurai
   - s-bag
   - s-ruj
-  - k-sakurai
   date: '2017-01-01'
 - file: doi-s-11042-019-7182-7/index.md
   title: A unified framework for data integrity protection in people-centric smart
     cities
   authors:
+  - m-altulyan
   - x-wang
   - s-kanhere
-  - l-yao
-  - m-altulyan
   - c-huang
+  - l-yao
   date: '2020-01-01'
 - file: instancewise-monotonic-calibration-2025/index.md
   title: Instance-Wise Monotonic Calibration by Constrained Transformation
   authors:
-  - y-zhang
-  - s-kanhere
   - g-batista
-  - s-magliacane
+  - y-zhang
   - s-chiappa
+  - s-kanhere
+  - s-magliacane
   date: '2025-01-01'
 - file: doi-j-iotcps-2023-06-002/index.md
   title: 'Transformative Effects of ChatGPT on Modern Education: Emerging Era of AI
     Chatbots'
   authors:
-  - s-gill
-  - s-kanhere
-  - k-kaur
-  - r-bahsoon
-  - o-rana
-  - a-abraham
   - p-arora
-  - m-singh
-  - s-uhlig
-  - r-sakellariou
+  - o-rana
+  - k-kaur
   - r-buyya
-  - m-xu
-  - s-dustdar
-  - p-patros
-  - s-ghosh
-  - h-lutfiyya
-  - s-fuller
-  - r-kaur
-  - a-parlikad
-  - v-stankovski
   - h-wu
+  - p-patros
+  - h-lutfiyya
+  - s-gill
+  - r-sakellariou
+  - r-kaur
+  - a-abraham
+  - s-dustdar
+  - s-fuller
+  - a-parlikad
+  - s-uhlig
+  - v-stankovski
+  - m-xu
+  - s-kanhere
+  - s-ghosh
+  - m-singh
+  - r-bahsoon
   date: '2023-01-01'
 - file: doi-978-3-540-77024-4-50/index.md
   title: Ensuring area coverage in hybrid wireless sensor networks
   authors:
-  - s-jhal
-  - n-ahmed
   - s-kanhere
+  - n-ahmed
+  - s-jhal
   date: '2007-01-01'
 - file: doi-lcn-2009-5355164/index.md
   title: Cluster-based Channel Assignment in Multi-radio Multi-channel Wireless Mesh
     Networks
   authors:
-  - a-naveed
   - s-kanhere
+  - a-naveed
   date: '2009-01-01'
 - file: doi-mcom-2017-1700879/index.md
   title: 'BlockChain: A Distributed Solution to Automotive Security and Privacy'
   authors:
+  - s-kanhere
   - m-steger
   - a-dorri
-  - s-kanhere
   - r-jurdak
   date: '2017-01-01'
 - file: doi-pst-62714-2024-10788061/index.md
   title: Synthetic Trajectory Generation Through Convolutional Neural Networks
   authors:
-  - e-buchholz
-  - j-merhi
   - s-kanhere
+  - j-merhi
+  - e-buchholz
   date: '2024-08-01'
 - file: doi-access-2020-3014424/index.md
   title: Protecting Private Attributes in App Based Mobile User Profiling
   authors:
   - r-boreli
-  - s-kanhere
-  - i-ullah
-  - s-chawla
   - t-ahanger
+  - i-ullah
+  - s-kanhere
   - u-tariq
+  - s-chawla
   date: '2020-01-01'
 - file: doi-3308558-3313521/index.md
   title: 'The chain of implicit trust: An analysis of the web third-party resources
     loading'
   authors:
-  - r-ensafi
-  - n-loizon
   - m-kaafar
   - m-ikram
+  - n-loizon
   - g-tyson
+  - r-ensafi
   - r-masood
   date: '2019-01-01'
 - file: doi-3708821-3736188/index.md
   title: 'Nosy Layers, Noisy Fixes: Tackling DRAs in Federated Learning Systems using
     Explainable AI'
   authors:
-  - a-shaghaghi
-  - m-nandi
   - g-batista
+  - a-shaghaghi
   - n-sultan
-  - s-jha
   - r-zhao
+  - s-jha
+  - m-nandi
   date: '2025-08-01'
 - file: doi-978-981-96-9101-2-14/index.md
   title: 'DARA: Enhancing Vulnerability Alignment via Adaptive Reconstruction and Dual-Level
     Attention'
   authors:
-  - z-xing
   - s-kanhere
   - j-sun
-  - s-jha
+  - z-xing
   - l-wang
+  - s-jha
   - j-jiang
   date: '2025-01-01'
 - file: experiences-from-creating-2024/index.md
@@ -1963,239 +1955,239 @@
   title: 'AutoChip: Automating HDL Generation Using LLM Feedback'
   authors:
   - s-garg
-  - b-tan
+  - s-thakur
   - j-blocklove
   - r-karri
   - h-pearce
-  - s-thakur
+  - b-tan
   date: '2023-01-01'
 - file: emogram-an-opensource-2016/index.md
   title: 'EmoGram: An open-source time sequence-based emotion tracker and its innovative
     applications'
   authors:
-  - v-tripathi
   - p-bhattacharyya
-  - a-joshi
-  - m-carman
   - r-soni
+  - v-tripathi
+  - m-carman
+  - a-joshi
   date: '2016-01-01'
 - file: doi-j-pmcj-2013-01-003/index.md
   title: 'IncogniSense: An anonymity-preserving reputation framework for participatory
     sensing applications'
   authors:
-  - m-hollick
-  - c-rosskopf
-  - s-kanhere
-  - l-martucci
   - d-christin
+  - s-kanhere
+  - m-hollick
+  - l-martucci
+  - c-rosskopf
   date: '2013-01-01'
 - file: doi-jsyst-2018-2880028/index.md
   title: An Experimental Study for Tracking Crowd in Smart Cities
   authors:
-  - w-zhang
-  - s-kanhere
-  - f-jiang
-  - x-liu
-  - c-yuen
-  - k-li
   - k-hu
+  - f-jiang
+  - c-yuen
+  - x-liu
+  - k-li
+  - s-kanhere
+  - w-zhang
   date: '2019-01-01'
 - file: doi-978-3-030-16145-3-3/index.md
   title: Passenger Demand Forecasting with Multi-Task Convolutional Recurrent Neural
     Networks
   authors:
-  - l-bai
-  - s-kanhere
-  - x-wang
-  - z-yang
-  - l-yao
   - j-chu
+  - z-yang
+  - x-wang
+  - s-kanhere
+  - l-yao
+  - l-bai
   date: '2019-01-01'
 - file: doi-arxiv-2506-09312/index.md
   title: What is the Cost of Differential Privacy for Deep Learning-Based Trajectory
     Generation?
   authors:
-  - s-nepal
+  - d-nguyen
   - a-abuadbba
+  - s-nepal
   - s-kanhere
   - e-buchholz
   - n-fernandes
-  - d-nguyen
   date: '2025-06-01'
 - file: doi-icbc-48266-2020-9169466/index.md
   title: Context-based Smart Contracts For Appendable-block Blockchains
   authors:
-  - s-kanhere
-  - h-nunes
   - r-michelin
+  - s-kanhere
   - a-zorzo
   - r-lunardi
+  - h-nunes
   date: '2020-01-01'
 - file: doi-b-13595-3/index.md
   title: Attacks and Security Mechanisms
   authors:
-  - a-naveed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - a-naveed
   date: '2009-01-01'
 - file: key-predistribution-using-2018/index.md
   title: Key predistribution using transversal design on a grid of wireless sensor
     network
   authors:
-  - b-roy
   - s-maitra
+  - b-roy
   - s-ruj
   date: '2018-01-01'
 - file: doi-tmc-2010-83/index.md
   title: Detection and Tracking Using Particle-Filter-Based Wireless Sensor Networks
   authors:
   - n-ahmed
-  - s-kanhere
   - m-rutten
-  - s-jha
   - n-gordon
+  - s-kanhere
   - t-bessell
+  - s-jha
   date: '2010-01-01'
 - file: doi-978-3-030-94822-1-7/index.md
   title: Is This IoT Device Likely to Be Secure? Risk Score Prediction for IoT Devices
     Using Gradient Boosting Machines
   authors:
-  - c-rivera
+  - d-nguyen
   - a-shaghaghi
   - s-kanhere
-  - d-nguyen
   - c-alvarez
+  - c-rivera
   date: '2022-01-01'
 - file: recommendation-chart-of-2020/index.md
   title: 'Recommendation chart of domains for cross-domain sentiment analysis: Findings
     of A 20 domain study'
   authors:
+  - a-joshi
   - a-sheoran
   - d-kanojia
   - p-bhattacharyya
-  - a-joshi
   date: '2020-01-01'
 - file: doi-drones-5030089/index.md
   title: In Situ MIMO-WPT Recharging of UAVs Using Intelligent Flying Energy Sources
   authors:
-  - s-hoseini
-  - j-hassan
   - s-kanhere
   - a-bokani
+  - s-hoseini
+  - j-hassan
   date: '2021-01-01'
 - file: doi-jim-2107/index.md
   title: Mathematics driven methods with fractional calculus and topological data
     analysis in image segmentation
   authors:
+  - p-dadheech
   - t-jain
+  - a-kumar
   - a-keswani
   - a-joshi
-  - p-dadheech
-  - a-kumar
   date: '2025-03-01'
 - file: doi-tnse-2025-3628913/index.md
   title: Real-Time and Trustworthy Classification of IoT Traffic Using Lightweight
     Deep Learning
   authors:
-  - s-ruj
-  - a-sivanathan
-  - b-luo
-  - d-mishra
-  - q-sheng
-  - n-fernandes
-  - m-tran
   - g-batista
   - d-coscia
+  - d-mishra
+  - b-luo
+  - m-tran
   - h-gharakaheili
+  - q-sheng
+  - s-ruj
+  - n-fernandes
+  - a-sivanathan
   date: '2025-01-01'
 - file: doi-isorc-2017-5/index.md
   title: A model driven approach for cardiac pacemaker design using a PRET processor
   authors:
-  - p-roop
-  - h-pearce
   - r-hanxleden
   - n-allen
+  - h-pearce
+  - p-roop
   date: '2017-01-01'
 - file: hushrelay-a-privacypreserving-2020/index.md
   title: 'HushRelay: A privacy-preserving, efficient, and scalable routing algorithm
     for off-chain payments'
   authors:
-  - a-pal
   - s-mazumdar
-  - s-ruj
+  - a-pal
   - r-singh
+  - s-ruj
   date: '2020-01-01'
 - file: doi-jsyst-2022-3159577/index.md
   title: Estimating Passenger Queue for Bus Resource Optimization Using LoRaWAN-Enabled
     Ultrasonic Sensors
   authors:
+  - s-kanhere
   - v-sivaraman
   - t-sutjarittham
-  - s-kanhere
   - h-gharakheili
   date: '2022-01-01'
 - file: smart-cities-intelligent-2016/index.md
   title: 'Smart Cities: Intelligent Environments and Dumb People?'
   authors:
   - f-zambonelli
-  - w-meuter
-  - s-kanhere
-  - f-salim
   - s-loke
+  - f-salim
+  - s-kanhere
+  - w-meuter
   date: '2016-01-01'
 - file: doi-3133956-3138850/index.md
   title: 'POSTER: TouchTrack: How Unique are your Touch Gestures?'
   authors:
   - h-asghar
-  - m-kaafar
   - b-zhao
   - r-masood
+  - m-kaafar
   date: '2017-01-01'
 - file: doi-icc-2006-255714/index.md
   title: Adaptive Position Update in Geographic Routing
   authors:
-  - q-chen
-  - m-hassan
-  - k-lan
   - s-kanhere
+  - m-hassan
+  - q-chen
+  - k-lan
   date: '2006-01-01'
 - file: doi-j-jnca-2021-103018/index.md
   title: 'Temporary immutability: A removable blockchain solution for prosumer-side
     energy trading'
   authors:
-  - s-kanhere
   - f-luo
-  - a-dorri
+  - s-kanhere
   - z-dong
+  - a-dorri
   - s-karumba
   - r-jurdak
   date: '2021-01-01'
 - file: doi-3701716-3715168/index.md
   title: 'BeyondLife: Third-Party Digital Will Application'
   authors:
+  - s-kanhere
   - j-laeuchli
   - x-chen
   - a-shaghaghi
-  - s-kanhere
   date: '2025-05-01'
 - file: doi-tpds-2006-144/index.md
   title: QoS driven parallelization of resources to reduce file download delay
   authors:
-  - s-sohail
-  - c-chou
   - s-kanhere
   - s-jha
+  - s-sohail
+  - c-chou
   date: '2006-01-01'
 - file: doi-arxiv-2312-12575/index.md
   title: Can Large Language Models Identify And Reason About Security Vulnerabilities?
     Not Yet
   authors:
-  - s-pujar
+  - g-stringhini
+  - a-coskun
   - m-han
   - s-ullah
-  - a-coskun
   - h-pearce
-  - g-stringhini
+  - s-pujar
   date: '2023-01-01'
 - file: doi-aaai-v-34-i-09-7095/index.md
   title: '''Watch the flu'': A tweet monitoring tool for epidemic intelligence of
@@ -2203,55 +2195,55 @@
   authors:
   - s-wan
   - c-paris
-  - a-joshi
-  - b-jin
   - c-macintyre
+  - b-jin
   - r-sparks
+  - a-joshi
   date: '2020-01-01'
 - file: griefingpenalty-countermeasure-for-2020/index.md
   title: 'Griefing-penalty: Countermeasure for griefing attack in lightning network'
   authors:
   - s-mazumdar
-  - s-ruj
   - p-banerjee
+  - s-ruj
   date: '2020-01-01'
 - file: doi-3288599-3288635/index.md
   title: 'HydraDoctor: Real-time Liquids Intake Monitoring by Collaborative Sensing'
   authors:
-  - s-kanhere
-  - k-wu
-  - h-wen
-  - c-lu
-  - j-hou
+  - y-shen
   - m-luo
   - k-li
-  - y-shen
-  - x-kan
+  - j-hou
+  - k-wu
+  - s-kanhere
   - b-du
+  - c-lu
+  - x-kan
+  - h-wen
   date: '2019-01-01'
 - file: doi-3412382-3458256/index.md
   title: A Novel Model-Based Security Scheme for LoRa Key Generation
   authors:
-  - j-kim
-  - s-kanhere
-  - w-xu
   - w-hu
+  - w-xu
+  - j-gao
+  - s-kanhere
   - w-huang
   - s-jha
-  - j-gao
+  - j-kim
   date: '2021-01-01'
 - file: a-cognitive-study-2014/index.md
   title: A cognitive study of subjectivity extraction in sentiment annotation
   authors:
-  - a-mishra
   - a-joshi
+  - a-mishra
   - p-bhattacharyya
   date: '2014-01-01'
 - file: doi-3709016-3737805/index.md
   title: Storage Proofs for Historical Ethereum Data
   authors:
-  - s-ruj
   - j-hilsberg
+  - s-ruj
   date: '2025-08-01'
 - file: doi-j-pmcj-2016-10-001/index.md
   title: Instrumenting Wireless Sensor Networks - A survey on the metrics that matter
@@ -2264,11 +2256,11 @@
   title: Energy and Service-priority aware Trajectory Design for UAV-BSs using Double
     Q-Learning
   authors:
+  - s-salehi
   - s-hoseini
   - s-kanhere
-  - a-bokani
-  - s-salehi
   - j-hassan
+  - a-bokani
   date: '2021-01-01'
 - file: doi-icc-2013-6654743/index.md
   title: Enhanced privacy and reliability for secure geocasting in VANET
@@ -2280,48 +2272,48 @@
 - file: doi-mc-2017-82/index.md
   title: Applications and Challenges of Wearable Visual Lifeloggers
   authors:
-  - h-rabiee
   - m-hosseini
-  - s-kanhere
   - e-zarepour
+  - s-kanhere
+  - h-rabiee
   - a-sowmya
   date: '2017-01-01'
 - file: doi-s-00607-018-0603-z/index.md
   title: 'WITS: an IoT-endowed computational framework for activity recognition in
     personalized smart homes'
   authors:
+  - s-dustdar
   - x-wang
-  - s-kanhere
-  - q-sheng
-  - l-yao
   - a-shemshadi
   - b-benatallah
-  - s-dustdar
+  - q-sheng
+  - s-kanhere
+  - l-yao
   date: '2018-01-01'
 - file: doi-978-3-032-08187-2-7/index.md
   title: On Graded Coeffect Types for Information-Flow Control
   authors:
-  - d-marshall
-  - m-vollmer
   - v-liepelt
-  - v-rajani
+  - d-marshall
   - d-orchard
+  - m-vollmer
+  - v-rajani
   date: '2026-01-01'
 - file: multichannel-interference-in-2009/index.md
   title: Multi-Channel Interference in Wireless Sensor Networks
   authors:
-  - n-ahmed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - n-ahmed
   date: '2009-01-01'
 - file: doi-arxiv-2308-12497/index.md
   title: 'False Information, Bots and Malicious Campaigns: Demystifying Elements of
     Social Media Manipulations'
   authors:
-  - m-akhtar
-  - s-kanhere
   - m-ikram
+  - m-akhtar
   - r-masood
+  - s-kanhere
   date: '2023-01-01'
 - file: doi-9781119743187-ch-3/index.md
   title: Formal Methods for the Security of Medical Devices
@@ -2332,38 +2324,38 @@
   title: Adversarially Guided Stateful Defense Against Backdoor Attacks in Federated
     Deep Learning
   authors:
-  - s-jha
   - s-nepal
-  - h-ali
+  - s-jha
   - s-kanhere
+  - h-ali
   date: '2024-12-01'
 - file: doi-date-56975-2023-10137086/index.md
   title: Benchmarking Large Language Models for Automated Verilog RTL Code Generation
   authors:
-  - s-garg
-  - b-dolan-gavitt
-  - b-tan
-  - r-karri
   - b-ahmad
-  - h-pearce
   - z-fan
+  - s-garg
   - s-thakur
+  - r-karri
+  - h-pearce
+  - b-tan
+  - b-dolan-gavitt
   date: '2023-01-01'
 - file: doi-pv-2013-6691443/index.md
   title: HTTP-based Adaptive Streaming for Mobile Clients using Markov Decision Process
   authors:
+  - s-kanhere
   - m-hassan
   - a-bokani
-  - s-kanhere
   date: '2013-01-01'
 - file: doi-nfv-sdn-2016-7919475/index.md
   title: Towards Policy Enforcement Point as a Service (PEPS)
   authors:
+  - m-kaafar
+  - s-scott-hayward
   - a-shaghaghi
   - s-kanhere
-  - m-kaafar
   - s-jha
-  - s-scott-hayward
   date: '2016-01-01'
 - file: doi-j-procs-2014-05-454/index.md
   title: Security services using crowdsourcing
@@ -2375,68 +2367,68 @@
   title: 'FLAW3D: A Trojan-Based Cyber Attack on the Physical Outcomes of Additive
     Manufacturing'
   authors:
-  - h-pearce
-  - k-yanamandra
   - r-karri
+  - k-yanamandra
   - n-gupta
+  - h-pearce
   date: '2022-01-01'
 - file: doi-cloud-2018-00026/index.md
   title: An Efficient Secure Distributed Cloud Storage for Append-Only Data
   authors:
   - s-nandi
-  - s-ruj
-  - b-sengupta
   - s-narayanamurthy
   - n-nikam
+  - b-sengupta
+  - s-ruj
   date: '2018-01-01'
 - file: doi-s-12083-012-0136-8/index.md
   title: A social network approach to trust management in VANETs
   authors:
+  - a-nayak
   - m-stojmenovic
   - s-ruj
   - m-cavenaghi
-  - a-nayak
   - z-huang
   date: '2014-01-01'
 - file: doi-mlcad-58807-2023-10299874/index.md
   title: 'Chip-Chat: Challenges and Opportunities in Conversational Hardware Design'
   authors:
-  - j-blocklove
   - r-karri
   - s-garg
   - h-pearce
+  - j-blocklove
   date: '2023-01-01'
 - file: a-graph-analytics-2017/index.md
   title: A graph analytics framework for ranking authors, papers and venues
   authors:
-  - s-ruj
   - a-pal
+  - s-ruj
   date: '2017-01-01'
 - file: doi-j-adhoc-2020-102323/index.md
   title: Editor's note
   authors:
   - f-afghah
   - s-scanzio
-  - v-chamola
   - s-kanhere
+  - v-chamola
   date: '2021-01-01'
 - file: doi-percom-2018-8444575/index.md
   title: 'Converting Your Thoughts to Texts: Enabling Brain Typing via Deep Feature
     Learning of EEG Signals'
   authors:
-  - d-zhang
-  - s-kanhere
   - q-sheng
-  - l-yao
+  - s-kanhere
   - x-zhang
+  - d-zhang
+  - l-yao
   - t-gu
   date: '2018-01-01'
 - file: doi-978-3-031-06516-3-8/index.md
   title: Blockchain-Enabled Secure and Smart Healthcare System
   authors:
+  - d-das
   - a-muthaiah
   - s-ruj
-  - d-das
   date: '2022-01-01'
 - file: doi-tetc-2019-2920719/index.md
   title: Design of Anonymous Endorsement System in Hyperledger Fabric
@@ -2448,9 +2440,9 @@
   title: Electric Vehicle Next Charge Location Prediction
   authors:
   - d-miller
-  - s-ruj
   - a-abuadbba
   - r-marlin
+  - s-ruj
   - r-jurdak
   date: '2024-01-01'
 - file: doi-tdsc-2022-3148476/index.md
@@ -2462,30 +2454,30 @@
 - file: doi-3660354-3660355/index.md
   title: 'Honeyfile Camouflage: Hiding Fake Files in Plain Sight'
   authors:
-  - d-liebowitz
   - s-nepal
-  - r-timmer
+  - d-liebowitz
   - s-kanhere
+  - r-timmer
   date: '2024-07-01'
 - file: robust-sensebased-sentiment-2011/index.md
   title: Robust Sense-Based Sentiment Classification
   authors:
-  - r-balamural
   - a-joshi
   - p-bhattacharyya
+  - r-balamural
   date: '2011-01-01'
 - file: doi-j-jisa-2014-10-003/index.md
   title: Trust-based privacy-aware participant selection in social participatory sensing
   authors:
-  - m-allahbakhsh
-  - s-kanhere
   - h-amintoosi
+  - s-kanhere
+  - m-allahbakhsh
   date: '2015-01-01'
 - file: doi-comsnets-51098-2021-9352865/index.md
   title: Towards a blockchain powered IoT data marketplace
   authors:
-  - p-gupta
   - v-dedeoglu
+  - p-gupta
   - s-kanhere
   - r-jurdak
   date: '2021-01-01'
@@ -2493,52 +2485,52 @@
   title: 'Connecting Ideas in ''Lower-Resource'' Scenarios: NLP for National Varieties,
     Creoles and Other Low-resource Scenarios'
   authors:
-  - d-kanojia
   - h-kaing
-  - a-joshi
-  - h-song
   - h-lent
+  - a-joshi
+  - d-kanojia
+  - h-song
   date: '2024-09-01'
 - file: doi-jiot-2022-3194671/index.md
   title: Device Identification in Blockchain-Based Internet of Things
   authors:
-  - c-roulin
-  - s-kanhere
   - s-baalbaki
-  - a-dorri
+  - c-roulin
   - s-pal
+  - s-kanhere
+  - a-dorri
   - r-jurdak
   date: '2022-01-01'
 - file: doi-wcnc-2010-5506187/index.md
   title: Quality Improvement of Mobile Video Using Geo-intelligent Rate Adaptation
   authors:
+  - j-yao
   - m-hassan
   - s-kanhere
-  - j-yao
   date: '2010-01-01'
 - file: doi-icbc-51069-2021-9461127/index.md
   title: Cost-Effective Blockchain-based IoT Data Marketplaces with a Credit Invariant
   authors:
+  - j-meijers
+  - g-kotsialou
   - a-veneris
   - s-kanhere
-  - g-kotsialou
   - g-putra
-  - j-meijers
   date: '2021-01-01'
 - file: doi-lcn-2005-107/index.md
   title: Performance of a Bluetooth IP network for streaming high quality audio
   authors:
-  - d-sen
-  - w-loh
   - s-kanhere
+  - w-loh
+  - d-sen
   date: '2005-01-01'
 - file: doi-3763792/index.md
   title: Evaluating Honeyfile Realism and Enticement Metrics
   authors:
-  - d-liebowitz
   - s-nepal
-  - r-timmer
+  - d-liebowitz
   - s-kanhere
+  - r-timmer
   date: '2025-09-01'
 - file: investigations-in-computational-2018/index.md
   title: Investigations in computational sarcasm
@@ -2551,12 +2543,12 @@
   title: 'From MANET to people-centric networking: Milestones and open research challenges'
   authors:
   - c-boldrini
+  - e-mingozzi
+  - p-ruiz
   - s-kanhere
   - e-pagani
   - m-younis
-  - e-mingozzi
   - m-conti
-  - p-ruiz
   date: '2015-01-01'
 - file: doi-3124420/index.md
   title: 'Automatic sarcasm detection: A survey'
@@ -2569,37 +2561,37 @@
   title: 'ForTrac: a Secure NFT-based Forward Traceability System for Providing Data
     Accuracy and Completeness'
   authors:
-  - s-ruj
-  - l-pan
-  - f-heikamp
-  - r-trujillo-rasua
   - r-doss
+  - f-heikamp
+  - s-ruj
+  - r-trujillo-rasua
+  - l-pan
   date: '2023-07-01'
 - file: doi-j-jnca-2022-103356/index.md
   title: 'DIMY: Enabling privacy-preserving contact tracing'
   authors:
+  - r-michelin
+  - w-xue
   - n-ahmed
-  - s-ruj
   - s-kanhere
   - g-putra
-  - r-michelin
+  - s-ruj
   - s-jha
-  - w-xue
   date: '2022-01-01'
 - file: doi-ijahuc-2012-050269/index.md
   title: On the characterisation of vehicular mobility in a large-scale public transport
     network
   authors:
-  - s-ahmed
   - s-kanhere
+  - s-ahmed
   date: '2012-01-01'
 - file: doi-mobhoc-2006-278630/index.md
   title: Efficient boundary estimation for practical deployment of mobile sensors
     in hybrid sensor networks
   authors:
-  - n-ahmed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - n-ahmed
   date: '2006-01-01'
 - file: sprite-a-scalable-2022/index.md
   title: 'SPRITE: A Scalable Privacy-Preserving and Verifiable Collaborative Learning
@@ -2612,158 +2604,158 @@
 - file: doi-wcnc-2007-575/index.md
   title: Securing channel assignment in Multi-Radio Multi-Channel Wireless Mesh Networks
   authors:
-  - a-naveed
-  - a-haq
   - s-kanhere
+  - a-haq
+  - a-naveed
   date: '2007-01-01'
 - file: doi-arxiv-2405-15310/index.md
   title: 'Spectraformer: A Unified Random Feature Framework for Transformer'
   authors:
+  - a-joshi
   - d-yin
   - d-nguyen
   - f-salim
-  - a-joshi
   date: '2025-09-01'
 - file: cost-and-benefit-2012/index.md
   title: Cost and benefit of using wordnet senses for sentiment analysis
   authors:
   - a-joshi
-  - a-balamurali
   - p-bhattacharyya
+  - a-balamurali
   date: '2012-01-01'
 - file: doi-978-3-642-40238-8-20/index.md
   title: A trust framework for social participatory sensing systems
   authors:
-  - s-kanhere
   - h-amintoosi
+  - s-kanhere
   date: '2013-01-01'
 - file: doi-9789814271097-0001/index.md
   title: Authentication and Confidentiality in Wireless Ad Hoc Networks
   authors:
-  - a-naveed
   - s-kanhere
+  - a-naveed
   date: '2010-01-01'
 - file: doi-indin-2005-1560359/index.md
   title: Service-oriented middleware for peer-to-peer computing
   authors:
-  - n-parameswaran
   - s-kanhere
+  - n-parameswaran
   - p-maheshwari
   date: '2005-01-01'
 - file: doi-jim-2106/index.md
   title: Graph theory based mathematical methods for improved explainable AI
   authors:
+  - p-dadheech
   - t-jain
   - r-sharma
-  - a-joshi
-  - p-dadheech
   - s-tiwari
+  - a-joshi
   - a-vashist
   date: '2025-03-01'
 - file: doi-tpsisa-52974-2021-00034/index.md
   title: Traceable, trustworthy and privacy preserving agri-food supply chains
   authors:
   - s-kanhere
-  - h-paik
   - v-dedeoglu
   - s-malik
+  - h-paik
   - r-jurdak
   date: '2021-01-01'
 - file: doi-spe-879/index.md
   title: Object-oriented wrappers for the Linux kernel
   authors:
-  - d-janakiram
+  - k-reddy
   - n-suneetha
   - a-gunnam
+  - d-janakiram
   - v-rajani
-  - k-reddy
   date: '2008-01-01'
 - file: doi-snpd-2015-7176199/index.md
   title: Realization of FGAC model using XACML policy specification
   authors:
-  - m-shibli
   - u-habiba
   - r-masood
+  - m-shibli
   date: '2015-01-01'
 - file: doi-access-2018-2831228/index.md
   title: 'Multi-Agent Systems: A Survey'
   authors:
-  - a-dorri
   - s-kanhere
+  - a-dorri
   - r-jurdak
   date: '2018-01-01'
 - file: doi-978-3-030-91431-8-57/index.md
   title: Evaluating the Security of Machine Learning Based IoT Device Identification
     Systems Against Adversarial Examples
   authors:
+  - s-kanhere
   - s-camtepe
   - c-thapa
-  - s-kanhere
   - a-namvar
   date: '2021-01-01'
 - file: doi-cpe-3366/index.md
   title: 'Platform zero: a step closer to ubiquitous computing'
   authors:
-  - a-muhlbauer
-  - t-zelinsky
   - s-kanhere
+  - t-zelinsky
+  - a-muhlbauer
   date: '2016-01-01'
 - file: doi-iwcmc-2019-8766696/index.md
   title: Proactive Eavesdropping via Jamming for Trajectory Tracking of UAVs
   authors:
-  - w-ni
-  - s-kanhere
   - e-tovar
-  - k-li
   - m-guizani
+  - k-li
+  - s-kanhere
+  - w-ni
   date: '2019-01-01'
 - file: hasnets-a-heal-2020/index.md
   title: 'HaS-Nets: A Heal and Select Mechanism to Defend DNNs Against Backdoor Attacks
     for Data Collection Scenarios'
   authors:
-  - s-jha
   - s-nepal
-  - h-ali
+  - s-jha
   - s-kanhere
+  - h-ali
   date: '2020-01-01'
 - file: doi-access-2020-3031899/index.md
   title: 'Echo-ID: Smart User Identification Leveraging Inaudible Sound Signals'
   authors:
+  - s-shah
+  - r-doss
   - a-shaghaghi
   - s-kanhere
-  - s-shah
-  - j-zhang
-  - r-doss
   - a-anwar
+  - j-zhang
   date: '2020-01-01'
 - file: doi-3178876-3186093/index.md
   title: 'Incognito: A method for obfuscating web data'
   authors:
-  - d-vatsalan
-  - m-kaafar
   - m-ikram
   - r-masood
+  - m-kaafar
+  - d-vatsalan
   date: '2018-01-01'
 - file: doi-3286978-3286994/index.md
   title: 'Wi-Sign: Device-free Second Factor User Authentication'
   authors:
-  - s-shah
   - s-kanhere
+  - s-shah
   date: '2018-01-01'
 - file: doi-infocomwkshps-50562-2020-9162834/index.md
   title: Trajectory Optimization of Flying Energy Sources using Q-Learning to Recharge
     Hotspot UAVs
   authors:
-  - s-hoseini
-  - j-hassan
   - s-kanhere
   - a-bokani
+  - s-hoseini
+  - j-hassan
   date: '2020-01-01'
 - file: doi-3144457-3144468/index.md
   title: 'Wi-Auth: WiFi based Second Factor User Authentication'
   authors:
-  - s-shah
   - s-kanhere
+  - s-shah
   date: '2017-01-01'
 - file: doi-j-pmcj-2019-101112/index.md
   title: Selected papers from the 19th IEEE International Symposium on a World of
@@ -2775,10 +2767,10 @@
 - file: doi-978-3-031-32146-7-3/index.md
   title: 'Bitcoin Blockchain System: An Overview of Security and Privacy Aspects'
   authors:
-  - m-conti
   - c-lal
-  - s-ruj
   - a-gangwal
+  - s-ruj
+  - m-conti
   date: '2024-01-01'
 - file: doi-3242102-3242126/index.md
   title: 'BRRA: A Bid-Revisable Reverse Auction based Framework for Incentive Mechanisms
@@ -2790,24 +2782,24 @@
 - file: doi-tpsisa-52974-2021-00020/index.md
   title: 'Deception for Cyber Defence: Challenges and Opportunities'
   authors:
-  - s-nepal
   - k-moore
+  - d-nguyen
+  - s-nepal
   - s-kanhere
   - c-christopher
   - k-rathakumar
   - d-liebowitz
-  - d-nguyen
-  - r-timmer
   - m-longland
+  - r-timmer
   date: '2021-01-01'
 - file: doi-tifs-2024-3374558/index.md
   title: On Hardware Security Bug Code Fixes By Prompting Large Language Models
   authors:
-  - b-tan
-  - r-karri
   - b-ahmad
-  - h-pearce
   - s-thakur
+  - r-karri
+  - h-pearce
+  - b-tan
   date: '2024-01-01'
 - file: natural-language-processing-2023/index.md
   title: Natural Language Processing
@@ -2818,71 +2810,71 @@
   title: Figurative usage detection of symptom words to improve personal health mention
     detection
   authors:
-  - a-iyer
   - c-paris
-  - a-joshi
+  - a-iyer
   - s-karimi
   - r-sparks
+  - a-joshi
   date: '2020-01-01'
 - file: doi-lcn-2005-14/index.md
   title: A novel tuneable low-intensity adversarial attack
   authors:
-  - a-naveed
   - s-kanhere
+  - a-naveed
   date: '2005-01-01'
 - file: overview-of-the-2019/index.md
   title: 'Overview of the 2019 ALTA Shared Task: Sarcasm Target Identification'
   authors:
-  - a-joshi
   - d-molla
+  - a-joshi
   date: '2019-01-01'
 - file: doi-jiot-2022-3152138/index.md
   title: Understanding and Reducing HVAC Power Consumption Post-Evacuation Events
     in Commercial Buildings
   authors:
-  - i-mohottige
-  - v-sivaraman
-  - s-kanhere
-  - h-gharakheili
   - a-vishwanath
+  - s-kanhere
+  - v-sivaraman
+  - i-mohottige
+  - h-gharakheili
   date: '2022-01-01'
 - file: doi-ssitcon-62437-2024-10795870/index.md
   title: Medical Document Classification using NLP Techniques
   authors:
-  - i-sharda
+  - y-singh
   - t-jain
   - a-joshi
-  - y-singh
   - v-pareek
+  - i-sharda
   date: '2024-01-01'
 - file: doi-j-pmcj-2016-01-005/index.md
   title: Reliable transmissions in AWSNs by using O-BESPAR hybrid antenna
   authors:
-  - n-ahmed
-  - k-li
-  - s-jha
   - s-kanhere
+  - s-jha
+  - k-li
+  - n-ahmed
   date: '2016-01-01'
 - file: doi-wowmom-2018-8449794/index.md
   title: 'Demo: A Delay-Tolerant Payment Scheme on the Ethereum Blockchain'
   authors:
-  - s-kanhere
-  - a-seneviratne
-  - a-manzoor
-  - m-liyanage
-  - m-ylianttila
-  - p-ekparinya
-  - k-thilakarathna
   - y-hu
   - g-jourjon
+  - m-ylianttila
+  - a-manzoor
+  - s-kanhere
+  - m-liyanage
+  - k-thilakarathna
+  - a-seneviratne
+  - p-ekparinya
   date: '2018-01-01'
 - file: doi-pccc-2005-1460560/index.md
   title: On large scale deployment of parallelized file transfer protocol
   authors:
+  - s-kanhere
+  - s-jha
   - s-sohail
   - c-chou
-  - s-jha
-  - s-kanhere
   date: '2005-01-01'
 - file: doi-s-23208352/index.md
   title: Secure and Robust Demand Response Using Stackelberg Game Model and Energy
@@ -2890,67 +2882,67 @@
   authors:
   - m-erol-kantarci
   - h-schriemer
-  - s-ruj
   - m-samadi
+  - s-ruj
   date: '2023-10-01'
 - file: doi-978-3-030-35231-8-15/index.md
   title: 'Reminder Care System: An Activity-Aware Cross-Device Recommendation System'
   authors:
   - y-cao
-  - s-kanhere
-  - x-wang
-  - l-yao
   - m-altulyan
+  - x-wang
+  - s-kanhere
   - c-huang
+  - l-yao
   date: '2019-01-01'
 - file: doi-coin-12548/index.md
   title: A blockchain framework data integrity enhanced recommender system
   authors:
+  - s-kanhere
   - l-yao
   - m-altulyan
-  - s-kanhere
   - c-huang
   date: '2023-01-01'
 - file: doi-mnet-2023-3331963/index.md
   title: Advanced Networking and Applications for Metaverse and Web 3.0
   authors:
-  - d-niyato
-  - c-sun
   - s-kanhere
-  - l-zhang
+  - c-sun
+  - d-niyato
   - b-cao
+  - l-zhang
   date: '2023-11-01'
 - file: doi-2494091-2499775/index.md
   title: 'ConferenceSense: Monitoring of public events using phone sensors'
   authors:
-  - a-misra
-  - s-kanhere
   - v-subbaraju
-  - v-naik
-  - s-batra
-  - p-de
-  - d-chakraborty
-  - a-kumar
   - v-nandakumar
+  - p-de
+  - s-batra
+  - a-kumar
+  - s-kanhere
+  - a-misra
+  - v-naik
+  - d-chakraborty
   date: '2013-01-01'
 - file: doi-s-21134354/index.md
   title: Efficient Data Communication Using Distributed Ledger Technology and IOTA-Enabled
     Internet of Things for a Future Machine-to-Machine Economy
   authors:
+  - m-amjad
+  - g-coviello
+  - m-akhtar
+  - m-ahad
   - s-kanhere
   - d-rizvi
-  - m-akhtar
-  - g-coviello
-  - m-amjad
-  - m-ahad
   date: '2021-06-01'
 - file: doi-978-3-540-69170-9-10/index.md
   title: Automatic collection of fuel prices from a network of mobile cameras
   authors:
+  - s-kanhere
+  - n-bulusu
   - y-dong
   - c-chou
-  - n-bulusu
-  - s-kanhere
   date: '2008-01-01'
 - file: a-secure-fog-2020/index.md
   title: A Secure Fog Based Architecture for Industrial Internet of Things and Industry
@@ -2963,122 +2955,122 @@
 - file: doi-3365921-3365940/index.md
   title: 'DCAT: A Deep Context-Aware Trust Prediction Approach for Online Social Networks'
   authors:
+  - m-orgun
   - c-paris
   - s-yakhchi
-  - m-orgun
-  - a-joshi
-  - a-beheshti
   - s-ghafari
+  - a-beheshti
+  - a-joshi
   date: '2019-12-01'
 - file: doi-3596448/index.md
   title: Accelerated Verifiable Fair Digital Exchange
   authors:
   - p-kodeswaran
-  - s-ruj
   - p-banerjee
-  - d-vinayagamurthy
-  - d-behl
-  - s-sen
   - c-kumar
+  - d-vinayagamurthy
+  - s-sen
+  - s-ruj
+  - d-behl
   date: '2023-09-01'
 - file: recommender-systems-for-2020/index.md
   title: 'Recommender Systems for the Internet of Things: A Survey'
   authors:
-  - s-kanhere
-  - x-wang
-  - q-sheng
-  - l-yao
   - m-altulyan
+  - x-wang
+  - s-kanhere
+  - q-sheng
   - c-huang
+  - l-yao
   date: '2020-01-01'
 - file: doi-jsac-2013-08-erratum/index.md
   title: 'Erratum: Utilizing link characterization for improving the performance of
     aerial wireless sensor networks (IEEE Journal on Selected Areas in Communications)'
   authors:
-  - n-ahmed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - n-ahmed
   date: '2013-01-01'
 - file: doi-les-2021-3129108/index.md
   title: 'Needle in a Haystack: Detecting Subtle Malicious Edits to Additive Manufacturing
     G-code Files'
   authors:
+  - s-mehta
+  - g-mac
   - h-naicker
-  - c-beckwith
   - n-nim
   - v-gadre
   - n-gupta
-  - g-mac
-  - s-mehta
-  - v-udupa
+  - c-beckwith
   - h-pearce
+  - v-udupa
   date: '2021-01-01'
 - file: doi-popets-2024-0079/index.md
   title: 'SoK: Trusting Self-Sovereign Identity'
   authors:
+  - s-kanhere
   - h-paik
   - e-krul
   - s-ruj
-  - s-kanhere
   date: '2024-07-01'
 - file: doi-mass-2014-66/index.md
   title: Optimal Prizes for All-Pay Contests in Heterogeneous Crowdsourcing
   authors:
-  - s-das
+  - s-kanhere
   - t-luo
   - h-tan
-  - s-kanhere
+  - s-das
   date: '2018-01-01'
 - file: doi-978-3-319-99762-9-10/index.md
   title: Towards a Privacy-Preserving Way of Vehicle Data Sharing - A Case for Blockchain
     Technology?
   authors:
+  - a-festl
   - s-kanhere
   - m-steger
   - a-dorri
   - a-stocker
-  - m-fellmann
-  - a-festl
   - c-kaiser
+  - m-fellmann
   date: '2019-01-01'
 - file: how-challenging-is-2016/index.md
   title: 'How challenging is sarcasm versus irony classification?: An analysis from
     human and computational perspectives'
   authors:
-  - j-saraswati
-  - v-tripathi
-  - r-shukla
   - p-bhattacharyya
-  - a-joshi
-  - m-singh
+  - v-tripathi
   - m-carman
+  - j-saraswati
+  - m-singh
+  - a-joshi
+  - r-shukla
   date: '2016-01-01'
 - file: doi-71-993210/index.md
   title: Fair and efficient packet scheduling using Elastic Round Robin
   authors:
-  - h-sethu
-  - a-parekh
   - s-kanhere
+  - a-parekh
+  - h-sethu
   date: '2002-01-01'
 - file: doi-tmm-2015-2494458/index.md
   title: Optimizing HTTP-Based Adaptive Streaming in Vehicular Environment Using Markov
     Decision Process
   authors:
-  - m-hassan
-  - a-bokani
-  - x-zhu
   - s-kanhere
+  - m-hassan
+  - x-zhu
+  - a-bokani
   date: '2015-01-01'
 - file: doi-bxab-049/index.md
   title: 'A Survey on Recommender Systems for Internet of Things: Techniques, Applications
     and Future Directions'
   authors:
-  - s-kanhere
-  - x-wang
-  - q-sheng
-  - l-yao
   - m-altulyan
+  - x-wang
+  - s-kanhere
+  - q-sheng
   - c-huang
+  - l-yao
   date: '2022-01-01'
 - file: doi-2022-findings-acl-148/index.md
   title: 'Striking a Balance: Alleviating Inconsistency in Pre-trained Models for
@@ -3091,223 +3083,223 @@
   title: 'MEChain: A Multi-layer Blockchain Structure with Hierarchical Consensus
     for Secure EHR System'
   authors:
-  - h-paik
-  - l-li
-  - h-wu
   - s-kanhere
+  - h-paik
+  - h-wu
+  - l-li
   date: '2021-01-01'
 - file: doi-tits-2022-3230259/index.md
   title: 'Enabling Safe ITS: EEG-Based Microsleep Detection in VANETs'
   authors:
-  - v-chamola
   - j-shah
-  - s-kanhere
   - a-chougule
+  - s-kanhere
+  - v-chamola
   date: '2023-12-01'
 - file: doi-aina-2018-00157/index.md
   title: 'BlockStore: A secure decentralized storage framework on blockchain'
   authors:
   - m-rahman
-  - s-kiyomoto
   - a-basu
+  - s-kiyomoto
   - s-ruj
   date: '2018-01-01'
 - file: doi-icccn-2002-1043123/index.md
   title: On the latency bound of deficit round robin
   authors:
-  - h-sethu
   - s-kanhere
+  - h-sethu
   date: '2002-01-01'
 - file: doi-3701716-3715501/index.md
   title: 'RACCOON: A Retrieval-Augmented Generation Approach for Location Coordinate
     Capture from News Articles'
   authors:
-  - h-paik
-  - d-gurdasani
-  - a-joshi
   - j-lin
   - t-doung
+  - a-joshi
+  - h-paik
+  - d-gurdasani
   date: '2025-05-01'
 - file: doi-2500000046/index.md
   title: From Fine- to Coarse-Grained Dynamic Information Flow Control and Back
   authors:
-  - d-garg
   - m-vassena
+  - d-garg
   - a-russo
-  - v-rajani
   - d-stefan
+  - v-rajani
   date: '2023-01-01'
 - file: doi-1-9781611978520-12/index.md
   title: Label Shift Estimation With Incremental Prior Update
   authors:
-  - y-zhang
-  - s-kanhere
   - g-batista
+  - s-kanhere
+  - y-zhang
   date: '2025-01-01'
 - file: doi-2222436-2222441/index.md
   title: Towards changing the user perception of mobile communications through geotagged
     information
   authors:
+  - j-ruiz
+  - d-andrés
   - m-martínez
   - s-kanhere
-  - j-ruiz
   - m-hassan
-  - d-andrés
   date: '2012-01-01'
 - file: doi-978-3-030-57805-3-1/index.md
   title: 'Attacking with bitcoin: Using bitcoin to build resilient botnet armies'
   authors:
   - s-kanhere
   - d-kamenski
-  - a-shaghaghi
   - m-warren
+  - a-shaghaghi
   date: '2021-01-01'
 - file: verifiable-and-auditable-2020/index.md
   title: Verifiable and auditable digital interchange framework#
   authors:
   - p-kodeswaran
-  - s-ruj
   - p-banerjee
-  - d-behl
-  - s-sen
   - c-kumar
+  - s-sen
+  - s-ruj
+  - d-behl
   date: '2020-01-01'
 - file: doi-978-3-030-97546-3-32/index.md
   title: Deep Reinforcement Learning for Dynamic Things of Interest Recommendation
     in Intelligent Ambient Environment
   authors:
-  - s-kanhere
-  - x-wang
-  - l-yao
   - m-altulyan
+  - x-wang
+  - s-kanhere
   - c-huang
+  - l-yao
   date: '2022-01-01'
 - file: doi-3670412/index.md
   title: 'DeepSneak: User GPS Trajectory Reconstruction from Federated Route Recommendation
     Models'
   authors:
-  - m-mohommady
-  - h-paik
-  - t-ariyarathna
   - s-kanhere
+  - t-ariyarathna
+  - h-paik
+  - m-mohommady
   date: '2025-02-01'
 - file: security-vulnerabilities-in-2006/index.md
   title: Security Vulnerabilities in Channel Assignment of Multi-Radio Multi-Channel
     Wireless Mesh Networks
   authors:
-  - a-naveed
   - s-kanhere
+  - a-naveed
   date: '2006-01-01'
 - file: doi-2557977-2558023/index.md
   title: Evaluation and establishment of trust in cloud federation
   authors:
   - a-kanwal
-  - m-shibli
   - r-masood
+  - m-shibli
   date: '2014-01-01'
 - file: doi-arxiv-1906-05468/index.md
   title: A Comparison of Word-based and Context-based Representations for Classification
     Problems in Health Informatics
   authors:
   - c-paris
-  - a-joshi
   - s-karimi
   - c-macintyre
   - r-sparks
+  - a-joshi
   date: '2019-06-01'
 - file: doi-cys-20-3-2464/index.md
   title: 'A Framework that Uses the Web for Named Entity Class Identification: Case
     Study for Indian Classical Music Forums'
   authors:
-  - p-bhattacharyya
   - a-joshi
   - j-ross
+  - p-bhattacharyya
   date: '2016-01-01'
 - file: doi-icbc-48266-2020-9169404/index.md
   title: Exploiting constrained IoT devices in a trustless blockchain-based water
     management system
   authors:
-  - m-pincheira
-  - r-giaffreda
   - m-vecchio
+  - r-giaffreda
   - s-kanhere
+  - m-pincheira
   date: '2020-01-01'
 - file: doi-csf-2015-32/index.md
   title: Information Flow Control for Event Handling and the DOM in Web Browsers
   authors:
-  - m-hicks
   - d-garg
   - c-hammer
-  - l-viganò
   - c-fournet
-  - v-rajani
+  - l-viganò
   - a-bichhawat
+  - m-hicks
+  - v-rajani
   date: '2015-01-01'
 - file: strategic-analysis-to-2022/index.md
   title: Strategic Analysis to defend against Griefing Attack in Lightning Network
   authors:
   - s-mazumdar
-  - s-ruj
-  - p-banerjee
   - a-sinha
+  - p-banerjee
   - b-roy
+  - s-ruj
   date: '2022-01-01'
 - file: doi-978-3-642-22450-8-15/index.md
   title: Improved access control mechanism in vehicular ad hoc networks
   authors:
+  - i-stojmenovic
   - a-nayak
   - s-ruj
-  - i-stojmenovic
   date: '2011-01-01'
 - file: doi-icc-2015-7248495/index.md
   title: 'CITEX: A new citation index to measure the relative importance of authors
     and papers in scientific publications'
   authors:
-  - s-ruj
   - a-pal
+  - s-ruj
   date: '2015-01-01'
 - file: doi-iet-qtc-2020-0026/index.md
   title: 'Forthcoming applications of quantum computing: peeking into the future'
   authors:
-  - n-guizani
+  - v-chamola
   - v-hassija
   - s-kanhere
-  - v-chamola
   - a-goyal
+  - n-guizani
   date: '2020-12-01'
 - file: doi-s-10462-023-10563-8/index.md
   title: 'A systematic review of federated learning from clients'' perspective: challenges
     and solutions'
   authors:
-  - l-zhu
+  - s-kanhere
   - h-paik
   - y-shanmugarasa
-  - s-kanhere
+  - l-zhu
   date: '2023-01-01'
 - file: doi-978-3-642-20757-0-8/index.md
   title: Empirical Evaluation of HTTP Adaptive Streaming under Vehicular Mobility
   authors:
-  - m-hassan
-  - s-kanhere
-  - i-hossain
   - j-yao
+  - m-hassan
+  - i-hossain
+  - s-kanhere
   date: '2011-01-01'
 - file: doi-d-16-1104/index.md
   title: Are Word Embedding-based Features Useful for Sarcasm Detection?
   authors:
-  - k-patel
-  - v-tripathi
   - p-bhattacharyya
-  - a-joshi
+  - v-tripathi
   - m-carman
+  - k-patel
+  - a-joshi
   date: '2016-10-01'
 - file: doi-wowmom-2014-6918996/index.md
   title: A Distributed Mechanism for Dynamic Resource Trading in Cooperative Mobile
     Video Streaming
   authors:
-  - b-alqahtani
   - s-kanhere
   - l-libman
+  - b-alqahtani
   date: '2014-01-01'
 - file: carrots-and-sticks-2016/index.md
   title: Carrots and Sticks - Incentives that Make Mobile Crowdsensing Work (CASPer
@@ -3319,54 +3311,54 @@
   title: SEW-ing a Simple Endorsement Web to Incentivize Trustworthy Participatory
     Sensing
   authors:
+  - s-kanhere
   - t-luo
   - h-tan
-  - s-kanhere
   date: '2014-01-01'
 - file: doi-3051528-3051531/index.md
   title: 'Type systems for information flow control: the question of granularity'
   authors:
   - i-bastys
-  - v-rajani
-  - w-rafnsson
   - d-garg
+  - w-rafnsson
+  - v-rajani
   date: '2017-01-01'
 - file: doi-services-2012-69/index.md
   title: 'KAAS: Kernel as a Service'
   authors:
   - h-mehta
   - d-janakiram
-  - v-rajani
   - s-balaji
+  - v-rajani
   date: '2012-01-01'
 - file: doi-2665943-2665961/index.md
   title: 'ProfileGuard: Privacy preserving obfuscation for mobile user profiles'
   authors:
-  - r-boreli
   - s-kanhere
+  - r-boreli
   - i-ullah
   - s-chawla
   date: '2014-01-01'
 - file: doi-j-pmcj-2019-05-005/index.md
   title: Smart user identification using cardiopulmonary activity
   authors:
-  - s-shah
   - s-kanhere
+  - s-shah
   date: '2019-01-01'
 - file: doi-j-jpdc-2019-08-005/index.md
   title: 'LSB: A Lightweight Scalable Blockchain for IoT security and anonymity'
   authors:
+  - s-kanhere
   - p-gauravaram
   - a-dorri
-  - s-kanhere
   - r-jurdak
   date: '2019-01-01'
 - file: evaluating-dialect-robustness-2025/index.md
   title: Evaluating Dialect Robustness of Language Models via Conversation Understanding
   authors:
+  - a-joshi
   - d-srirag
   - n-sahoo
-  - a-joshi
   date: '2025-01-01'
 - file: doi-978-3-030-31919-9-23/index.md
   title: 'FSPVDsse: A Forward Secure Publicly Verifiable Dynamic SSE Scheme'
@@ -3378,26 +3370,26 @@
   title: 'Privacy-preserving targeted mobile advertising: A Blockchain-based framework
     for mobile ads'
   authors:
-  - r-boreli
   - s-kanhere
+  - r-boreli
   - i-ullah
   date: '2023-01-01'
 - file: doi-978-3-319-59870-3-22/index.md
   title: Certificate Transparency with Enhancements and Short Proofs
   authors:
+  - a-singh
   - s-ruj
   - b-sengupta
-  - a-singh
   date: '2017-01-01'
 - file: doi-tetc-2017-2737789/index.md
   title: A New Secure and Lightweight Searchable Encryption Scheme over Encrypted
     Cloud Data
   authors:
+  - c-glackin
+  - m-rajarajan
   - s-tahir
   - s-ruj
-  - c-glackin
   - y-rahulamathavan
-  - m-rajarajan
   date: '2019-10-01'
 - file: doi-b-978-0-32-390535-0-00008-2/index.md
   title: Applications and challenges of SA in real-life scenarios
@@ -3408,29 +3400,29 @@
 - file: doi-vetecs-2005-1543842/index.md
   title: A parallelized file-transfer-protocol for on-board IP networks
   authors:
+  - m-malik
   - s-kanhere
-  - s-sohail
   - a-baig
   - s-jha
-  - m-malik
+  - s-sohail
   date: '2005-01-01'
 - file: doi-3678260/index.md
   title: A Comprehensive Threat Modelling Analysis for Distributed Energy Resources
   authors:
   - n-ahmed
-  - n-bhaskar
-  - s-jha
   - j-ahmed
+  - n-bhaskar
   - s-kerr
+  - s-jha
   - r-masood
   date: '2024-10-01'
 - file: doi-j-comnet-2022-108766/index.md
   title: A survey of data minimisation techniques in blockchain-based healthcare
   authors:
-  - h-paik
   - s-kanhere
-  - r-mukta
+  - h-paik
   - q-lu
+  - r-mukta
   date: '2022-01-01'
 - file: doi-tnsm-2023-3239832/index.md
   title: 'FairShare: Blockchain Enabled Fair, Accountable and Secure Data Sharing
@@ -3444,120 +3436,120 @@
   title: A QoS-aware, Energy-efficient Trajectory Optimization for UAV Base Stations
     using Q-Learning
   authors:
+  - s-salehi
   - s-hoseini
   - s-kanhere
-  - a-bokani
-  - s-salehi
   - j-hassan
+  - a-bokani
   date: '2020-01-01'
 - file: doi-arxiv-2310-05135/index.md
   title: Are Emily and Greg Still More Employable than Lakisha and Jamal? Investigating
     Algorithmic Hiring Bias in the Era of ChatGPT
   authors:
+  - a-veldanda
   - s-garg
+  - s-thakur
   - f-grob
-  - b-tan
   - r-karri
   - h-pearce
-  - a-veldanda
-  - s-thakur
+  - b-tan
   date: '2023-01-01'
 - file: doi-jiot-2024-3401101/index.md
   title: Single-Sensor Sparse Adversarial Perturbation Attacks Against Behavioral
     Biometrics
   authors:
   - s-seneviratne
-  - s-kanhere
-  - s-jayawardena
   - r-gunawardena
+  - s-jayawardena
+  - s-kanhere
   - r-masood
   date: '2024-08-01'
 - file: doi-j-bcra-2025-100319/index.md
   title: Zero Trust Driven Access Control Delegation Using Blockchain
   authors:
   - m-hitchens
-  - s-kanhere
-  - k-chowdhury
-  - h-paik
-  - r-mukta
   - s-pal
+  - r-mukta
+  - s-kanhere
+  - h-paik
+  - k-chowdhury
   date: '2025-06-01'
 - file: doi-s-0140-3664-02-00009-9/index.md
   title: Low-latency guaranteed-rate scheduling using Elastic Round Robin
   authors:
-  - h-sethu
   - s-kanhere
+  - h-sethu
   date: '2002-01-01'
 - file: sarcasm-suite-a-2017/index.md
   title: 'Sarcasm suite: A browser-based engine for sarcasm detection and generation'
   authors:
   - a-joshi
-  - d-kanojia
   - p-bhattacharyya
+  - d-kanojia
   - m-carman
   date: '2017-01-01'
 - file: doi-p-15-2124/index.md
   title: Harnessing context incongruity for sarcasm detection
   authors:
-  - a-joshi
   - v-sharma
+  - a-joshi
   - p-bhattacharyya
   date: '2015-01-01'
 - file: doi-tmc-2011-97/index.md
   title: Improving QoS in High-Speed Mobility Using Bandwidth Maps
   authors:
+  - j-yao
   - m-hassan
   - s-kanhere
-  - j-yao
   date: '2012-01-01'
 - file: doi-issnip-2013-6529792/index.md
   title: Priority-based coverage path planning for Aerial Wireless Sensor Networks
   authors:
-  - g-murtaza
-  - s-jha
   - s-kanhere
+  - s-jha
+  - g-murtaza
   date: '2013-01-01'
 - file: doi-nca-2018-8548074/index.md
   title: 'Gwardar: Towards Protecting a Software-Defined Network from Malicious Network
     Operating Systems'
   authors:
+  - s-kanhere
   - s-jha
   - m-kaafar
   - a-shaghaghi
-  - s-kanhere
   date: '2018-01-01'
 - file: doi-icst-mobiquitous-2014-257991/index.md
   title: Can smart plugs predict electric power consumption? A case study
   authors:
-  - a-reinhardt
-  - d-christin
   - s-kanhere
+  - d-christin
+  - a-reinhardt
   date: '2014-01-01'
 - file: doi-access-2019-2932400/index.md
   title: Recent Trends in User Authentication - A Survey
   authors:
-  - s-shah
   - s-kanhere
+  - s-shah
   date: '2019-01-01'
 - file: doi-mcom-2016-7470935/index.md
   title: On the Importance of Link Characterization for Aerial Wireless Sensor Networks
   authors:
-  - n-ahmed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - n-ahmed
   date: '2016-01-01'
 - file: doi-978-3-319-38898-4-16/index.md
   title: On the application of clique problem for proof-of-work in cryptocurrencies
   authors:
+  - k-sakurai
   - s-bag
   - s-ruj
-  - k-sakurai
   date: '2016-01-01'
 - file: doi-mcom-2019-1800577/index.md
   title: 'SPB: A Secure Private Blockchain-Based Solution for Distributed Energy Trading'
   authors:
-  - s-kanhere
   - f-luo
+  - s-kanhere
   - z-dong
   - a-dorri
   - r-jurdak
@@ -3565,22 +3557,22 @@
 - file: doi-icc-2014-6883691/index.md
   title: Creating Personal Bandwidth Maps using Opportunistic Throughput Measurements
   authors:
+  - s-kanhere
+  - m-hassan
   - g-murtaza
   - a-reinhardt
-  - m-hassan
-  - s-kanhere
   date: '2014-01-01'
 - file: doi-wcm-1143/index.md
   title: 'HUBCODE: hub-based forwarding using network coding in delay tolerant networks'
   authors:
-  - s-ahmed
   - s-kanhere
+  - s-ahmed
   date: '2013-01-01'
 - file: doi-crst-crst-84-23/index.md
   title: Decoding ChatGPT's 'impact' on the future of healthcare
   authors:
-  - p-roop
   - h-pearce
+  - p-roop
   date: '2023-01-01'
 - file: besstie-a-benchmark-2024/index.md
   title: 'BESSTIE: A Benchmark for Sentiment and Sarcasm Classification for Varieties
@@ -3594,65 +3586,65 @@
 - file: doi-percomw-2016-7457114/index.md
   title: 'QuickFind: Fast and Contact-free Object Detection Using a Depth Sensor'
   authors:
+  - s-kanhere
   - c-chou
   - h-zhong
-  - s-kanhere
   date: '2016-01-01'
 - file: doi-arxiv-2208-13560/index.md
   title: From Fine- to Coarse-Grained Dynamic Information Flow Control and Back, a
     Tutorial on Dynamic Information Flow
   authors:
-  - d-garg
   - m-vassena
+  - d-garg
   - a-russo
-  - v-rajani
   - d-stefan
+  - v-rajani
   date: '2022-01-01'
 - file: doi-tnsm-2022-3230768/index.md
   title: Strategic Analysis of Griefing Attack in Lightning Network
   authors:
   - s-mazumdar
-  - s-ruj
-  - p-banerjee
   - a-sinha
+  - p-banerjee
   - b-roy
+  - s-ruj
   date: '2023-06-01'
 - file: doi-iotdi-49375-2020-00018/index.md
   title: Evaluating Emergency Evacuation Events Using Building WiFi Data
   authors:
-  - i-mohottige
-  - v-sivaraman
-  - s-kanhere
-  - h-gharakheili
   - a-vishwanath
+  - s-kanhere
+  - v-sivaraman
+  - i-mohottige
+  - h-gharakheili
   date: '2020-01-01'
 - file: doi-b-11309-9/index.md
   title: Message dissemination in vehicular networks
   authors:
-  - s-ahmed
   - s-kanhere
+  - s-ahmed
   date: '2016-01-01'
 - file: doi-lcn-2010-5735690/index.md
   title: Mitigating the Effect of Interference in Wireless Sensor Networks
   authors:
-  - n-ahmed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - n-ahmed
   date: '2010-01-01'
 - file: doi-iotdi-49375-2020-00035/index.md
   title: 'Poster Abstract: Towards Scalable and Trustworthy Decentralized Collaborative
     Intrusion Detection System for IoT'
   authors:
-  - g-putra
   - v-dedeoglu
+  - g-putra
   - s-kanhere
   - r-jurdak
   date: '2020-01-01'
 - file: spb-a-secure-2018/index.md
   title: 'SPB: A Secure Private Blockchain-based Solution for Energy Trading'
   authors:
-  - s-kanhere
   - f-luo
+  - s-kanhere
   - z-dong
   - a-dorri
   - r-jurdak
@@ -3660,63 +3652,63 @@
 - file: doi-issnip-2014-6827598/index.md
   title: Randomised Multipath Routing for Secure Data Collection
   authors:
-  - j-fei
+  - s-kanhere
   - w-alghamdi
   - h-wu
-  - s-kanhere
+  - j-fei
   date: '2014-01-01'
 - file: an-empirical-cybersecurity-2021/index.md
   title: An empirical cybersecurity evaluation of GitHub Copilot's code contributions
   authors:
-  - b-dolan-gavitt
-  - b-tan
-  - r-karri
   - b-ahmad
+  - r-karri
   - h-pearce
+  - b-tan
+  - b-dolan-gavitt
   date: '2021-01-01'
 - file: doi-aina-2016-65/index.md
   title: Failure tolerant rational secret sharing
   authors:
-  - s-ruj
   - s-de
+  - s-ruj
   date: '2016-01-01'
 - file: striking-a-balance-2024/index.md
   title: Striking a Balance between Classical and Deep Learning Approaches in Natural
     Language Processing Pedagogy
   authors:
   - p-bhattacharyya
-  - a-joshi
+  - j-renzella
   - x-zhang
   - s-jha
-  - j-renzella
+  - a-joshi
   date: '2024-05-01'
 - file: doi-s-11036-022-02015-4/index.md
   title: 'Consensus Algorithms on Appendable-Block Blockchains: Impact and Security
     Analysis'
   authors:
-  - s-kanhere
-  - h-nunes
   - r-michelin
+  - s-kanhere
   - a-zorzo
-  - c-neu
   - r-lunardi
+  - c-neu
+  - h-nunes
   date: '2022-01-01'
 - file: doi-tc-2012-138/index.md
   title: Pairwise and triple key distribution in wireless sensor networks with applications
   authors:
+  - i-stojmenovic
   - a-nayak
   - s-ruj
-  - i-stojmenovic
   date: '2013-01-01'
 - file: doi-wcnc-2014-6952912/index.md
   title: Reliable Positioning with Hybrid Antenna Model for Aerial Wireless Sensor
     and Actor Networks
   authors:
-  - s-kanhere
+  - d-turgut
   - k-li
+  - s-kanhere
   - m-akbas
   - s-jha
-  - d-turgut
   date: '2014-01-01'
 - file: doi-978-981-10-8396-9-3/index.md
   title: Sarcasm detection using incongruity within target text
@@ -3730,56 +3722,56 @@
     Delegation'
   authors:
   - m-hitchens
+  - s-pal
+  - r-mukta
   - s-kanhere
   - h-paik
-  - r-mukta
-  - s-pal
   date: '2024-08-01'
 - file: doi-jsac-2013-130825/index.md
   title: Utilizing Link Characterization for Improving the Performance of Aerial Wireless
     Sensor Networks
   authors:
-  - n-ahmed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - n-ahmed
   date: '2013-01-01'
 - file: doi-access-2025-3576448/index.md
   title: 'BeyondLife: An Open-Source Digital Will Solution for Posthumous Data Management'
   authors:
+  - s-kanhere
   - j-laeuchli
   - x-chen
   - a-shaghaghi
-  - s-kanhere
   date: '2025-01-01'
 - file: doi-978-981-10-8438-6-22/index.md
   title: 'Expect the Unexpected: Harnessing Sentence Completion for Sarcasm Detection'
   authors:
-  - s-agrawal
   - a-joshi
   - p-bhattacharyya
+  - s-agrawal
   - m-carman
   date: '2018-01-01'
 - file: doi-j-comcom-2009-08-012/index.md
   title: Preserving privacy in participatory sensing systems
   authors:
-  - w-hu
   - s-kanhere
   - k-huang
+  - w-hu
   date: '2010-01-01'
 - file: doi-trustcom-2013-172/index.md
   title: 'Platform Zero: A Context-based Computing Platform for Collaboration'
   authors:
-  - a-muhlbauer
-  - t-zelinsky
   - s-kanhere
+  - t-zelinsky
+  - a-muhlbauer
   date: '2013-01-01'
 - file: doi-tnsm-2021-3077276/index.md
   title: Trust-Based Blockchain Authorization for IoT
   authors:
+  - a-ignjatovic
+  - v-dedeoglu
   - s-kanhere
   - g-putra
-  - v-dedeoglu
-  - a-ignjatovic
   - r-jurdak
   date: '2021-01-01'
 - file: predicting-the-target-2024/index.md
@@ -3794,35 +3786,35 @@
   title: 'Sparse Representation Based Acoustic Rangefinders: From Sensor Platforms
     to Mobile Devices'
   authors:
-  - w-hu
-  - s-jha
   - s-kanhere
+  - s-jha
   - p-misra
+  - w-hu
   date: '2015-01-01'
 - file: doi-mts-2018-2826080/index.md
   title: Algorithmic Governance in Smart Cities The Conundrum and the Potential of
     Pervasive Computing Solutions
   authors:
   - f-zambonelli
-  - w-meuter
-  - s-kanhere
-  - f-salim
   - s-loke
+  - f-salim
+  - s-kanhere
+  - w-meuter
   date: '2018-01-01'
 - file: doi-lcn-2005-76/index.md
   title: Implementation and performance analysis of a packet scheduler on a programmable
     network processor
   authors:
-  - f-sabrina
-  - s-jha
   - s-kanhere
+  - s-jha
+  - f-sabrina
   date: '2005-01-01'
 - file: doi-comsnets-48256-2020-9027487/index.md
   title: A journey in applying blockchain for cyberphysical systems
   authors:
-  - s-kanhere
-  - v-dedeoglu
   - r-michelin
+  - v-dedeoglu
+  - s-kanhere
   - a-dorri
   - a-zorzo
   - r-lunardi
@@ -3831,49 +3823,49 @@
 - file: doi-978-981-97-2031-6-6/index.md
   title: Twitter Trolling Detection Using Machine Learning
   authors:
-  - t-jain
-  - a-joshi
   - h-kumar
-  - s-ghosh
+  - t-jain
   - a-kumar
+  - s-ghosh
+  - a-joshi
   date: '2024-01-01'
 - file: doi-iccke-2013-6682806/index.md
   title: Trust Assessment in Social Participatory Networks
   authors:
-  - m-allahbakhsh
-  - m-torshiz
-  - s-kanhere
   - h-amintoosi
+  - s-kanhere
+  - m-torshiz
+  - m-allahbakhsh
   date: '2013-01-01'
 - file: doi-elinfocom-2019-8706345/index.md
   title: Synthesizing IEC 61499 function blocks to hardware
   authors:
-  - p-roop
   - h-pearce
+  - p-roop
   date: '2019-01-01'
 - file: doi-s-10623-011-9550-9/index.md
   title: Improved distinguishers for HC-128
   authors:
+  - t-johansson
+  - p-stankovski
   - m-hell
   - s-ruj
-  - p-stankovski
-  - t-johansson
   date: '2012-01-01'
 - file: doi-mc-2020-2968013/index.md
   title: Is Privacy Regulation Slowing Down Research on Pervasive Computing?
   authors:
-  - c-bettini
-  - s-kanhere
-  - m-langheinrich
   - d-reinhardt
+  - s-kanhere
   - a-misra
+  - c-bettini
+  - m-langheinrich
   date: '2020-01-01'
 - file: doi-mnet-011-2100746/index.md
   title: Toward Blockchain-Based Trust and Reputation Management for Trustworthy 6G
     Networks
   authors:
-  - g-putra
   - v-dedeoglu
+  - g-putra
   - s-kanhere
   - r-jurdak
   date: '2022-01-01'
@@ -3881,70 +3873,70 @@
   title: Cost-effective IoT devices as trustworthy data sources for a blockchain-based
     water management system in precision agriculture
   authors:
-  - m-pincheira
-  - r-giaffreda
   - m-vecchio
+  - r-giaffreda
   - s-kanhere
+  - m-pincheira
   date: '2021-01-01'
 - file: doi-978-3-319-66972-4-12/index.md
   title: 'Secure Wireless Automotive Software Updates Using Blockchains: A Proof of
     Concept'
   authors:
+  - m-karner
   - s-kanhere
-  - k-roemer
   - m-steger
   - a-dorri
-  - m-karner
+  - k-roemer
   - r-jurdak
   date: '2018-01-01'
 - file: doi-lcn-65610-2025-11146330/index.md
   title: 'Demo: TOSense – What Did You Just Agree to?'
   authors:
+  - x-chen
+  - h-ali
   - a-shaghaghi
   - s-kanhere
-  - h-ali
   - s-jha
-  - x-chen
   date: '2025-10-01'
 - file: doi-3640471-3680444/index.md
   title: 'AuditNet: A Conversational AI-based Security Assistant'
   authors:
+  - s-deldari
   - a-shaghaghi
-  - m-goudarzi
   - f-salim
+  - m-goudarzi
   - a-joshi
   - s-jha
   - s-finn
-  - s-deldari
   date: '2024-09-01'
 - file: blockchain-enabled-data-2018/index.md
   title: Blockchain Enabled Data Marketplace - Design and Challenges
   authors:
-  - s-ruj
   - p-banerjee
+  - s-ruj
   date: '2018-01-01'
 - file: doi-ipsn-2018-00050/index.md
   title: Data-Driven Monitoring and Optimization of Classroom Usage in a Smart Campus
   authors:
+  - s-kanhere
   - v-sivaraman
   - t-sutjarittham
-  - s-kanhere
   - h-gharakheili
   date: '2018-01-01'
 - file: doi-icon-2011-6168481/index.md
   title: Automatic Image Capturing and Processing for PetrolWatch
   authors:
+  - s-kanhere
   - y-dong
   - c-chou
-  - s-kanhere
   - r-liu
   date: '2011-01-01'
 - file: doi-icbc-56567-2023-10174987/index.md
   title: Privacy-preserving Trust Management for Blockchain-based Resource Sharing
     in 6G-IoT
   authors:
-  - g-putra
   - v-dedeoglu
+  - g-putra
   - s-kanhere
   - r-jurdak
   date: '2023-01-01'
@@ -3959,114 +3951,114 @@
 - file: doi-j-comcom-2003-12-006/index.md
   title: On the latency and fairness characteristics of pre-order deficit round Robin
   authors:
-  - h-sethu
   - s-kanhere
+  - h-sethu
   date: '2004-01-01'
 - file: doi-dcoss-2013-29/index.md
   title: A Trust-based Recruitment Framework for Multi-hop Social Participatory Sensing
   authors:
-  - s-kanhere
   - h-amintoosi
+  - s-kanhere
   date: '2013-01-01'
 - file: doi-3712060/index.md
   title: 'Natural Language Processing for Dialects of a Language: A Survey'
   authors:
   - r-dabre
-  - d-kanojia
-  - z-li
   - h-zhan
-  - g-haffari
   - d-dippold
+  - z-li
   - a-joshi
+  - d-kanojia
+  - g-haffari
   date: '2025-02-01'
 - file: doi-arxiv-2301-10336/index.md
   title: A survey of Digital Manufacturing Hardware and Software Trojans
   authors:
-  - m-bhargava
-  - c-chang
-  - e-hui
-  - r-karri
-  - n-gupta
-  - h-pearce
   - p-roy
+  - c-chang
+  - m-bhargava
+  - e-hui
+  - n-gupta
+  - r-karri
+  - h-pearce
   date: '2023-01-01'
 - file: doi-wowmom-2015-7158166/index.md
   title: Lightweight Clustering of Spatio-Temporal Data in Resource Constrained Mobile
     Sensing
   authors:
+  - s-kanhere
+  - s-jha
   - g-murtaza
   - a-reinhardt
-  - s-jha
-  - s-kanhere
   date: '2015-01-01'
 - file: doi-percomw-2016-7457075/index.md
   title: Human Identification Using WiFi Signal
   authors:
-  - s-kanhere
   - w-hu
   - b-wei
-  - j-zhang
   - a-tan
+  - s-kanhere
+  - j-zhang
   date: '2016-01-01'
 - file: doi-tdsc-2022-3231632/index.md
   title: Multi-Modal Side Channel Data Driven Golden-Free Detection of Software and
     Firmware Trojans
   authors:
   - p-krishnamurthy
-  - r-karri
-  - f-khorrami
-  - h-pearce
   - v-surabhi
+  - f-khorrami
+  - r-karri
+  - h-pearce
   date: '2023-01-01'
 - file: doi-icbc-48266-2020-9169429/index.md
   title: Leveraging lightweight blockchain to establish data integrity for surveillance
     cameras
   authors:
+  - r-michelin
   - n-ahmed
   - s-kanhere
   - a-seneviratne
-  - r-michelin
   - s-jha
   date: '2020-01-01'
 - file: doi-3577200/index.md
   title: 'High-Level Approaches to Hardware Security: A Tutorial'
   authors:
-  - b-tan
-  - h-pearce
   - r-karri
+  - h-pearce
+  - b-tan
   date: '2023-01-01'
 - file: doi-tsg-2025-3577144/index.md
   title: Unsupervised Power Load Super-Resolution Based on Contrastive and Internal
     Learning
   authors:
-  - y-he
   - f-luo
   - s-kanhere
+  - y-he
   - g-ranzi
   date: '2025-01-01'
 - file: doi-comsnets-56262-2023-10041348/index.md
   title: Trust and Reputation Management for Blockchain-enabled IoT
   authors:
   - s-kanhere
-  - g-putra
   - v-dedeoglu
+  - g-putra
   - s-malik
   - r-jurdak
   date: '2023-01-01'
 - file: doi-sp-46214-2022-9833571/index.md
   title: Asleep at the Keyboard? Assessing the Security of GitHub Copilot's Code Contributions
   authors:
-  - b-dolan-gavitt
-  - b-tan
-  - r-karri
   - b-ahmad
+  - r-karri
   - h-pearce
+  - b-tan
+  - b-dolan-gavitt
   date: '2022-01-01'
 - file: doi-icbc-48266-2020-9169481/index.md
   title: Trust Management in Decentralized IoT Access Control System
   authors:
-  - g-putra
   - v-dedeoglu
+  - g-putra
   - s-kanhere
   - r-jurdak
   date: '2020-01-01'
@@ -4074,120 +4066,120 @@
   title: An evaluation of fair packet schedulers using a novel measure of instantaneous
     fairness
   authors:
-  - h-shi
   - s-kanhere
+  - h-shi
   - h-sethu
   date: '2005-01-01'
 - file: doi-3428690-3429167/index.md
   title: A dynamic deep trust prediction approach for online social networks
   authors:
+  - m-orgun
   - c-paris
   - s-yakhchi
-  - m-orgun
-  - a-joshi
-  - a-beheshti
   - s-ghafari
   - a-jolfaei
+  - a-beheshti
+  - a-joshi
   date: '2020-11-01'
 - file: doi-wcnc-2010-5506368/index.md
   title: A Bayesian Routing Framework for Delay Tolerant Networks
   authors:
-  - s-ahmed
   - s-kanhere
+  - s-ahmed
   date: '2010-01-01'
 - file: doi-978-981-97-2031-6-19/index.md
   title: Supervised Machine Learning Approaches for Customer Reviews Sentiment Analysis
   authors:
+  - p-garg
+  - d-panwar
   - s-tyagi
   - a-pandey
-  - p-garg
   - a-joshi
-  - d-panwar
   date: '2024-01-01'
 - file: doi-3709018-3736330/index.md
   title: Vulnerability Aspects Extraction and Discrepancies Detection across Heterogeneous
     Threat Intelligence
   authors:
-  - z-xing
-  - s-kanhere
   - j-sun
-  - s-jha
+  - s-kanhere
+  - z-xing
   - l-wang
+  - s-jha
   - j-jiang
   date: '2025-08-01'
 - file: doi-s-11036-013-0455-x/index.md
   title: A Reputation Framework for Social Participatory Sensing Systems
   authors:
-  - s-kanhere
   - h-amintoosi
+  - s-kanhere
   date: '2014-01-01'
 - file: doi-978-3-030-04849-5-16/index.md
   title: The Proposal of a Blockchain-Based Architecture for Transparent Certificate
     Handling
   authors:
-  - j-gresch
-  - s-kanhere
-  - e-scheid
-  - b-stiller
   - b-rodrigues
+  - s-kanhere
+  - b-stiller
+  - e-scheid
+  - j-gresch
   date: '2019-01-01'
 - file: how-do-cultural-2016/index.md
   title: 'How do cultural differences impact the quality of sarcasm annotation?: A
     case study of Indian annotators and American text'
   authors:
-  - j-saraswati
-  - r-shukla
   - p-bhattacharyya
-  - a-joshi
+  - j-saraswati
   - m-carman
+  - a-joshi
+  - r-shukla
   date: '2016-01-01'
 - file: doi-ciacs-2015-7395559/index.md
   title: Distributed intrusion detection system using mobile agents in cloud computing
     environment
   authors:
-  - y-mehmood
-  - r-masood
-  - m-shibli
   - a-kanwal
+  - r-masood
+  - y-mehmood
+  - m-shibli
   date: '2016-01-01'
 - file: doi-atnac-2015-7366835/index.md
   title: Empirical Evaluation of MDP-based DASH Player
   authors:
-  - m-hassan
-  - a-bokani
-  - s-hoseini
   - s-kanhere
+  - m-hassan
+  - s-hoseini
+  - a-bokani
   date: '2015-01-01'
 - file: doi-978-3-030-47426-3-50/index.md
   title: Prototype Similarity Learning for Activity Recognition
   authors:
-  - l-bai
-  - s-kanhere
   - x-wang
+  - s-kanhere
   - y-xiao
   - l-yao
+  - l-bai
   date: '2020-01-01'
 - file: doi-tmc-2012-20/index.md
   title: Adaptive Position Update for Geographic Routing in Mobile Ad Hoc Networks
   authors:
-  - q-chen
-  - m-hassan
   - s-kanhere
+  - m-hassan
+  - q-chen
   date: '2013-01-01'
 - file: doi-mc-2018-1151010/index.md
   title: Security issues in named data networks
   authors:
   - s-bit
-  - s-ruj
   - t-chatterjee
+  - s-ruj
   date: '2018-01-01'
 - file: doi-access-2024-3357714/index.md
   title: Scalable Security Enforcement for Cyber Physical Systems
   authors:
-  - a-baird
   - s-pinisetty
-  - a-panda
   - p-roop
+  - a-baird
+  - a-panda
   - h-pearce
   date: '2024-01-01'
 - file: bambinolm-bilingualhumaninspired-continual-2024/index.md
@@ -4200,64 +4192,64 @@
 - file: detection-and-tracking-2007/index.md
   title: Detection and Tracking Using Wireless Sensor Networks
   authors:
-  - y-dong
   - n-ahmed
-  - s-kanhere
   - m-rutten
-  - t-bokareva
-  - s-jha
   - n-gordon
   - b-ristic
+  - s-kanhere
+  - t-bokareva
   - t-bessell
+  - s-jha
+  - y-dong
   date: '2007-01-01'
 - file: doi-78/index.md
   title: 'Counterfactual Explanations and Model Multiplicity: a Relational Verification
     View'
   authors:
-  - f-leofante
-  - t-son
-  - g-kern-isberner
-  - v-rajani
-  - p-marquis
   - e-botoeva
+  - g-kern-isberner
+  - t-son
+  - f-leofante
+  - p-marquis
+  - v-rajani
   date: '2023-01-01'
 - file: doi-iwcmc-2017-7986320/index.md
   title: 'PELE: Power Efficient Legitimate Eavesdropping via Jamming in UAV Communications'
   authors:
-  - d-li
-  - s-kanhere
-  - x-wang
   - e-tovar
+  - x-wang
   - k-li
+  - s-kanhere
   - x-zhang
+  - d-li
   date: '2017-01-01'
 - file: doi-978-981-96-8183-9-16/index.md
   title: 'Revisit Time Series Classification Benchmark: The Impact of Temporal Information
     for Classification'
   authors:
-  - y-zhang
-  - s-kanhere
   - g-batista
+  - s-kanhere
+  - y-zhang
   date: '2025-01-01'
 - file: doi-978-3-642-54792-8-9/index.md
   title: Information Flow Control in WebKit's JavaScript Bytecode
   authors:
-  - m-abadi
   - d-garg
   - c-hammer
   - s-kremer
-  - v-rajani
   - a-bichhawat
+  - m-abadi
+  - v-rajani
   date: '2014-01-01'
 - file: doi-j-sysarc-2022-102720/index.md
   title: 'Chain or DAG? Underlying data structures, architectures, topologies and
     consensus in distributed ledger technology: A review, taxonomy and research issues'
   authors:
+  - c-yue
   - x-yang
+  - h-wu
   - s-kanhere
   - h-paik
-  - c-yue
-  - h-wu
   date: '2022-01-01'
 - file: doi-15501320802581466/index.md
   title: Revisiting Key Predistribution Using Transversal Designs for a Grid-Based
@@ -4278,11 +4270,11 @@
   title: Fair Scheduling for Data Collection in Mobile Sensor Networks with Energy
     Harvesting
   authors:
-  - s-kanhere
   - c-yuen
-  - b-kusy
   - k-li
   - a-ignjatovic
+  - s-kanhere
+  - b-kusy
   - s-jha
   - r-jurdak
   date: '2019-01-01'
@@ -4291,54 +4283,54 @@
     2020
   authors:
   - s-kanhere
-  - d-reinhardt
   - o-chipara
   - d-nicklas
+  - d-reinhardt
   date: '2021-01-01'
 - file: doi-mcom-2017-1600746-cm/index.md
   title: 'Sustainable Incentives for Mobile Crowdsensing: Auctions, Lotteries, and
     Trust and Reputation Systems'
   authors:
+  - j-huang
+  - s-das
   - f-wu
   - s-kanhere
   - t-luo
-  - s-das
-  - j-huang
   date: '2017-01-01'
 - file: doi-j-dib-2021-107286/index.md
   title: Uncertainty quantification in dimensions dataset of additive manufactured
     NIST standard test artifact
   authors:
-  - h-pearce
   - r-karri
-  - n-gupta
   - g-mac
+  - h-pearce
+  - n-gupta
   date: '2021-01-01'
 - file: reliable-fair-and-2020/index.md
   title: Reliable, fair and decentralized marketplace for content sharing using blockchain
   authors:
-  - c-govindarajan
-  - s-ruj
-  - p-jayachandran
   - p-banerjee
+  - s-ruj
+  - c-govindarajan
+  - p-jayachandran
   date: '2020-01-01'
 - file: doi-3564625-3564628/index.md
   title: Reconstruction Attack on Differential Private Trajectory Protection Mechanisms
   authors:
+  - s-wang
+  - s-abuadbba
   - s-nepal
   - s-kanhere
   - e-buchholz
-  - s-wang
-  - s-abuadbba
   date: '2022-12-01'
 - file: doi-access-2023-3260643/index.md
   title: Don't Be a Victim during a Pandemic! Analysing Security and Privacy Threats
     in Twitter during COVID-19
   authors:
-  - b-sharma
-  - i-karunanayake
   - m-ikram
   - r-masood
+  - b-sharma
+  - i-karunanayake
   date: '2023-01-01'
 - file: cloud-data-auditing-2017/index.md
   title: Cloud Data Auditing Using Proofs of Retrievability
@@ -4349,25 +4341,25 @@
 - file: doi-s-10462-025-11359-8/index.md
   title: A survey of classification tasks and approaches for legal contracts
   authors:
-  - h-paik
-  - a-joshi
   - j-jiang
+  - a-joshi
+  - h-paik
   - a-singh
   date: '2025-12-01'
 - file: doi-978-981-16-3398-0-6/index.md
   title: On the Vulnerability of Community Structure in Complex Networks
   authors:
-  - p-kumaraguru
-  - s-ruj
   - a-pal
-  - v-parimi
   - t-chakraborty
+  - s-ruj
+  - p-kumaraguru
+  - v-parimi
   date: '2022-01-01'
 - file: doi-3286978-3287019/index.md
   title: 'SpeedyChain: A framework for decoupling data from blockchain for smart cities'
   authors:
-  - s-kanhere
   - r-michelin
+  - s-kanhere
   - m-steger
   - a-dorri
   - a-zorzo
@@ -4387,16 +4379,16 @@
   title: Challenges in Designing Blockchain for Cyber-Physical Systems
   authors:
   - s-kanhere
-  - g-putra
   - v-dedeoglu
+  - g-putra
   - s-malik
   - r-jurdak
   date: '2024-01-01'
 - file: doi-j-bcra-2021-100050/index.md
   title: 'WIDE: A witness-based data priority mechanism for vehicular forensics'
   authors:
-  - s-kanhere
   - r-michelin
+  - s-kanhere
   - c-oham
   - s-jha
   - r-jurdak
@@ -4404,198 +4396,198 @@
 - file: doi-3733802-3764046/index.md
   title: Unveiling Usability Challenges in Web Privacy Controls
   authors:
-  - s-ogundoyin
   - m-ikram
   - r-masood
+  - s-ogundoyin
   date: '2025-10-01'
 - file: doi-3408308-3431129/index.md
   title: 'EMIoT: A LoRa-enabled Smart Building Solution Based on Emergency Lights'
   authors:
-  - j-kim
-  - s-kanhere
-  - w-xu
   - w-hu
+  - w-xu
+  - s-kanhere
   - w-huang
   - s-jha
+  - j-kim
   date: '2020-01-01'
 - file: preface-2021/index.md
   title: Preface
   authors:
+  - j-baek
   - s-gupta
   - f-hao
-  - j-baek
   - s-ruj
   date: '2021-01-01'
 - file: a-survey-on-2025/index.md
   title: A Survey on Multimodal Music Emotion Recognition
   authors:
-  - e-meijering
   - a-joshi
   - r-liyanarachchi
+  - e-meijering
   date: '2025-04-01'
 - file: doi-memocode-57689-2022-9954593/index.md
   title: 'Runtime Interchange of Enforcers for Adaptive Attacks: A Security Analysis
     Framework for Drones'
   authors:
-  - p-roop
-  - h-pearce
   - a-baird
+  - h-pearce
   - s-pinisetty
+  - p-roop
   date: '2022-01-01'
 - file: doi-978-3-642-40861-8-20/index.md
   title: Fine-Grained Access Control in Object-Oriented Databases
   authors:
   - a-ghafoor
-  - m-shibli
   - r-masood
+  - m-shibli
   date: '2014-01-01'
 - file: doi-tits-2023-3331835/index.md
   title: 'OCHJRNChain: A Blockchain-Based Security Data Sharing Framework for Online
     Car-Hailing Journey'
   authors:
-  - h-jiang
-  - z-xiong
-  - s-kanhere
   - l-yang
+  - h-jiang
+  - s-kanhere
   - y-hong
+  - z-xiong
   date: '2024-01-01'
 - file: doi-s-10207-022-00655-x/index.md
   title: 'Privacy in targeted advertising on mobile devices: a survey'
   authors:
-  - r-boreli
   - s-kanhere
+  - r-boreli
   - i-ullah
   date: '2022-01-01'
 - file: doi-3672570/index.md
   title: 'Cumulus: Blockchain-Enabled Privacy-Preserving Data Audit in Cloud'
   authors:
-  - n-nikam
   - s-mazumdar
-  - s-ruj
   - p-banerjee
+  - n-nikam
+  - s-ruj
   date: '2025-09-01'
 - file: doi-lcn-48667-2020-9314830/index.md
   title: Towards a Distributed Defence Mechanism Against IoT-based Bots
   authors:
+  - s-kanhere
   - c-rivera
   - a-shaghaghi
-  - s-kanhere
   date: '2020-01-01'
 - file: doi-wcm-913/index.md
   title: A pragmatic approach to area coverage in hybrid wireless sensor networks
   authors:
-  - n-ahmed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - n-ahmed
   date: '2011-01-01'
 - file: doi-3634737-3637639/index.md
   title: 'Make out like a (Multi-Armed) Bandit: Improving the Odds of Fuzzer Seed
     Scheduling with T-Scheduler'
   authors:
+  - m-chase
+  - p-quirk
+  - a-herrera
   - s-kanhere
   - d-ranasinghe
-  - m-chase
-  - a-herrera
   - s-luo
-  - p-quirk
   date: '2024-07-01'
 - file: doi-978-3-031-63989-0-24/index.md
   title: 'Reputation Systems for Supply Chains: The Challenge of Achieving Privacy
     Preservation'
   authors:
-  - e-thevaraj
-  - m-spiß
-  - s-kanhere
   - l-bader
-  - j-pennekamp
   - k-wehrle
+  - m-spiß
+  - e-thevaraj
+  - s-kanhere
+  - j-pennekamp
   date: '2024-01-01'
 - file: doi-wcnc-2007-744/index.md
   title: Distance-based local geocasting in multi-hop wireless networks
   authors:
-  - q-chen
+  - s-kanhere
   - m-hassan
   - y-rana
-  - s-kanhere
+  - q-chen
   date: '2007-01-01'
 - file: doi-s-11704-014-3160-4/index.md
   title: 'Cloud authorization: exploring techniques and approach towards effective
     access control framework'
   authors:
-  - m-shibli
-  - y-ghazi
-  - r-masood
-  - a-kanwal
   - a-ali
+  - y-ghazi
+  - a-kanwal
+  - r-masood
+  - m-shibli
   date: '2015-01-01'
 - file: doi-lcn-48667-2020-9314784/index.md
   title: 'Security Apps under the Looking Glass: An Empirical Analysis of Android
     Security Apps'
   authors:
-  - i-chowdhury
   - s-seneviratne
+  - y-li
+  - i-chowdhury
+  - w-yao
   - t-hu
   - r-masood
-  - w-yao
   - w-lin
-  - y-li
   date: '2020-01-01'
 - file: doi-lcn-2018-8638245/index.md
   title: 'Gargoyle: A Network-based Insider Attack Resilient Framework for Organizations'
   authors:
+  - m-kaafar
+  - e-bertino
   - a-shaghaghi
   - s-kanhere
-  - m-kaafar
   - s-jha
-  - e-bertino
   date: '2019-01-01'
 - file: doi-wcnc-2013-6554843/index.md
   title: Data authentication scheme for Unattended Wireless Sensor Networks against
     a mobile adversary
   authors:
-  - a-nayak
   - s-reddy
+  - a-nayak
   - s-ruj
   date: '2013-01-01'
 - file: doi-isorc-2016-25/index.md
   title: 'RunSync: A predictable runtime for precision timed automation systems'
   authors:
-  - p-roop
-  - h-pearce
-  - m-biglari-abhari
   - m-kuo
+  - h-pearce
+  - p-roop
+  - m-biglari-abhari
   date: '2016-01-01'
 - file: doi-1791212-1791226/index.md
   title: 'Ear-Phone: An End-to-End Participatory Urban Noise Mapping System'
   authors:
-  - r-rana
-  - s-kanhere
   - w-hu
   - n-bulusu
   - c-chou
+  - s-kanhere
+  - r-rana
   date: '2010-01-01'
 - file: doi-2994374-2994386/index.md
   title: 'WashInDepth: Lightweight hand wash monitor using depth sensor'
   authors:
+  - s-kanhere
   - c-chou
   - h-zhong
-  - s-kanhere
   date: '2016-01-01'
 - file: doi-3360774-3360798/index.md
   title: Impact of consensus on appendable-block blockchain for IoT
   authors:
-  - s-kanhere
-  - h-nunes
   - r-michelin
+  - s-kanhere
   - a-zorzo
-  - c-neu
   - r-lunardi
+  - c-neu
+  - h-nunes
   date: '2019-01-01'
 - file: a-secure-and-2018/index.md
   title: A Secure and Efficient Direct Power Load Control Framework Based on Blockchain
   authors:
-  - s-kanhere
   - f-luo
+  - s-kanhere
   - z-dong
   - a-dorri
   - r-jurdak
@@ -4604,177 +4596,177 @@
   title: Towards the Imagenets of ML4EDA
   authors:
   - s-garg
+  - s-thakur
   - r-karri
   - h-pearce
   - a-chowdhury
-  - s-thakur
   date: '2023-01-01'
 - file: doi-jcs-211385/index.md
   title: Permissive runtime information flow control in the presence of exceptions
   authors:
-  - v-rajani
-  - c-hammer
   - a-bichhawat
   - d-garg
+  - c-hammer
+  - v-rajani
   date: '2021-01-01'
 - file: doi-978-1-7998-5839-3-ch-004/index.md
   title: Appendable-Block Blockchains
   authors:
-  - s-kanhere
-  - h-nunes
-  - v-dedeoglu
   - r-michelin
+  - v-dedeoglu
+  - s-kanhere
   - a-zorzo
-  - c-neu
   - r-lunardi
+  - c-neu
+  - h-nunes
   date: '2021-01-01'
 - file: doi-978-3-642-40925-7-22/index.md
   title: Security aspects of virtualization in cloud computing
   authors:
-  - a-abbasi
   - m-shibli
-  - m-kazim
   - r-masood
+  - a-abbasi
+  - m-kazim
   date: '2013-01-01'
 - file: a-computational-approach-2016/index.md
   title: A Computational Approach to Automatic Prediction of Drunk Texting
   authors:
-  - a-balamurali
   - p-bhattacharyya
-  - a-joshi
+  - a-balamurali
   - m-carman
+  - a-joshi
   - a-mishra
   date: '2016-10-01'
 - file: doi-percomw-2017-7917634/index.md
   title: 'Blockchain for IoT Security and Privacy: The Case Study of a Smart Home'
   authors:
+  - s-kanhere
   - p-gauravaram
   - a-dorri
-  - s-kanhere
   - r-jurdak
   date: '2017-01-01'
 - file: doi-hicss-2016-725/index.md
   title: Constructing A Shortest Path Overhearing Tree With Maximum Lifetime In WSNs
   authors:
-  - w-zheng
-  - w-alghamdi
-  - h-wu
   - s-kanhere
+  - w-alghamdi
+  - w-zheng
+  - h-wu
   date: '2016-01-01'
 - file: doi-3380466/index.md
   title: 'Measuring and Analysing the Chain of Implicit Trust: A Study of Third-party
     Resources Loading'
   authors:
-  - r-ensafi
-  - n-loizon
   - m-kaafar
   - m-ikram
+  - n-loizon
   - g-tyson
+  - r-ensafi
   - r-masood
   date: '2020-01-01'
 - file: doi-jiot-2020-3040782/index.md
   title: 'Gate-ID: WiFi-Based Human Identification Irrespective of Walking Directions
     in Smart Home'
   authors:
-  - f-wu
-  - s-yu
-  - s-kanhere
   - l-dong
   - w-hu
-  - c-luo
-  - b-wei
-  - j-zhang
   - j-cheng
+  - s-yu
+  - b-wei
+  - f-wu
+  - s-kanhere
+  - c-luo
+  - j-zhang
   date: '2021-01-01'
 - file: doi-ipsn-48710-2020-00-13/index.md
   title: Passive Activity Classification of Smart Homes through Wireless Packet Sniffing
   authors:
   - s-seneviratne
-  - s-kanhere
-  - p-mohapatra
-  - d-kennedy
   - k-choi
-  - t-dahanayaka
+  - p-mohapatra
+  - s-kanhere
+  - d-kennedy
   - k-thilakarathna
+  - t-dahanayaka
   date: '2020-01-01'
 - file: doi-3593013-3594134/index.md
   title: 'Queer In AI: A Case Study in Community-Led Participatory AI'
   authors:
-  - s-john
-  - a-markham
-  - j-shriram
-  - a-ghosh
-  - h-yuan
-  - m-noseworthy
-  - m-mundt
-  - o-queerinai
-  - n-bilenko
-  - a-ovalle
-  - n-dennler
-  - y-long
-  - j-hetvi
-  - e-dong
-  - a-subramonian
-  - p-xu
-  - j-kay
-  - w-agnew
-  - t-anand
-  - z-talat
-  - d-locatelli
-  - a-mcnamara
-  - r-gontijo-lopes
-  - m-pacheco
-  - s-arora
-  - m-deisenroth
-  - r-ray
-  - l-stark
   - m-ryskina
-  - n-mclean
-  - f-klubicka
-  - k-lehman
-  - m-saraswat
-  - m-sap
   - c-voelcker
-  - m-agarwal
-  - e-breznik
-  - s-mathew
-  - h-zhang
+  - a-mcnamara
   - a-singh
-  - n-vytla
+  - j-shriram
   - r-korpan
-  - z-wang
-  - l-soldaini
-  - a-joshi
+  - p-xu
   - s-jha
-  - e-baylor
-  - d-sutherland
+  - s-john
+  - z-wang
+  - w-agnew
+  - l-stark
+  - m-agarwal
+  - z-talat
+  - s-mathew
+  - a-subramonian
+  - n-mclean
+  - s-arora
+  - r-gontijo-lopes
+  - l-soldaini
+  - a-markham
+  - m-mundt
   - a-pranav
+  - h-zhang
+  - y-long
+  - e-dong
+  - n-bilenko
+  - a-joshi
+  - n-vytla
+  - e-breznik
+  - f-klubicka
+  - n-dennler
+  - m-saraswat
+  - a-ghosh
+  - m-sap
+  - m-deisenroth
+  - m-noseworthy
+  - h-yuan
+  - j-kay
+  - m-pacheco
+  - r-ray
+  - e-baylor
+  - o-queerinai
   - v-agrawal
+  - a-ovalle
+  - k-lehman
+  - t-anand
+  - d-locatelli
+  - j-hetvi
+  - d-sutherland
   date: '2023-06-01'
 - file: doi-twc-2009-080008/index.md
   title: Analysis of Per-Node Traffic Load in Multi-Hop Wireless Sensor Networks
   authors:
-  - q-chen
-  - m-hassan
   - s-kanhere
+  - m-hassan
+  - q-chen
   date: '2009-01-01'
 - file: doi-percom-2017-7917845/index.md
   title: 'VeinDeep: Smartphone Unlock using Vein Patterns'
   authors:
+  - s-kanhere
   - c-chou
   - h-zhong
-  - s-kanhere
   date: '2017-01-01'
 - file: doi-wf-iot-2018-8355126/index.md
   title: Understanding Crowd Density with A Smartphone Sensing System
   authors:
-  - w-zhang
-  - s-kanhere
-  - f-jiang
-  - x-liu
-  - c-yuen
-  - k-li
   - k-hu
+  - f-jiang
+  - c-yuen
+  - x-liu
+  - k-li
+  - s-kanhere
+  - w-zhang
   date: '2018-01-01'
 - file: doi-978-3-031-32146-7-9/index.md
   title: Layer 2 Scaling Solutions for Blockchains
@@ -4786,17 +4778,17 @@
   title: 'Invited Paper: Towards the Imagenets of ML4EDA'
   authors:
   - s-garg
+  - s-thakur
   - r-karri
   - h-pearce
   - a-chowdhury
-  - s-thakur
   date: '2023-01-01'
 - file: an-approach-to-2020/index.md
   title: An approach to monitoring time between events when events are frequent
   authors:
   - s-karimi
-  - c-paris
   - a-joshi
+  - c-paris
   - r-sparks
   date: '2020-01-01'
 - file: doi-aina-2016-141/index.md
@@ -4810,25 +4802,25 @@
   title: Trajectory Approximation for Resource Constrained Mobile Sensor Networks
   authors:
   - g-murtaza
+  - a-ignjatovic
   - s-kanhere
   - s-jha
-  - a-ignjatovic
   - r-jurdak
   date: '2014-01-01'
 - file: dualvae-controlling-colours-2023/index.md
   title: 'DualVAE: Controlling Colours of Generated and Real Images'
   authors:
+  - c-walder
   - k-moore
   - s-kanhere
-  - c-walder
   - k-rathakumar
   - d-liebowitz
   date: '2023-01-01'
 - file: doi-p-14-2007/index.md
   title: Measuring Sentiment Annotation Complexity of text
   authors:
-  - a-mishra
   - a-joshi
+  - a-mishra
   - n-senthamilselvan
   - p-bhattacharyya
   date: '2014-01-01'
@@ -4842,37 +4834,37 @@
 - file: doi-wcncw-2019-8902900/index.md
   title: Recharging of Flying Base Stations using Airborne RF Energy Sources
   authors:
-  - a-bokani
-  - j-hassan
   - s-kanhere
+  - j-hassan
+  - a-bokani
   date: '2019-01-01'
 - file: doi-j-cose-2018-08-008/index.md
   title: 'On the economic significance of ransomware campaigns: A Bitcoin transactions
     perspective'
   authors:
-  - m-conti
-  - s-ruj
   - a-gangwal
+  - s-ruj
+  - m-conti
   date: '2018-01-01'
 - file: doi-tmc-2015-2485978/index.md
   title: Incentive Mechanism Design for Heterogeneous Crowdsourcing Using All-Pay
     Contests
   authors:
-  - s-das
+  - s-kanhere
   - t-luo
   - h-tan
-  - s-kanhere
+  - s-das
   date: '2016-01-01'
 - file: doi-arxiv-2303-01838/index.md
   title: USABILITY OF PRIVACY CONTROLS IN TOP HEALTH WEBSITES
   authors:
-  - s-seneviratne
-  - n-tran
-  - a-seneviratne
   - y-huang
+  - s-seneviratne
+  - r-gunawardena
+  - n-tran
   - y-yin
   - i-razzak
-  - r-gunawardena
+  - a-seneviratne
   - r-masood
   date: '2023-01-01'
 - file: doi-ede-0000000000001133/index.md
@@ -4880,102 +4872,102 @@
   authors:
   - j-mchugh
   - c-paris
-  - a-joshi
   - s-karimi
   - c-macintyre
   - r-sparks
+  - a-joshi
   date: '2020-01-01'
 - file: doi-jiot-2019-2946900/index.md
   title: Measurement, Characterization, and Modeling of LoRa Technology in Multifloor
     Buildings
   authors:
-  - j-kim
-  - s-kanhere
-  - w-xu
   - w-hu
+  - w-xu
+  - s-kanhere
   - w-huang
   - s-jha
+  - j-kim
   date: '2020-01-01'
 - file: doi-bxu-138/index.md
   title: Taxonomy for trust models in cloud computing
   authors:
   - a-kanwal
   - r-mumtaz
-  - m-shibli
   - r-masood
+  - m-shibli
   date: '2015-01-01'
 - file: doi-eng-2-12152/index.md
   title: Monitoring events with application to syndromic surveillance using social
     media data
   authors:
   - c-paris
-  - a-joshi
   - s-karimi
   - c-macintyre
   - r-sparks
+  - a-joshi
   date: '2020-05-01'
 - file: doi-dapps-57946-2023-00023/index.md
   title: 'VCTP: A Verifiable Credential-based Trust Propagation Protocol for Personal
     Issuers in Self-Sovereign Identity Platforms'
   authors:
+  - q-lu
+  - r-teh
+  - r-mukta
   - s-kanhere
   - h-paik
-  - r-mukta
-  - r-teh
-  - q-lu
   date: '2023-01-01'
 - file: doi-arxiv-2407-14116/index.md
   title: 'AuditNet: A Conversational AI-based Security Assistant [DEMO]'
   authors:
+  - s-deldari
   - a-shaghaghi
-  - m-goudarzi
   - f-salim
+  - m-goudarzi
   - a-joshi
   - s-jha
   - s-finn
-  - s-deldari
   date: '2024-07-01'
 - file: doi-s-19051126/index.md
   title: Eavesdropping and Jamming Selection Policy for Suspicious UAVs Based on Low
     Power Consumption over Fading Channels
   authors:
-  - d-li
-  - s-kanhere
-  - x-wang
-  - c-guo
   - e-tovar
-  - x-zhang
+  - x-wang
   - k-li
+  - s-kanhere
+  - c-guo
+  - x-zhang
+  - d-li
   date: '2019-01-01'
 - file: doi-smartcomp-50058-2020-00038/index.md
   title: Energy-aware Demand Selection and Allocation for Real-time IoT Data Trading
   authors:
   - k-najeebullah
-  - s-kanhere
-  - v-dedeoglu
   - p-gupta
+  - v-dedeoglu
+  - s-kanhere
   - r-jurdak
   date: '2020-01-01'
 - file: doi-978-3-319-11569-6-21/index.md
   title: Privacy-Aware Trust-Based Recruitment in Social Participatory Sensing
   authors:
-  - s-kanhere
   - h-amintoosi
+  - s-kanhere
   date: '2014-01-01'
 - file: doi-ants-2018-8710084/index.md
   title: 'Realizing a Smart University Campus: Vision, Architecture, and Implementation'
   authors:
+  - s-kanhere
   - v-sivaraman
   - t-sutjarittham
-  - s-kanhere
   - h-gharakheili
   date: '2018-01-01'
 - file: doi-3360774-3360822/index.md
   title: A Trust Architecture for Blockchain in IoT
   authors:
+  - v-dedeoglu
   - s-kanhere
   - g-putra
-  - v-dedeoglu
   - a-dorri
   - r-jurdak
   date: '2019-01-01'
@@ -4984,30 +4976,30 @@
     Directions'
   authors:
   - m-barukh
+  - e-bertino
+  - b-benatallah
   - s-kanhere
   - m-al-banna
-  - b-benatallah
-  - e-bertino
   date: '2021-01-01'
 - file: doi-aaai-v-33-i-01-33018690/index.md
   title: Zero-Shot Object Detection with Textual Descriptions
   authors:
-  - s-kanhere
   - x-wang
-  - l-yao
-  - z-li
+  - s-kanhere
   - h-zhang
   - x-zhang
+  - z-li
+  - l-yao
   date: '2019-01-01'
 - file: doi-tnsm-2022-3227783/index.md
   title: 'Guest Editorial: Special Issue on Recent Advances on Blockchain for Network
     and Service Management'
   authors:
-  - a-veneris
-  - s-chakraborty
-  - s-kanhere
   - m-pardo
+  - s-chakraborty
+  - a-veneris
   - o-rottenstreich
+  - s-kanhere
   - b-rodriguez
   - s-yoshihama
   date: '2022-01-01'
@@ -5015,18 +5007,18 @@
   title: Color Visual Cryptography Schemes Using Linear Algebraic Techniques over
     Rings
   authors:
-  - s-dutta
-  - s-ruj
-  - k-sakurai
   - m-sardar
+  - k-sakurai
   - a-adhikari
+  - s-ruj
+  - s-dutta
   date: '2020-01-01'
 - file: doi-j-adhoc-2011-12-002/index.md
   title: On the need for a reputation system in mobile phone based sensing
   authors:
-  - w-hu
   - s-kanhere
   - k-huang
+  - w-hu
   date: '2014-01-01'
 - file: doi-amc-2019043/index.md
   title: The secure link prediction problem
@@ -5039,36 +5031,36 @@
   authors:
   - r-masood
   - i-elgedway
-  - m-shibli
   - f-mehak
+  - m-shibli
   date: '2017-01-01'
 - file: doi-j-future-2025-108024/index.md
   title: 'PRepChain: A versatile privacy-preserving reputation system for dynamic
     supply chain environments'
   authors:
+  - l-bader
+  - k-wehrle
+  - s-berninger
   - e-thevaraj
   - s-kanhere
-  - w-boos
   - m-perau
-  - l-bader
+  - w-boos
   - t-schröer
   - j-pennekamp
-  - s-berninger
-  - k-wehrle
   date: '2026-02-01'
 - file: doi-access-2020-3010226/index.md
   title: A Survey of COVID-19 Contact Tracing Apps
   authors:
-  - h-janicke
-  - n-ahmed
-  - s-ruj
-  - s-kanhere
   - w-hu
-  - a-seneviratne
   - r-michelin
-  - r-malaney
-  - s-jha
   - w-xue
+  - n-ahmed
+  - r-malaney
+  - s-kanhere
+  - h-janicke
+  - s-ruj
+  - a-seneviratne
+  - s-jha
   date: '2020-01-01'
 - file: doi-978-981-10-8396-9-6/index.md
   title: Conclusion and future work
@@ -5080,20 +5072,20 @@
 - file: doi-3054977-3055003/index.md
   title: Towards an optimized blockchain for IoT
   authors:
-  - a-dorri
   - s-kanhere
+  - a-dorri
   - r-jurdak
   date: '2017-01-01'
 - file: doi-978-3-031-68376-3-1/index.md
   title: 'Loquat: A SNARK-Friendly Post-quantum Signature Based on the Legendre PRF
     with Applications in Ring and Aggregate Signatures'
   authors:
-  - m-esgin
   - r-steinfeld
-  - s-ruj
-  - j-liu
-  - x-zhang
   - d-liu
+  - x-zhang
+  - s-ruj
+  - m-esgin
+  - j-liu
   date: '2024-01-01'
 - file: doi-978-3-642-45204-8-4/index.md
   title: 'Jamming resistant schemes for wireless communication: A combinatorial approach'
@@ -5105,10 +5097,10 @@
 - file: doi-vetecs-2007-215/index.md
   title: Analysis of resource reservation aggregation in on-board networks
   authors:
-  - m-hassan
-  - s-kanhere
-  - l-libman
   - m-malik
+  - m-hassan
+  - l-libman
+  - s-kanhere
   date: '2007-01-01'
 - file: doi-jiot-2020-3022045/index.md
   title: 'HARB: A Hypergraph-Based Adaptive Consortium Blockchain for Decentralized
@@ -5122,44 +5114,44 @@
 - file: doi-cyberscitec-2018-00070/index.md
   title: Toward Mitigation-as-a-Service in Cooperative Network Defenses
   authors:
+  - b-rodrigues
   - s-kanhere
-  - e-scheid
   - b-stiller
   - s-mannhart
-  - b-rodrigues
+  - e-scheid
   date: '2018-01-01'
 - file: doi-les-2022-3140417/index.md
   title: Determination of Fiber Content in 3D Printed Composite Parts Using Image
     Analysis
   authors:
+  - h-srivastava
   - g-mac
   - h-pearce
   - n-gupta
-  - h-srivastava
   date: '2022-01-01'
 - file: are-you-contributing-2010/index.md
   title: Are You Contributing Trustworthy Data? The Case for a Reputation System in
     Participatory Sensing
   authors:
-  - w-hu
   - s-kanhere
   - k-huang
+  - w-hu
   date: '2010-01-01'
 - file: doi-blockchain-2019-00032/index.md
   title: 'TrustChain: Trust Management in Blockchain and IoT supported Supply Chains'
   authors:
-  - r-jurdak
   - s-malik
   - s-kanhere
   - v-dedeoglu
+  - r-jurdak
   date: '2019-01-01'
 - file: doi-p-15-2100/index.md
   title: A computational approach to automatic prediction of drunk-texting
   authors:
-  - a-balamurali
   - p-bhattacharyya
-  - a-joshi
+  - a-balamurali
   - m-carman
+  - a-joshi
   - a-mishra
   date: '2015-01-01'
 - file: doi-2811587-2811595/index.md
@@ -5167,52 +5159,52 @@
     Communications'
   authors:
   - w-hu
-  - a-reinhardt
-  - j-zhang
   - s-kanhere
+  - j-zhang
+  - a-reinhardt
   date: '2015-01-01'
 - file: remaqe-reverse-engineering-2023/index.md
   title: REMaQE - Reverse Engineering Math Equations from Executables
   authors:
   - p-krishnamurthy
-  - r-karri
   - f-khorrami
-  - h-pearce
+  - r-karri
   - m-udeshi
+  - h-pearce
   date: '2023-01-01'
 - file: doi-j-future-2018-05-048/index.md
   title: A parallelized disjunctive query based searchable encryption scheme for big
     data
   authors:
-  - s-tahir
-  - s-ruj
   - a-sajjad
-  - l-steponkus
+  - s-tahir
   - m-rajarajan
+  - s-ruj
+  - l-steponkus
   date: '2020-01-01'
 - file: doi-tii-2019-2945520/index.md
   title: Smart I/O Modules for Mitigating Cyber-Physical Attacks on Industrial Control
     Systems
   authors:
   - s-pinisetty
-  - m-kuo
   - p-roop
-  - h-pearce
   - a-ukil
+  - m-kuo
+  - h-pearce
   date: '2020-01-01'
 - file: doi-isorc-2018-00017/index.md
   title: Faster function blocks for precision timed industrial automation
   authors:
-  - p-roop
   - h-pearce
-  - m-biglari-abhari
   - m-schoeberl
+  - p-roop
+  - m-biglari-abhari
   date: '2018-01-01'
 - file: doi-tcc-2017-2754255/index.md
   title: Efficient Decentralized Attribute Based Access Control for Mobile Clouds
   authors:
-  - s-ruj
   - s-de
+  - s-ruj
   date: '2020-01-01'
 - file: doi-cybermatics-2018-2018-00210/index.md
   title: 'B-FICA: BlockChain based Framework for Auto-insurance Claim and Adjudication'
@@ -5227,18 +5219,18 @@
   title: 'Towards Usability of Data with Privacy: A Unified Framework for Privacy-Preserving
     Data Sharing with High Utility'
   authors:
-  - m-roberto
-  - i-oppermann
-  - n-david
-  - s-ruj
-  - a-pal
-  - s-camtepe
-  - c-dorrian
-  - m-mohammady
   - s-young
+  - s-camtepe
+  - n-david
   - m-chamikara
-  - d-liu
+  - m-mohammady
   - s-jang
+  - a-pal
+  - c-dorrian
+  - s-ruj
+  - i-oppermann
+  - d-liu
+  - m-roberto
   date: '2025-08-01'
 - file: doi-978-3-642-36071-8-2/index.md
   title: 'Participatory sensing: Crowdsourcing data from mobile smartphones in urban
@@ -5257,87 +5249,87 @@
 - file: doi-percom-2009-4912864/index.md
   title: Towards Privacy-Sensitive Participatory Sensing
   authors:
-  - w-hu
   - s-kanhere
   - k-huang
+  - w-hu
   date: '2009-01-01'
 - file: doi-arxiv-2202-01142/index.md
   title: Pop Quiz! Can a Large Language Model Help With Reverse Engineering?
   authors:
-  - b-dolan-gavitt
-  - b-tan
   - p-krishnamurthy
-  - r-karri
   - f-khorrami
+  - r-karri
   - h-pearce
+  - b-tan
+  - b-dolan-gavitt
   date: '2022-01-01'
 - file: doi-csf-64896-2025-00032/index.md
   title: A Graded Modal Approach to Relaxed Semantic Declassification
   authors:
-  - v-rajani
-  - h-kanabar
   - a-coleman
+  - h-kanabar
+  - v-rajani
   date: '2025-01-01'
 - file: doi-mcom-2019-8703458/index.md
   title: CROWD MANAGEMENT
   authors:
-  - s-kanhere
-  - s-han
   - h-hassanein
-  - n-zorba
   - m-shukair
+  - s-kanhere
+  - n-zorba
+  - s-han
   date: '2019-01-01'
 - file: doi-blockchain-53845-2021-00048/index.md
   title: Decentralised Trustworthy Collaborative Intrusion Detection System for IoT
   authors:
+  - v-dedeoglu
   - s-kanhere
   - g-putra
-  - a-pathak
-  - v-dedeoglu
   - r-jurdak
+  - a-pathak
   date: '2021-01-01'
 - file: flag-finding-line-2023/index.md
   title: 'FLAG: Finding Line Anomalies (in code) with Generative AI'
   authors:
-  - b-tan
-  - h-pearce
   - r-karri
+  - h-pearce
+  - b-tan
   - b-ahmad
   date: '2023-01-01'
 - file: doi-3701716-3715511/index.md
   title: 'Navigating the Gray Interventions: The Impact of Soft Moderation Techniques
     Across Social Media Platforms'
   authors:
-  - n-khurana
+  - m-akhtar
   - b-turnbull
   - s-kanhere
-  - m-akhtar
+  - n-khurana
   - r-masood
   date: '2025-05-01'
 - file: doi-percomw-2016-7457057/index.md
   title: A Context-based Privacy Preserving Framework for Wearable Visual Lifeloggers
   authors:
-  - a-sowmya
-  - m-hosseini
   - s-kanhere
+  - a-sowmya
   - e-zarepour
+  - m-hosseini
   date: '2016-01-01'
 - file: doi-wowmom-2019-8792972/index.md
   title: 'Measuring and Modeling Car Park Usage: Lessons Learned from a Campus Field-Trial'
   authors:
-  - v-sivaraman
-  - s-kanhere
-  - h-gharakheili
-  - g-chen
   - t-sutjarittham
+  - s-kanhere
+  - v-sivaraman
+  - g-chen
+  - h-gharakheili
   date: '2019-01-01'
 - file: doi-tpds-2007-1045/index.md
   title: Design, analysis, and implementation of a novel low complexity scheduler
     for joint resource allocation
   authors:
-  - f-sabrina
-  - s-jha
   - s-kanhere
+  - s-jha
+  - f-sabrina
   date: '2007-01-01'
 - file: doi-lcn-48667-2020-9314813/index.md
   title: 'ACOMTA: An Ant Colony Optimisation based Multi-Task Assignment Algorithm
@@ -5350,35 +5342,35 @@
   title: Assessment criteria for cloud identity management systems
   authors:
   - a-abassi
-  - m-shibli
   - u-habiba
   - r-masood
+  - m-shibli
   date: '2013-01-01'
 - file: doi-2022-semeval-1-131/index.md
   title: 'IISERB Brains at SemEval-2022 Task 6: A Deep-learning Framework to Identify
     Intended Sarcasm in English'
   authors:
-  - m-kumar
-  - a-joshi
-  - u-rathore
   - t-shekhawat
+  - m-kumar
+  - u-rathore
   - j-patro
+  - a-joshi
   date: '2022-01-01'
 - file: doi-978-3-031-23020-2-29/index.md
   title: Forward Traceability for Product Authenticity Using Ethereum Smart Contracts
   authors:
-  - s-ruj
-  - l-pan
-  - f-heikamp
-  - r-trujillo-rasua
   - r-doss
+  - f-heikamp
+  - s-ruj
+  - r-trujillo-rasua
+  - l-pan
   date: '2022-01-01'
 - file: doi-hpsr-2001-923594/index.md
   title: Fair, efficient and low-latency packet scheduling using nested deficit round
     robin
   authors:
-  - h-sethu
   - s-kanhere
+  - h-sethu
   date: '2001-01-01'
 - file: doi-j-jnca-2019-102481/index.md
   title: A Comprehensive Survey on Attacks, Security Issues and Blockchain Solutions
@@ -5399,133 +5391,133 @@
   title: 'κ-FSOM: Fair Link Scheduling Optimization for Energy-Aware Data Collection
     in Mobile Sensor Networks'
   authors:
+  - k-li
+  - a-ignjatovic
   - s-kanhere
   - b-kusy
-  - k-li
   - s-jha
-  - a-ignjatovic
   - r-jurdak
   date: '2014-01-01'
 - file: doi-lcn-2002-1181824/index.md
   title: On the latency bound of pre-order deficit round robin
   authors:
-  - h-sethu
   - s-kanhere
+  - h-sethu
   date: '2002-01-01'
 - file: doi-drones-9050346/index.md
   title: 'LSTM-H: A Hybrid Deep Learning Model for Accurate Livestock Movement Prediction
     in UAV-Based Monitoring Systems'
   authors:
-  - a-bokani
-  - e-yadegaridehkordi
   - s-kanhere
+  - e-yadegaridehkordi
+  - a-bokani
   date: '2025-05-01'
 - file: doi-j-jss-2011-06-073/index.md
   title: A survey on privacy in mobile participatory sensing applications
   authors:
+  - s-kanhere
+  - d-christin
   - m-hollick
   - a-reinhardt
-  - d-christin
-  - s-kanhere
   date: '2011-01-01'
 - file: doi-tpsisa-52974-2021-00010/index.md
   title: Can pre-trained Transformers be used in detecting complex sensitive sentences?
     - A Monsanto case study
   authors:
-  - d-liebowitz
   - s-nepal
-  - r-timmer
+  - d-liebowitz
   - s-kanhere
+  - r-timmer
   date: '2021-01-01'
 - file: doi-lcn-2017-63/index.md
   title: Enabling Privacy Preserving Mobile Advertising via Private Information Retrieval
   authors:
   - r-boreli
-  - m-hollick
-  - s-kanhere
-  - i-ullah
-  - b-sarwar
   - s-katzenbeisser
+  - i-ullah
+  - s-kanhere
+  - m-hollick
+  - b-sarwar
   date: '2017-01-01'
 - file: doi-icc-2016-7511226/index.md
   title: Implementation and Evaluation of Adaptive Video Streaming based on Markov
     Decision Process
   authors:
-  - m-hassan
-  - a-bokani
-  - s-hoseini
   - s-kanhere
+  - m-hassan
+  - s-hoseini
+  - a-bokani
   date: '2016-01-01'
 - file: doi-3605769-3623989/index.md
   title: 'Netlist Whisperer: AI and NLP Fight Circuit Leakage!'
   authors:
-  - d-mukhopadhyay
-  - r-karri
-  - h-pearce
-  - m-nair
   - r-sadhukhan
+  - m-nair
+  - r-karri
+  - d-mukhopadhyay
+  - h-pearce
   date: '2023-01-01'
 - file: doi-percomw-2018-8480152/index.md
   title: 'Wi-Access: Second Factor User Authentication leveraging WiFi Signals'
   authors:
-  - s-shah
   - s-kanhere
+  - s-shah
   date: '2018-01-01'
 - file: brain-2-object-printing-your-2020/index.md
   title: 'Brain2Object: Printing Your Mind from Brain Signals with Spatial Correlation
     Embedding'
   authors:
-  - d-zhang
   - y-zhang
   - s-kanhere
-  - l-yao
-  - x-zhang
   - c-huang
+  - x-zhang
+  - l-yao
+  - d-zhang
   date: '2020-01-01'
 - file: doi-j-jnca-2020-102917/index.md
   title: Proxy re-encryption enabled secure and anonymous IoT data sharing platform
     based on blockchain
   authors:
-  - s-kanhere
-  - a-manzoor
-  - m-liyanage
   - a-braeken
   - m-ylianttila
+  - a-manzoor
+  - s-kanhere
+  - m-liyanage
   date: '2021-01-01'
 - file: doi-w-18-5911/index.md
   title: 'Shot Or Not: Comparison of NLP Approaches for Vaccination Behaviour Detection'
   authors:
   - c-paris
-  - x-dai
-  - a-joshi
   - s-karimi
   - c-macintyre
+  - x-dai
   - r-sparks
+  - a-joshi
   date: '2018-01-01'
 - file: doi-vetecf-2005-1558126/index.md
   title: Aggregation policies over RSVP tunnels
   authors:
+  - m-malik
   - m-hassan
   - s-kanhere
-  - m-malik
   date: '2005-01-01'
 - file: doi-aaai-v-34-i-04-5914/index.md
   title: Adaptive Two-Dimensional Embedded Image Clustering
   authors:
-  - x-li
-  - s-kanhere
-  - l-yao
-  - z-li
-  - h-zhang
   - s-wang
+  - s-kanhere
+  - h-zhang
+  - z-li
+  - l-yao
+  - x-li
   date: '2020-01-01'
 - file: doi-j-pmcj-2019-101110/index.md
   title: Special issue on \"Crowd-sensed Big Data for Internet of Things Services\"
   authors:
-  - l-bedogni
-  - l-bononi
-  - h-wu
   - s-kanhere
+  - l-bedogni
+  - h-wu
+  - l-bononi
   date: '2020-01-01'
 - file: doi-s-1570-8705-19-30672-9/index.md
   title: 'Editorial: Receiving the Baton'
@@ -5536,67 +5528,67 @@
   title: 'Don t CWEAT it: Toward CWE analysis techniques in early stages of hardware
     design'
   authors:
-  - m-bidmeshki
-  - k-chakrabarty
-  - l-collini
   - s-brown
-  - r-karri
-  - b-tan
-  - b-ahmad
-  - p-sapiecha
-  - h-pearce
   - w-liu
-  - j-fung
+  - b-ahmad
+  - l-collini
   - j-valamehr
+  - p-sapiecha
+  - j-fung
+  - k-chakrabarty
+  - r-karri
+  - m-bidmeshki
+  - h-pearce
+  - b-tan
   date: '2022-01-01'
 - file: doi-jiot-2019-2904704/index.md
   title: 'Improving IoT Data Quality in Mobile Crowd Sensing: A Cross Validation Approach'
   authors:
+  - j-huang
+  - s-das
   - s-kanhere
   - t-luo
   - j-zhang
-  - s-das
-  - j-huang
   date: '2019-01-01'
 - file: doi-jsac-2022-3212898/index.md
   title: 'Guest Editorial Special Issue on Intelligent Blockchain for Future Communications
     and Networking: Technologies, Trends, and Applications'
   authors:
-  - z-xiong
-  - s-kanhere
-  - s-yang
   - b-krishnamachari
-  - l-zhang
   - h-huang
   - e-bertino
+  - s-kanhere
   - j-kang
+  - l-zhang
+  - z-xiong
+  - s-yang
   date: '2022-01-01'
 - file: doi-icbc-51069-2021-9461052/index.md
   title: Towards Privacy-preserving Digital Contact Tracing
   authors:
+  - r-michelin
+  - w-xue
   - n-ahmed
-  - s-ruj
   - s-kanhere
   - g-putra
-  - r-michelin
-  - w-song
+  - s-ruj
   - s-jha
-  - w-xue
+  - w-song
   date: '2021-01-01'
 - file: doi-comst-2021-3086475/index.md
   title: A review of computer vision methods in network security
   authors:
   - s-seneviratne
-  - j-zhao
   - r-masood
+  - j-zhao
   date: '2021-01-01'
 - file: nek-minit-harnessing-2025/index.md
   title: 'Nek Minit: Harnessing Pragmatic Metacognitive Prompting for Explainable
     Sarcasm Detection of Australian and Indian English'
   authors:
-  - i-singh
-  - a-joshi
   - d-srirag
+  - a-joshi
+  - i-singh
   date: '2025-05-01'
 - file: doi-j-comcom-2019-05-020/index.md
   title: 'MRA: A modified reverse auction based framework for incentive mechanisms
@@ -5608,46 +5600,46 @@
 - file: doi-jiot-2019-2902410/index.md
   title: Experiences With IoT and AI in a Smart Campus for Optimizing Classroom Usage
   authors:
+  - s-kanhere
   - v-sivaraman
   - t-sutjarittham
-  - s-kanhere
   - h-gharakheili
   date: '2019-01-01'
 - file: doi-vetecf-2011-6093096/index.md
   title: On data-centric misbehavior detection in VANETs
   authors:
-  - s-ruj
   - i-stojmenovic
-  - m-cavenaghi
   - a-nayak
+  - s-ruj
+  - m-cavenaghi
   - z-huang
   date: '2011-01-01'
 - file: doi-j-future-2018-10-002/index.md
   title: 'MOF-BC: A memory optimized and flexible blockchain for large scale networks'
   authors:
-  - a-dorri
   - s-kanhere
+  - a-dorri
   - r-jurdak
   date: '2019-01-01'
 - file: doi-3127041-3127052/index.md
   title: Simulation of cyber-physical systems using IEC61499
   authors:
-  - n-allen
   - a-malik
-  - m-kuo
   - p-roop
+  - n-allen
+  - m-kuo
   - h-pearce
   date: '2017-01-01'
 - file: doi-3361141/index.md
   title: 'Survey of Text-based Epidemic Intelligence: A Computational Linguistic Perspective'
   authors:
   - c-paris
-  - s-karim
-  - a-joshi
   - s-karimi
   - c-macintyre
   - r-macintyre
+  - s-karim
   - r-sparks
+  - a-joshi
   date: '2019-03-01'
 - file: doi-trustcom-53373-2021-00155/index.md
   title: 'TradeChain: Decoupling Traceability and Identity in Blockchain enabled Supply
@@ -5663,11 +5655,11 @@
   title: 'VAlign-GLAR: Graph Retrieval-Based Vulnerability Intelligence Alignment
     via Structured LLM-Guided Inference'
   authors:
-  - z-xing
   - s-kanhere
   - j-sun
-  - s-jha
+  - z-xing
   - l-wang
+  - s-jha
   - j-jiang
   date: '2025-10-01'
 - file: doi-tsg-2012-2224389/index.md
@@ -5681,18 +5673,18 @@
   title: 'On-board RSVP: An extension of RSVP to support real-time services in on-board
     IP networks'
   authors:
-  - b-benatallah
+  - m-malik
   - m-hassan
   - s-kanhere
-  - m-malik
+  - b-benatallah
   date: '2004-01-01'
 - file: doi-ncia-2013-6725325/index.md
   title: 'Intrusion detection system in cloud computing: Challenges and opportunities'
   authors:
-  - y-mehmood
-  - m-shibli
   - u-habiba
   - r-masood
+  - y-mehmood
+  - m-shibli
   date: '2013-01-01'
 - file: doi-tcc-2020-3000342/index.md
   title: Secure Cloud Storage With Data Dynamics Using Secure Network Coding Techniques
@@ -5713,20 +5705,20 @@
   title: Towards Decentralized IoT Updates Delivery Leveraging Blockchain and Zero-Knowledge
     Proofs
   authors:
-  - r-doss
   - s-kanhere
-  - a-shaghaghi
   - e-puggioni
+  - r-doss
+  - a-shaghaghi
   date: '2020-01-01'
 - file: doi-lcn-2018-8638232/index.md
   title: Automatic Device Classification from Network Traffic Streams of Internet
     of Things
   authors:
-  - l-bai
+  - z-yang
   - x-wang
   - s-kanhere
-  - z-yang
   - l-yao
+  - l-bai
   date: '2018-01-01'
 - file: a-typetheory-for-2020/index.md
   title: A type-theory for higher-order amortized analysis
@@ -5736,40 +5728,40 @@
 - file: doi-scc-2010-49/index.md
   title: 'Xi-Calculus: A Calculus for Service Interactions'
   authors:
+  - a-kumar
   - d-janakiram
   - v-rajani
-  - a-kumar
   date: '2010-01-01'
 - file: doi-glocomw-2011-6162388/index.md
   title: Link Characterization for Aerial Wireless Sensor Networks
   authors:
-  - n-ahmed
-  - s-jha
   - s-kanhere
+  - s-jha
+  - n-ahmed
   date: '2011-01-01'
 - file: doi-atnac-2018-8615166/index.md
   title: Enabling Efficient and High Quality Zooming for Online Video Streaming using
     Edge Computing
   authors:
-  - a-bokani
-  - j-hassan
   - s-kanhere
+  - j-hassan
+  - a-bokani
   date: '2018-01-01'
 - file: doi-3664476-3664519/index.md
   title: Privacy Preserving Release of Mobile Sensor Data
   authors:
   - h-asghar
-  - d-kaafar
-  - d-mishra
   - m-kaafar
+  - d-mishra
   - d-vatsalan
   - w-cheng
+  - d-kaafar
   - r-masood
   date: '2024-07-01'
 - file: harnessing-wordnet-senses-2011/index.md
   title: Harnessing WordNet senses for supervised sentiment classification
   authors:
   - a-joshi
-  - a-balamurali
   - p-bhattacharyya
+  - a-balamurali
   date: '2011-10-01'
