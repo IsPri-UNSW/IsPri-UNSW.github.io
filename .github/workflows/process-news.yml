@@ -2,7 +2,7 @@ name: Process News Submission
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited, reopened]
 
 permissions:
   contents: write
@@ -30,6 +30,17 @@ jobs:
         id: parse
         uses: stefanbuck/github-issue-parser@v3
 
+      - name: Debug parsed output
+        run: |
+          echo "Raw JSON output:"
+          echo '${{ steps.parse.outputs.jsonString }}'
+          echo ""
+          echo "Parsed fields:"
+          echo "Title: ${{ fromJson(steps.parse.outputs.jsonString).title }}"
+          echo "Date: ${{ fromJson(steps.parse.outputs.jsonString).article_date }}"
+          echo "Content: ${{ fromJson(steps.parse.outputs.jsonString).content }}"
+          echo "Featured Image: ${{ fromJson(steps.parse.outputs.jsonString).featured_image }}"
+      
       - name: Create news article
         id: create
         env:
@@ -39,6 +50,18 @@ jobs:
           CONTENT: ${{ fromJson(steps.parse.outputs.jsonString).content }}
           FEATURED_IMAGE: ${{ fromJson(steps.parse.outputs.jsonString).featured_image }}
         run: |
+          # Debug: Print what we received
+          echo "Title: $TITLE"
+          echo "Date: $DATE"
+          echo "Content length: ${#CONTENT}"
+          echo "Featured Image: $FEATURED_IMAGE"
+          
+          # Validate required fields
+          if [ -z "$TITLE" ] || [ -z "$CONTENT" ]; then
+            echo "Error: Title and content are required"
+            exit 1
+          fi
+          
           # Extract image URL from markdown if present
           IMAGE_URL=""
           if [ -n "$FEATURED_IMAGE" ]; then
