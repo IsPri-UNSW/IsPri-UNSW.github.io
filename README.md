@@ -10,11 +10,35 @@ A Hugo site for The Information Security and Privacy Research Group at UNSW.
 
 - [Table of Contents 📑](#table-of-contents-)
 - [Adding News 📰](#adding-news-)
+  - [Automated Method via GitHub Issues (Simplest)](#automated-method-via-github-issues-simplest)
+  - [Manual Method via Repository (Safest)](#manual-method-via-repository-safest)
 - [Adding Team Members 👥](#adding-team-members-)
 - [Administrator \& Developer Information 🛠️](#administrator--developer-information-️)
 
 
 ## Adding News 📰
+
+### Automated Method via GitHub Issues (Simplest)
+
+The easiest way to submit news is through GitHub Issues:
+
+1. **Go to the [Issues tab](../../issues/new/choose)** in this repository
+2. **Select "Submit News Article"** from the issue templates
+3. **Fill in the form:**
+   - **Article Title:** The headline of your news (e.g., "Paper accepted at ICSE 2025")
+   - **Date:** Optional. Leave empty to use today's date, or specify in YYYY-MM-DD format
+   - **Content:** Write your article content (Markdown supported for formatting)
+4. **Submit the issue**
+
+Once submitted:
+- A GitHub Actions workflow automatically processes your submission
+- Creates a new news article in the correct format
+- Opens a pull request for review
+- Notifies you with a comment on the issue
+
+After the PR is reviewed and merged, your news will appear on the website and the issue will automatically close.
+
+### Manual Method via Repository (Safest)
 
 To add a new news article to the website, follow these steps:
 

@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """
-Script to add new news articles to the website.
-Usage: python add_news.py
+Script to add new news articles to the website
+
+:param --title: The title of the article (optional, triggers automation mode)
+:param --date: The date of the article in YYYY-MM-DD format (optional)
+:param --content: The content of the article (optional)
+:returns: None
 """
 
 import sys
+import argparse
 from datetime import datetime
 from pathlib import Path
 
@@ -12,7 +17,12 @@ from paths import NEWS_DIR as DEFAULT_NEWS_DIR
 
 
 def slugify(text):
-    """Convert text to a URL-friendly slug."""
+    """
+    Converts text to a URL-friendly slug
+
+    :param text: The input string to convert
+    :returns: A URL-safe slug string
+    """
     text = text.lower()
     text = text.replace(' ', '-')
     # Remove special characters
@@ -25,7 +35,11 @@ def slugify(text):
 
 
 def get_date_input():
-    """Get date from user, defaulting to today."""
+    """
+    Gets date from user interactively, defaulting to today
+
+    :returns: A datetime object
+    """
     today = datetime.now()
     default_date = today.strftime('%Y-%m-%d')
     
@@ -43,7 +57,12 @@ def get_date_input():
 
 
 def get_multiline_input(prompt):
-    """Get multiline input from user."""
+    """
+    Gets multiline input from user
+
+    :param prompt: The prompt to display to the user
+    :returns: A single string containing the joined lines
+    """
     print(f"\n{prompt}")
     print("(Enter your text. Press Ctrl+D (Mac/Linux) or Ctrl+Z (Windows) when done)")
     print("-" * 60)
@@ -60,15 +79,27 @@ def get_multiline_input(prompt):
 
 
 def create_news_article(title, date, content, base_path=None):
-    """Create a new news article."""
+    """
+    Creates a new news article file structure
+
+    :param title: The title of the article
+    :param date: The date object for the article
+    :param content: The body content of the article
+    :param base_path: The root directory for news
+    :returns: Boolean indicating success or failure
+    """
     if base_path is None:
         base_path = DEFAULT_NEWS_DIR
     else:
         base_path = Path(base_path)
     
     if not base_path.exists():
-        print(f"Error: News directory not found at {base_path}")
-        return False
+        # Auto-create for CI environments if it does not exist
+        try:
+            base_path.mkdir(parents=True, exist_ok=True)
+        except OSError as e:
+            print(f"Error: Could not create news directory at {base_path}. {e}")
+            return False
     
     # Create folder name: YY-MM-DD-slug
     date_prefix = date.strftime('%y-%m-%d')
@@ -79,12 +110,8 @@ def create_news_article(title, date, content, base_path=None):
     
     # Check if folder already exists
     if article_dir.exists():
-        print(f"\nWarning: Folder '{folder_name}' already exists.")
-        print("Do you want to overwrite it? (yes/no): ", end='')
-        response = input().strip().lower()
-        if response not in ['yes', 'y']:
-            print("Cancelled.")
-            return False
+        print(f"Error: Folder '{folder_name}' already exists.")
+        return False
     
     # Create directory
     article_dir.mkdir(parents=True, exist_ok=True)
@@ -116,7 +143,33 @@ date: {date_str}
 
 
 def main():
-    """Main function."""
+    """
+    Main function handling both CLI args and interactive input
+    
+    :returns: None
+    """
+    parser = argparse.ArgumentParser(description="Add news article")
+    parser.add_argument('--title', help="Article title")
+    parser.add_argument('--date', help="Article date (YYYY-MM-DD)")
+    parser.add_argument('--content', help="Article content")
+    args = parser.parse_args()
+
+    # Automation Mode (CI/CD)
+    if args.title and args.content:
+        # Default to today if date is missing or empty string
+        article_date = datetime.now()
+        
+        if args.date and args.date.strip():
+            try:
+                article_date = datetime.strptime(args.date.strip(), '%Y-%m-%d')
+            except ValueError:
+                print(f"Warning: Invalid date format '{args.date}'. Using today.")
+                # Fallback to today is already set above
+
+        success = create_news_article(args.title, article_date, args.content)
+        sys.exit(0 if success else 1)
+
+    # Interactive Mode
     print("=" * 60)
     print("Add New News Article")
     print("=" * 60)

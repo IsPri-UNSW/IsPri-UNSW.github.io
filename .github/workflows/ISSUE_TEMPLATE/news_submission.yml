@@ -1,0 +1,25 @@
+name: Submit News Article
+description: Submit a new news entry for the website.
+title: "[News]: "
+labels: ["news-submission"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Article Title
+      description: The headline of the news article.
+      placeholder: Paper accepted at XYZ Conference 🎉
+    validations:
+      required: true
+  - type: input
+    id: article_date
+    attributes:
+      label: Date
+      description: "YYYY-MM-DD. Leave empty to use today."
+  - type: textarea
+    id: content
+    attributes:
+      label: Content
+      description: The body of the article (Markdown supported).
+    validations:
+      required: true
