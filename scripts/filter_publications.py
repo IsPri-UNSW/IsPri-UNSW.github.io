@@ -8,7 +8,9 @@ from paths import AUTHORS_DIR, FILTERED_PUBLICATIONS_DIR, PUBLICATIONS_DIR, FILT
 
 # Roles to recognise (case-insensitive match)
 student_roles = ['phd candidate', 'student', 'alumni', 'alumnus', 'alumna', 'mphil', 'master', 'research associate']
+student_groups = ['Graduate Students', 'Visitors']
 supervisor_roles = ['professor', 'associate professor', 'assistant professor', 'senior lecturer', 'lecturer', 'supervisor']
+supervisor_groups = ['Academics']
 
 
 def load_yaml_front_matter(path):
@@ -66,18 +68,42 @@ def parse_authors_field(value):
     return []
 
 
-def is_student_role(role):
-    if not role:
-        return False
-    r = str(role).lower()
-    return any(s in r for s in student_roles)
+def is_student(role, user_groups):
+    # Check role
+    if role:
+        r = str(role).lower()
+        if any(s in r for s in student_roles):
+            return True
+    
+    # Check user_groups
+    if user_groups:
+        if isinstance(user_groups, str):
+            user_groups = [user_groups]
+        if isinstance(user_groups, list):
+            for group in user_groups:
+                if group and any(sg.lower() in str(group).lower() for sg in student_groups):
+                    return True
+    
+    return False
 
 
-def is_supervisor_role(role):
-    if not role:
-        return False
-    r = str(role).lower()
-    return any(s in r for s in supervisor_roles)
+def is_supervisor(role, user_groups):
+    # Check role
+    if role:
+        r = str(role).lower()
+        if any(s in r for s in supervisor_roles):
+            return True
+    
+    # Check user_groups
+    if user_groups:
+        if isinstance(user_groups, str):
+            user_groups = [user_groups]
+        if isinstance(user_groups, list):
+            for group in user_groups:
+                if group and any(sg.lower() in str(group).lower() for sg in supervisor_groups):
+                    return True
+    
+    return False
 
 
 def collect_author_sets():
@@ -118,13 +144,14 @@ def collect_author_sets():
             lname = last_name(norm_name)
 
             role = data.get('role') or data.get('position') or ''
-            if is_supervisor_role(role):
+            user_groups = data.get('user_groups') or data.get('groups') or []
+            if is_supervisor(role, user_groups):
                 supervisors.add(norm_name)
                 if slug:
                     supervisors.add(slug)
                 if lname:
                     supervisors.add(lname)
-            if is_student_role(role):
+            if is_student(role, user_groups):
                 students_alumni.add(norm_name)
                 if slug:
                     students_alumni.add(slug)
