@@ -226,7 +226,7 @@ def main():
     # parse CLI args
     parser = argparse.ArgumentParser(description='Filter publications by supervisor/student roles')
     parser.add_argument('--mode', choices=['strict', 'loose'], default='loose',
-                        help='Filtering mode: strict (default) or loose')
+                        help='Filtering mode: strict or loose (default)')
     parser.add_argument('--dest', default=str(FILTERED_PUBLICATIONS_DIR), help='Destination folder for copied publication md files')
     args, extra = parser.parse_known_args()
 
