@@ -6,25 +6,25 @@ body:
   - type: input
     id: title
     attributes:
-      label: Article Title
+      label: title
       description: The headline of the news article.
       placeholder: Paper accepted at XYZ Conference 🎉
     validations:
       required: true
   - type: input
-    id: article_date
+    id: date
     attributes:
-      label: Date
+      label: date
       description: "YYYY-MM-DD. Leave empty to use today."
   - type: textarea
     id: content
     attributes:
-      label: Content
+      label: content
       description: The body of the article (Markdown supported).
     validations:
       required: true
   - type: textarea
-    id: featured_image
+    id: featured_image_optional
     attributes:
       label: Featured Image (optional)
       description: "Drag and drop an image here. It will be saved as featured.jpg"

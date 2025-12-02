@@ -39,18 +39,18 @@ jobs:
           echo ""
           echo "Parsed fields:"
           echo "Title: ${{ fromJson(steps.parse.outputs.jsonString).title }}"
-          echo "Date: ${{ fromJson(steps.parse.outputs.jsonString).article_date }}"
+          echo "Date: ${{ fromJson(steps.parse.outputs.jsonString).date }}"
           echo "Content: ${{ fromJson(steps.parse.outputs.jsonString).content }}"
-          echo "Featured Image: ${{ fromJson(steps.parse.outputs.jsonString).featured_image }}"
+          echo "Featured Image: ${{ fromJson(steps.parse.outputs.jsonString).featured_image_optional }}"
       
       - name: Create news article
         id: create
         env:
           # defining env vars here avoids the shell injection risks of 'echo'
           TITLE: ${{ fromJson(steps.parse.outputs.jsonString).title }}
-          DATE: ${{ fromJson(steps.parse.outputs.jsonString).article_date }}
+          DATE: ${{ fromJson(steps.parse.outputs.jsonString).date }}
           CONTENT: ${{ fromJson(steps.parse.outputs.jsonString).content }}
-          FEATURED_IMAGE: ${{ fromJson(steps.parse.outputs.jsonString).featured_image }}
+          FEATURED_IMAGE: ${{ fromJson(steps.parse.outputs.jsonString).featured_image_optional }}
         run: |
           # Debug: Print what we received
           echo "Title: $TITLE"
@@ -96,7 +96,7 @@ jobs:
             ## New News Article
             
             **Title:** ${{ fromJson(steps.parse.outputs.jsonString).title }}
-            **Date:** ${{ fromJson(steps.parse.outputs.jsonString).article_date || 'Today' }}
+            **Date:** ${{ fromJson(steps.parse.outputs.jsonString).date || 'Today' }}
             
             This PR was automatically created from issue #${{ github.event.issue.number }}.
             
