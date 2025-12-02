@@ -31,9 +31,11 @@ jobs:
         uses: stefanbuck/github-issue-parser@v3
 
       - name: Debug parsed output
+        env:
+          PARSED_JSON: ${{ steps.parse.outputs.jsonString }}
         run: |
           echo "Raw JSON output:"
-          echo '${{ steps.parse.outputs.jsonString }}'
+          echo "$PARSED_JSON"
           echo ""
           echo "Parsed fields:"
           echo "Title: ${{ fromJson(steps.parse.outputs.jsonString).title }}"
