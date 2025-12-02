@@ -4,12 +4,8 @@ import re
 import yaml
 import shutil
 import argparse
-import sys
+from paths import AUTHORS_DIR, FILTERED_PUBLICATIONS_DIR, PUBLICATIONS_DIR, FILTERED_PUBLICATIONS_YAML
 
-# Define paths
-authors_dir = "content/authors/"
-publications_dir = "content/publication/"
-output_file = "content/publication/filtered_publications.yaml"
 # Roles to recognise (case-insensitive match)
 student_roles = ['phd candidate', 'student', 'alumni', 'alumnus', 'alumna', 'mphil', 'master', 'research associate']
 supervisor_roles = ['professor', 'associate professor', 'assistant professor', 'senior lecturer', 'lecturer', 'supervisor']
@@ -90,7 +86,7 @@ def collect_author_sets():
     students_alumni = set()
 
     # Walk authors directory recursively to support per-author folders
-    for root, dirs, files in os.walk(authors_dir):
+    for root, dirs, files in os.walk(AUTHORS_DIR):
         for fname in files:
             if not (fname.endswith('.yaml') or fname.endswith('.yml') or fname.endswith('.md')):
                 continue
@@ -147,7 +143,7 @@ def filter_publications(supervisors, students_alumni, mode='strict'):
     """
     results = []
     # Walk the publications directory recursively to find files inside unique subfolders
-    for root, dirs, files in os.walk(publications_dir):
+    for root, dirs, files in os.walk(PUBLICATIONS_DIR):
         for fname in files:
             if not (fname.endswith('.yaml') or fname.endswith('.yml') or fname.endswith('.md')):
                 continue
@@ -183,7 +179,7 @@ def filter_publications(supervisors, students_alumni, mode='strict'):
                 keep = has_supervisor and has_student
 
             if keep:
-                relpath = os.path.relpath(path, publications_dir)
+                relpath = os.path.relpath(path, PUBLICATIONS_DIR)
                 results.append({
                     'file': relpath,
                     'title': data.get('title'),
@@ -203,7 +199,7 @@ def main():
     parser = argparse.ArgumentParser(description='Filter publications by supervisor/student roles')
     parser.add_argument('--mode', choices=['strict', 'loose'], default='loose',
                         help='Filtering mode: strict (default) or loose')
-    parser.add_argument('--dest', default='content/filtered_publication', help='Destination folder for copied publication md files')
+    parser.add_argument('--dest', default=str(FILTERED_PUBLICATIONS_DIR), help='Destination folder for copied publication md files')
     args, extra = parser.parse_known_args()
 
     mode = args.mode
@@ -213,8 +209,8 @@ def main():
     print(f"Mode={mode}. Filtered {len(filtered)} publications (matching condition).")
 
     # Save metadata YAML
-    os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    with open(output_file, 'w', encoding='utf-8') as out:
+    os.makedirs(os.path.dirname(FILTERED_PUBLICATIONS_YAML), exist_ok=True)
+    with open(FILTERED_PUBLICATIONS_YAML, 'w', encoding='utf-8') as out:
         yaml.safe_dump(filtered, out, sort_keys=False, allow_unicode=True)
 
     # Also copy matched publication markdown files into the destination root
@@ -223,7 +219,7 @@ def main():
         rel = entry.get('file')
         if not rel:
             continue
-        src = os.path.join(publications_dir, rel)
+        src = os.path.join(PUBLICATIONS_DIR, rel)
         # Determine publication folder name (use first path component)
         parts = rel.split(os.sep)
         pub_folder = parts[0] if parts else os.path.splitext(os.path.basename(rel))[0]
@@ -236,7 +232,7 @@ def main():
         except Exception as e:
             print(f"Failed to copy {src} -> {dest_path}: {e}")
 
-    print(f"Saved filtered publications to {output_file} and copied markdown files to {filtered_pub_root}")
+    print(f"Saved filtered publications to {FILTERED_PUBLICATIONS_YAML} and copied markdown files to {filtered_pub_root}")
 
 
 if __name__ == '__main__':

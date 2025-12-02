@@ -15,12 +15,10 @@ from bibtexparser.bibdatabase import BibDatabase
 from academic.import_bibtex import import_bibtex
 import frontmatter
 
+import paths
+
 log = logging.getLogger()
 
-# Determine root path of the repository - this script is in scripts/
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-BIBTEX_DIR = os.path.join(ROOT_PATH, 'content', 'bibtex')
-MARKDOWN_DIR = os.path.join(ROOT_PATH, 'content', 'publication')
 
 # Helper functions used across multiple functions
 
@@ -831,7 +829,7 @@ def works_to_bibtex(works: List[Dict[str, Any]]) -> BibDatabase:
     return db
 
 
-def orcid_to_bibtex(orcid_id: str, output_dir: str | Path = BIBTEX_DIR, refetch_all: bool = False) -> None:
+def orcid_to_bibtex(orcid_id: str, output_dir: str | Path = paths.BIBTEX_DIR, refetch_all: bool = False) -> None:
     """
     Fetch ORCID works, process them, and write to BibTeX file.
     
@@ -907,7 +905,7 @@ def orcid_to_bibtex(orcid_id: str, output_dir: str | Path = BIBTEX_DIR, refetch_
         log.info(f"Wrote {len(bib_db.entries)} total BibTeX entries to {bib_file}")
 
 
-def merge_all_bibtex_files(bibtex_dir: str | Path = BIBTEX_DIR) -> None:
+def merge_all_bibtex_files(bibtex_dir: str | Path = paths.BIBTEX_DIR) -> None:
     """
     Merge all individual ORCID BibTeX files into a single deduplicated all.bib file.
     
@@ -977,7 +975,7 @@ def bibtex_to_markdown(bibtex_file: str | Path, overwrite: bool = False) -> None
         return
     
     # Output directory for markdown files
-    output_dir = Path(MARKDOWN_DIR)
+    output_dir = Path(paths.PUBLICATIONS_DIR)
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Remove existing directories in output_dir if overwrite is True

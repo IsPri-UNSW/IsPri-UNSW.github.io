@@ -4,10 +4,11 @@ Script to add new news articles to the website.
 Usage: python add_news.py
 """
 
-import os
 import sys
 from datetime import datetime
 from pathlib import Path
+
+from paths import NEWS_DIR as DEFAULT_NEWS_DIR
 
 
 def slugify(text):
@@ -61,9 +62,7 @@ def get_multiline_input(prompt):
 def create_news_article(title, date, content, base_path=None):
     """Create a new news article."""
     if base_path is None:
-        # Get the script's directory and go up to find content/news
-        script_dir = Path(__file__).parent
-        base_path = script_dir.parent / 'content' / 'news'
+        base_path = DEFAULT_NEWS_DIR
     else:
         base_path = Path(base_path)
     

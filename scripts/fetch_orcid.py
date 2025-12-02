@@ -7,7 +7,8 @@ import argparse
 from pathlib import Path
 
 from helpers import setup_logging
-from orcid import orcid_to_bibtex, bibtex_to_markdown, merge_all_bibtex_files, BIBTEX_DIR
+from orcid import orcid_to_bibtex, bibtex_to_markdown, merge_all_bibtex_files
+from paths import BIBTEX_DIR, ROOT_PATH
 
 log = logging.getLogger()
 
@@ -43,8 +44,6 @@ if __name__ == '__main__':
     if args.refetch_all:
         log.info('Refetch-all mode enabled: will process all works from ORCID')
 
-    # Determine root path of the repository - this script is in scripts/
-    ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
     log.debug('Root path: %s', ROOT_PATH)
 
     if not args.skip:
