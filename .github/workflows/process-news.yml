@@ -37,12 +37,19 @@ jobs:
           TITLE: ${{ fromJson(steps.parse.outputs.jsonString).title }}
           DATE: ${{ fromJson(steps.parse.outputs.jsonString).article_date }}
           CONTENT: ${{ fromJson(steps.parse.outputs.jsonString).content }}
+          FEATURED_IMAGE: ${{ fromJson(steps.parse.outputs.jsonString).featured_image }}
         run: |
+          # Extract image URL from markdown if present
+          IMAGE_URL=""
+          if [ -n "$FEATURED_IMAGE" ]; then
+            IMAGE_URL=$(echo "$FEATURED_IMAGE" | grep -oP '!\[.*?\]\(\K[^)]+' || echo "")
+          fi
+          
           # Use the environment variables safely with double quotes
           if [ -n "$DATE" ]; then
-            python3 scripts/add_news.py --title "$TITLE" --date "$DATE" --content "$CONTENT"
+            python3 scripts/add_news.py --title "$TITLE" --date "$DATE" --content "$CONTENT" --image-url "$IMAGE_URL"
           else
-            python3 scripts/add_news.py --title "$TITLE" --content "$CONTENT"
+            python3 scripts/add_news.py --title "$TITLE" --content "$CONTENT" --image-url "$IMAGE_URL"
           fi
           
           # Generate folder name for the branch

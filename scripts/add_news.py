@@ -12,6 +12,8 @@ import sys
 import argparse
 from datetime import datetime
 from pathlib import Path
+import urllib.request
+import urllib.error
 
 from paths import NEWS_DIR as DEFAULT_NEWS_DIR
 
@@ -78,7 +80,7 @@ def get_multiline_input(prompt):
     return '\n'.join(lines).strip()
 
 
-def create_news_article(title, date, content, base_path=None):
+def create_news_article(title, date, content, base_path=None, image_url=None):
     """
     Creates a new news article file structure
 
@@ -86,6 +88,7 @@ def create_news_article(title, date, content, base_path=None):
     :param date: The date object for the article
     :param content: The body content of the article
     :param base_path: The root directory for news
+    :param image_url: Optional URL to download featured image from
     :returns: Boolean indicating success or failure
     """
     if base_path is None:
@@ -135,6 +138,18 @@ date: {date_str}
     with open(index_file, 'w', encoding='utf-8') as f:
         f.write(front_matter)
     
+    # Download featured image if URL provided
+    if image_url and image_url.strip():
+        featured_image = article_dir / 'featured.jpg'
+        try:
+            print(f"\nDownloading featured image from: {image_url}")
+            urllib.request.urlretrieve(image_url.strip(), featured_image)
+            print(f"✓ Featured image saved: {featured_image}")
+        except urllib.error.URLError as e:
+            print(f"Warning: Could not download image from {image_url}: {e}")
+        except Exception as e:
+            print(f"Warning: Error saving image: {e}")
+    
     print(f"\n✓ News article created successfully!")
     print(f"  Location: {article_dir}")
     print(f"  File: {index_file}")
@@ -152,6 +167,7 @@ def main():
     parser.add_argument('--title', help="Article title")
     parser.add_argument('--date', help="Article date (YYYY-MM-DD)")
     parser.add_argument('--content', help="Article content")
+    parser.add_argument('--image-url', help="URL to featured image (will be saved as featured.jpg)")
     args = parser.parse_args()
 
     # Automation Mode (CI/CD)
@@ -166,7 +182,7 @@ def main():
                 print(f"Warning: Invalid date format '{args.date}'. Using today.")
                 # Fallback to today is already set above
 
-        success = create_news_article(args.title, article_date, args.content)
+        success = create_news_article(args.title, article_date, args.content, image_url=args.image_url)
         sys.exit(0 if success else 1)
 
     # Interactive Mode

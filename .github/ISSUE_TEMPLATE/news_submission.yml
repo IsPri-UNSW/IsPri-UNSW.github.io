@@ -23,3 +23,9 @@ body:
       description: The body of the article (Markdown supported).
     validations:
       required: true
+  - type: textarea
+    id: featured_image
+    attributes:
+      label: Featured Image (optional)
+      description: "Drag and drop an image here. It will be saved as featured.jpg"
+      placeholder: "Drag an image file here..."
