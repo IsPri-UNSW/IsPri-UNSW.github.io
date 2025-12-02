@@ -151,7 +151,8 @@ def collect_author_sets():
                     supervisors.add(slug)
                 if lname:
                     supervisors.add(lname)
-            if is_student(role, user_groups):
+            else:
+                # Default to student
                 students_alumni.add(norm_name)
                 if slug:
                     students_alumni.add(slug)
@@ -161,7 +162,7 @@ def collect_author_sets():
     return supervisors, students_alumni
 
 
-def filter_publications(supervisors, students_alumni, mode='strict'):
+def filter_publications(supervisors, students_alumni, mode='loose'):
     """Return list of publication metadata dicts filtered by `mode`.
 
     Modes:
