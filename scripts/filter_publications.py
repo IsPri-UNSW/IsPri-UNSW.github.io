@@ -252,10 +252,10 @@ def main():
     filtered = filter_publications(supervisors, students_alumni, mode=mode)
     print(f"Mode={mode}. Filtered {len(filtered)} publications (matching condition).")
 
-    # Save metadata YAML
-    os.makedirs(os.path.dirname(FILTERED_PUBLICATIONS_YAML), exist_ok=True)
-    with open(FILTERED_PUBLICATIONS_YAML, 'w', encoding='utf-8') as out:
-        yaml.safe_dump(filtered, out, sort_keys=False, allow_unicode=True)
+    # Save metadata YAML – obsoleted in favor of directories
+    # os.makedirs(os.path.dirname(FILTERED_PUBLICATIONS_YAML), exist_ok=True)
+    # with open(FILTERED_PUBLICATIONS_YAML, 'w', encoding='utf-8') as out:
+    #     yaml.safe_dump(filtered, out, sort_keys=False, allow_unicode=True)
 
     # Also copy matched publication markdown files into the destination root
     filtered_pub_root = dest_root
@@ -276,7 +276,8 @@ def main():
         except Exception as e:
             print(f"Failed to copy {src} -> {dest_path}: {e}")
 
-    print(f"Saved filtered publications to {FILTERED_PUBLICATIONS_YAML} and copied markdown files to {filtered_pub_root}")
+    # print(f"Saved filtered publications to {FILTERED_PUBLICATIONS_YAML} and copied markdown files to {filtered_pub_root}")
+    print(f"Saved filtered publications by copying markdown files to {filtered_pub_root}")
 
 
 if __name__ == '__main__':
