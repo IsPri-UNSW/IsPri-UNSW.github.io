@@ -1,11 +1,14 @@
 ---
-# Display name
+# Display name (This should be your full name)
 title: John Doe
 
-# Slug: Manually set to fix issues with publication page
+# Slug: Use the first letter of your firstname - lastname
 slug: j-doe
 
 # Full Name (for SEO)
+# If your lastname consists of multiple parts, please only use the last part as your lastname, even if that's not correct.
+# This is a limitation of the template.
+# For example, if your firstname is "John" and your last name "Wang Doe", please use "John Wang" was firstname and "Doe" as lastname.
 first_name: John
 last_name: Doe
 
@@ -13,7 +16,7 @@ last_name: Doe
 superuser: false
 
 # Role/position
-role: Research Associate
+role: PhD Candidate
 
 # Organizations/Affiliations
 organizations:
@@ -22,6 +25,7 @@ organizations:
 
 # Short bio (displayed in user profile at end of posts)
 # bio: A brief bio about your research interests and background
+# This is optional – comment if not used.
 
 interests:
   - Artificial Intelligence
@@ -40,7 +44,7 @@ education:
       institution: University of Example, Country
       year: 2017
 
-# ORCID ID for automated publication fetching (if enabled in Config)
+# ORCID ID for automated publication fetching (REQUIRED! Create one if you don't have one!)
 orcid: 0000-0000-0000-0000
 
 # Social/Academic Networking
@@ -76,7 +80,7 @@ social:
 #   icon_pack: fab
 #   link: files/cv.pdf
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
+# Ignore this!
 email: ''
 
 # Highlight the author in author lists? (true/false)
@@ -92,5 +96,5 @@ highlight_name: true
 #   - Visitors
 #   - Alumni (former members)
 user_groups:
-  - Postdoctoral Researchers
+  - Graduate Students
 ---
