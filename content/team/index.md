@@ -15,6 +15,7 @@ sections:
           - Academics
           - Postdoctoral Researchers
           - Graduate Students
+          - Students
           - Administration
           - Visitors
           - Alumni

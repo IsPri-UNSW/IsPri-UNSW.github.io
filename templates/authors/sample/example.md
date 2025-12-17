@@ -92,6 +92,7 @@ highlight_name: true
 #   - Academics (faculty members)
 #   - Postdoctoral Researchers
 #   - Graduate Students (PhD and MPhil students)
+#   - Students (coursework students)
 #   - Administration
 #   - Visitors
 #   - Alumni (former members)

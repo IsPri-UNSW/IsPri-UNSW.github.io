@@ -8,7 +8,7 @@ from paths import AUTHORS_DIR, FILTERED_PUBLICATIONS_DIR, PUBLICATIONS_DIR, FILT
 
 # Roles to recognise (case-insensitive match)
 student_roles = ['phd candidate', 'student', 'alumni', 'alumnus', 'alumna', 'mphil', 'master', 'research associate']
-student_groups = ['Graduate Students', 'Visitors', 'Postdoctoral Researchers']
+student_groups = ['Graduate Students', 'Visitors', 'Postdoctoral Researchers', 'Students']
 supervisor_roles = ['professor', 'associate professor', 'assistant professor', 'senior lecturer', 'lecturer', 'supervisor']
 supervisor_groups = ['Academics']
 

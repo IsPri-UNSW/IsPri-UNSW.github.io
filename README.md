@@ -90,6 +90,7 @@ To add a new team member to the website, follow these steps:
      - `Academics` (faculty members)
      - `Postdoctoral Researchers`
      - `Graduate Students` (PhD and MPhil students)
+     - `Students` (undergraduate and coursework students)
      - `Administration`
      - `Visitors`
      - `Alumni` (former members)
