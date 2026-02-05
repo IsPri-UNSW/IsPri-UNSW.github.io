@@ -1,10 +1,9 @@
 # IsPri UNSW Website
 
-[![Deploy Hugo site to Pages](https://github.com/IsPri-UNSW/new_page/actions/workflows/hugo.yml/badge.svg)](https://github.com/IsPri-UNSW/new_page/actions/workflows/hugo.yml)
 [![Update ORCID Data](https://github.com/IsPri-UNSW/new_page/actions/workflows/update_orcid.yml/badge.svg)](https://github.com/IsPri-UNSW/new_page/actions/workflows/update_orcid.yml)
 [![Protect Theme Directory](https://github.com/IsPri-UNSW/new_page/actions/workflows/check-theme-protection.yml/badge.svg)](https://github.com/IsPri-UNSW/new_page/actions/workflows/check-theme-protection.yml)
 
-A Hugo site for The Information Security and Privacy Research Group at UNSW.
+A Hugo site for The Information Security and Privacy Research Group at UNSW, hosted on Cloudflare Pages: https://ispri-unsw.pages.dev/
 
 ## Table of Contents 📑
 
