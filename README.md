@@ -1,5 +1,6 @@
 # IsPri UNSW Website
 
+[![Website](https://img.shields.io/badge/Website-ispri--unsw.pages.dev-orange?style=flat&logo=cloudflare)](https://ispri-unsw.pages.dev)
 [![Update ORCID Data](https://github.com/IsPri-UNSW/new_page/actions/workflows/update_orcid.yml/badge.svg)](https://github.com/IsPri-UNSW/new_page/actions/workflows/update_orcid.yml)
 [![Protect Theme Directory](https://github.com/IsPri-UNSW/new_page/actions/workflows/check-theme-protection.yml/badge.svg)](https://github.com/IsPri-UNSW/new_page/actions/workflows/check-theme-protection.yml)
 
