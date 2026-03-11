@@ -13,7 +13,7 @@ last_name: Harshila
 superuser: false
 
 # Role/position
-role: B.Sc. Engineering (Hons.) Computer Science & Engineering Student
+role: Visiting Student
 
 # Organizations/Affiliations
 organizations:
