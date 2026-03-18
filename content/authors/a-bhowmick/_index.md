@@ -69,7 +69,7 @@ social:
     link: https://github.com/MEAMITBHOWMICK
   - icon: linkedin
     icon_pack: fab
-    link: www.linkedin.com/in/amit-bhowmick-1909381b0
+    link: https://www.linkedin.com/in/amit-bhowmick-1909381b0
   - icon: researchgate
     icon_pack: fab
     link: https://www.researchgate.net/profile/Amit-Bhowmick-10
