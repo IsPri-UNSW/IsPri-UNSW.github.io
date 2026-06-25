@@ -127,7 +127,7 @@ def create_news_article(title, date, content, base_path=None, image_url=None):
     
     # Create content
     front_matter = f"""---
-title: {title}
+title: "{title}"
 date: {date_str}
 ---
 
