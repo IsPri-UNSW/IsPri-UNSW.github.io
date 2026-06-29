@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Nhi Nguyen
+title: Nhi Luu
 
-slug: n-nguyen
+slug: n-luu
 
 # Full Name (for SEO)
 first_name: Nhi
-last_name: Nguyen
+last_name: Luu
 
 # Is this the primary user of the site?
 superuser: false
